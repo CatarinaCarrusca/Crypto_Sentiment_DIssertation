@@ -1,0 +1,4 @@
+Comparison,Benchmark_Model,Extended_Model,Common_Sample_Flag,Primary_Hypothesis
+Activity,M0_Benchmark,M1_Activity,Activity_Comparison_Sample,Supplementary activity comparison
+Sentiment,M0_Benchmark,M2_Sentiment,Sentiment_Comparison_Sample,H3 BTC / H4 ETH
+Both,M0_Benchmark,M3_Both,Both_Comparison_Sample,Incremental sentiment + activity comparison

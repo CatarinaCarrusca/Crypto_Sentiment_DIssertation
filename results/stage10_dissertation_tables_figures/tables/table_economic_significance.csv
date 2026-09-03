@@ -1,0 +1,5 @@
+Asset,Model,Sentiment SD,Sentiment coefficient,1 SD sentiment effect (%),Target return SD,Effect / target SD
+BTC,M2: + Sentiment,0.074735,0.004606,0.034426,0.033199,0.010368
+BTC,M3: + Activity + Sentiment,0.074735,0.006001,0.044861,0.033199,0.01351
+ETH,M2: + Sentiment,0.224411,0.002472,0.055498,0.041552,0.013353
+ETH,M3: + Activity + Sentiment,0.224411,0.002661,0.059744,0.041552,0.014374

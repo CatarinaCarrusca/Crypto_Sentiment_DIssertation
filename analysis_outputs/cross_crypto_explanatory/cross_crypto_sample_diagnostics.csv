@@ -1,0 +1,3 @@
+Asset,N_Regression_Observations,Start_Date,End_Date,Weekday_Observations,Weekend_Observations,HAC_Max_Lags
+BTC,1821,2021-01-06,2025-12-31,1301,520,7
+ETH,1821,2021-01-06,2025-12-31,1301,520,7

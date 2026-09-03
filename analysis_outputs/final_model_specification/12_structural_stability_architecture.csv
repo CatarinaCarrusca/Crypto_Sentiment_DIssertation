@@ -1,0 +1,5 @@
+Analysis,Model,Timing,Purpose
+Baseline coefficient stability,M1,Before Reddit arrives,Examine whether baseline return relationships differ across predetermined cryptocurrency-market regimes.
+Sentiment coefficient stability,M3,After Reddit arrives,Examine whether the sentiment-return relationship differs across predetermined market regimes.
+Activity-adjusted sentiment stability,M4,After Reddit arrives,Examine whether sentiment remains stable across regimes after controlling for Reddit activity.
+Full robustness coefficient stability,R2,After Reddit arrives,Examine sentiment stability conditional on Reddit activity and cross-crypto return dynamics.

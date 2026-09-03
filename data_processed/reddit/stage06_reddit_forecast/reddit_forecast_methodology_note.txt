@@ -1,0 +1,201 @@
+SECTION 06 — CALENDAR, MISSING DAYS AND LAGS
+=============================================
+
+Study period
+------------
+2021-01-01 to 2025-12-31
+
+Assets
+------
+Bitcoin (BTC)
+Ethereum (ETH)
+
+Study calendar
+--------------
+A complete calendar containing every calendar day between the start and
+end of the study period is constructed separately for BTC and ETH.
+
+The resulting dataset therefore contains:
+
+    1,826 calendar days
+    3,652 Date × Asset observations
+
+Constructing the complete calendar before generating lags ensures that
+t-1 represents exactly the preceding calendar day rather than the
+previous available Reddit observation.
+
+Reddit sentiment interpretation
+--------------------------------
+The Reddit sentiment measures represent textual sentiment among the
+selected Reddit communities used in the dissertation. They should not
+be described as general investor sentiment.
+
+Daily sentiment
+---------------
+The post-level continuous sentiment score is:
+
+    S_i = P(Positive_i) - P(Negative_i)
+
+For each Date × Asset, daily sentiment is the unweighted arithmetic mean
+of the post-level continuous sentiment scores across retained posts.
+
+Reddit scores, upvotes, upvote ratios and comment counts are not used
+as sentiment weights.
+
+Daily activity
+--------------
+Daily Reddit activity is defined using the retained analytical post count:
+
+    N_(a,t)
+
+The modelling transformation is:
+
+    Activity_(a,t) = log(1 + N_(a,t))
+
+Sentiment and activity remain separate predictors.
+
+Missing versus zero activity
+----------------------------
+Missing Reddit observations are not automatically assigned zero.
+
+The validated raw-versus-retained coverage information is used to
+distinguish four situations.
+
+1. OBSERVED_RETAINED_POSTS
+
+At least one Reddit post survives the analytical cleaning criteria.
+
+Daily sentiment and retained-post activity are observed.
+
+2. RAW_POSTS_ALL_EXCLUDED
+
+Raw Reddit posts existed but every raw post was excluded by the
+documented analytical cleaning rules.
+
+For retained analytical activity:
+
+    retained post count = 0
+    log(1 + retained post count) = 0
+
+Daily sentiment remains missing because no eligible post remains from
+which sentiment can be calculated.
+
+3. GENUINE_ZERO_OBSERVED_RAW_ACTIVITY
+
+The date lies inside confirmed Reddit source coverage and the validated
+raw extraction contains zero observed posts for the selected asset
+communities.
+
+For retained analytical activity:
+
+    retained post count = 0
+    log(1 + retained post count) = 0
+
+Sentiment remains missing.
+
+This should be interpreted as no raw posts being observed among the
+selected Reddit communities in the extraction, rather than as proof of
+no social-media discussion more generally.
+
+4. OUTSIDE_REDDIT_SOURCE_COVERAGE
+
+The analytical study period ends on 2025-12-31, but confirmed Reddit
+source coverage ends on 2025-12-30.
+
+Consequently, 2025-12-31 is treated as unavailable for contemporaneous
+Reddit sentiment and activity for BTC and ETH rather than as a
+zero-activity day.
+
+Forecast timing
+---------------
+The primary Reddit predictor uses information from calendar day t-1 to
+predict the cryptocurrency return on calendar day t.
+
+Therefore:
+
+    Predictor_Source_Date = Target_Date - 1 calendar day
+
+Reddit information from target day t is not used as a predictor of the
+return on target day t.
+
+Robustness lags
+---------------
+In addition to t-1, the following lag lengths are constructed:
+
+    t-2
+    t-3
+    t-7
+
+These provide lag-length robustness tests.
+
+No-look-ahead validation
+------------------------
+Each lagged Reddit predictor is independently reconstructed after the
+complete calendar is created.
+
+For every available lagged predictor, Section 06 verifies:
+
+    Source_Date < Target_Date
+
+and:
+
+    Target_Date - Source_Date = requested calendar lag
+
+The script also tests explicitly for same-day and future-information
+contamination.
+
+Traditional financial-market variables
+--------------------------------------
+Traditional controls are not merged in Section 06.
+
+S&P 500 returns, VIX changes, gold returns, DXY returns and US 10-year
+Treasury yield changes operate on market calendars that differ from
+the 24/7 cryptocurrency calendar.
+
+They must therefore be aligned in Section 07 using only information
+available before the cryptocurrency forecast target.
+
+Cryptocurrency trading volume
+-----------------------------
+Cryptocurrency trading volume is also not incorporated in Section 06.
+
+The dissertation uses Yahoo Finance-reported daily trading volume,
+transformed using log(1 + volume).
+
+For predictive specifications, lagged cryptocurrency volume should be
+used rather than contemporaneous target-day volume.
+
+Future model specifications
+---------------------------
+The forecast-ready Reddit variables support separate specifications:
+
+    1. controls only
+    2. controls + Reddit activity
+    3. controls + Reddit sentiment
+    4. controls + Reddit activity + Reddit sentiment
+
+This separation allows the contribution of Reddit attention/activity
+to be distinguished from the contribution of sentiment tone.
+
+Explanatory versus predictive analysis
+--------------------------------------
+Section 06 does not estimate regressions or forecasting performance.
+
+Later explanatory regressions should use appropriate robust inference,
+including HAC/Newey-West standard errors.
+
+Predictive performance must be assessed using genuinely held-out
+observations and one-step-ahead forecasting.
+
+Forecasting comparisons should use identical forecast dates for the
+benchmark and Reddit-extended models and should report predictive
+metrics such as RMSE, MAE and out-of-sample R-squared.
+
+BTC versus ETH coefficient comparison
+--------------------------------------
+A later comparison of BTC and ETH sentiment effects should use a formal
+coefficient-difference test, such as an asset × sentiment interaction
+and Wald test.
+
+A significant BTC coefficient and insignificant ETH coefficient do not
+by themselves establish that the two coefficients differ statistically.

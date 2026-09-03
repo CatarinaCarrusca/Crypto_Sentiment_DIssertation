@@ -1,0 +1,7 @@
+Table,Note
+Descriptive statistics,Statistics are reported separately for Bitcoin and Ethereum using the validated Section 08 modelling data.
+Correlation matrices,Entries are Pearson correlations among the primary dependent variable and predictors.
+VIF diagnostics,Variance inflation factors are based on auxiliary regressions including an intercept. Values above 5 are flagged.
+Primary regressions,Dependent variable is daily cryptocurrency log return. Coefficients are estimated by OLS. Parentheses report HAC/Newey-West standard errors with maximum lag 7.
+Primary regressions,"*** p < 0.01, ** p < 0.05, * p < 0.10."
+Primary regressions,M0 is the benchmark model; M1 adds lagged Reddit activity; M2 adds lagged Reddit sentiment; M3 includes both Reddit activity and sentiment.

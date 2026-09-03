@@ -1,0 +1,5 @@
+Hypothesis,Asset,Model,Sentiment_Coefficient,HAC_SE,t_stat,p_value,N,R_Squared,Statistically_Significant_5pct,Decision
+H1,BTC,M2: + Sentiment,0.0046,0.0109,0.4218,0.673,1821,0.0138,False,Not supported
+H1,BTC,M3: + Activity + Sentiment,0.006,0.0111,0.5407,0.589,1821,0.015,False,Not supported
+H2,ETH,M2: + Sentiment,0.0025,0.0039,0.6292,0.529,1799,0.0043,False,Not supported
+H2,ETH,M3: + Activity + Sentiment,0.0027,0.0039,0.6788,0.497,1799,0.0043,False,Not supported

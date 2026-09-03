@@ -1,0 +1,71 @@
+TRADING-VOLUME TRANSFORMATION AND TIMING
+
+Data source
+-----------
+Bitcoin and Ethereum trading-volume data were obtained from Yahoo
+Finance using the yfinance Python package.
+
+The variable corresponds to the daily Volume field reported for the
+downloaded Yahoo Finance cryptocurrency series. Accordingly, the
+measure is described as Yahoo Finance reported daily trading volume
+for the respective cryptocurrency series rather than total global
+cryptocurrency-market trading volume.
+
+Transformation
+--------------
+Trading volume is non-negative and can exhibit substantial positive
+skewness. To reduce the influence of extreme observations, the raw
+volume measure is transformed as:
+
+    Log_Volume_t = ln(1 + Volume_t)
+
+The transformation is implemented using numpy.log1p(), which computes
+ln(1 + x).
+
+The addition of one also ensures that the logarithmic transformation
+would remain defined if a zero-volume observation were present.
+
+Timing
+------
+For predictive specifications, contemporaneous trading volume is not
+used. Instead, the transformed volume measure is lagged by one
+calendar day:
+
+    Lagged_Log_Volume_t = Log_Volume_(t-1)
+
+Thus, cryptocurrency return on calendar date t is modelled using
+volume information from the preceding calendar date.
+
+Because cryptocurrency markets operate continuously, including
+weekends, the relevant lag is defined in calendar days rather than
+traditional-market trading days.
+
+Verification
+------------
+The stored transformed variables were independently reconstructed
+from the raw Yahoo Finance Volume fields using numpy.log1p().
+
+The stored lagged variables were independently reconstructed using
+the preceding calendar day's transformed volume.
+
+Date-level checks were additionally performed to verify explicitly
+that each lagged value corresponds to date t-1.
+
+The processed BTC and ETH volume files were then compared with the
+volume variables contained in the final forecasting dataset.
+
+Numerical comparison
+--------------------
+Because values stored in CSV files can exhibit extremely small
+floating-point representation differences after serialization and
+reloading, numerical equivalence was assessed using both absolute and
+relative tolerances rather than requiring exact binary equality.
+
+The verification uses:
+
+    absolute tolerance = 1e-9
+    relative tolerance = 1e-12
+
+Differences within these tolerances are treated as numerical
+equivalence and have no economically meaningful effect on the
+variables or regression analysis.

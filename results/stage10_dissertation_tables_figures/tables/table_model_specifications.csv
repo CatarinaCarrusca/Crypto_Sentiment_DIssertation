@@ -1,0 +1,5 @@
+Model,Label,Traditional_Market_Controls,Lagged_Crypto_Volume,Lagged_Reddit_Activity,Lagged_Reddit_Sentiment
+M0,Benchmark,Yes,Yes,No,No
+M1,Benchmark + Reddit activity,Yes,Yes,Yes,No
+M2,Benchmark + Reddit sentiment,Yes,Yes,No,Yes
+M3,Benchmark + activity + sentiment,Yes,Yes,Yes,Yes

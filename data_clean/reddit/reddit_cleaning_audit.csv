@@ -1,0 +1,14 @@
+measure,rule_type,count,percent_of_input
+Input posts,input,141560,100.0
+Empty analysis text,component_flag,12,0.0085
+Deleted/removed content,component_flag,0,0.0
+Too little usable text,component_flag,220,0.1554
+Unusable text - combined,primary_exclusion_rule,220,0.1554
+Crossposts,primary_exclusion_rule,1147,0.8103
+Promotional/spam-like,primary_exclusion_rule,61,0.0431
+Recurring templates,primary_exclusion_rule,1846,1.304
+Later exact duplicates,primary_exclusion_rule,2340,1.653
+Link-only,primary_exclusion_rule,220,0.1554
+Repeated text >=5 - diagnostic only,diagnostic_only,1309,0.9247
+Excluded from primary sample,final_decision,5541,3.9142
+Retained for primary sample,final_decision,136019,96.0858

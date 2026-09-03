@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             ETH_Return   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.3383
+Date:                Fri, 28 Aug 2026   Prob (F-statistic):              0.937
+Time:                        12:09:24   Log-Likelihood:                 2104.6
+No. Observations:                1244   AIC:                            -4193.
+Df Residuals:                    1236   BIC:                            -4152.
+Df Model:                           7                                         
+Covariance Type:                  HAC                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                    -0.0050      0.043     -0.118      0.906      -0.089       0.079
+ETH_Lagged_Return        -0.0448      0.057     -0.781      0.435      -0.157       0.068
+Lagged_Log_ETH_Volume     0.0002      0.002      0.119      0.905      -0.003       0.004
+Lagged_SP500_Return      -0.1664      0.227     -0.732      0.464      -0.612       0.279
+Lagged_VIX_Change        -0.0007      0.001     -0.507      0.612      -0.003       0.002
+Lagged_Gold_Return        0.0850      0.162      0.525      0.599      -0.232       0.402
+Lagged_DXY_Return         0.2566      0.406      0.631      0.528      -0.540       1.053
+Lagged_US10Y_Change      -0.0077      0.025     -0.313      0.754      -0.056       0.041
+==============================================================================
+Omnibus:                      164.485   Durbin-Watson:                   1.934
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1476.134
+Skew:                          -0.258   Prob(JB):                         0.00
+Kurtosis:                       8.312   Cond. No.                     6.50e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 7 lags and with small sample correction
+[2] The condition number is large, 6.5e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

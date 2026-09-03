@@ -1,0 +1,12 @@
+File,Exists
+table_descriptive_statistics.csv,True
+table_descriptive_statistics_publication.csv,True
+table_correlation_matrix_btc.csv,True
+table_correlation_matrix_eth.csv,True
+table_high_correlation_diagnostic.csv,True
+table_vif_diagnostics.csv,True
+table_primary_regressions_btc.csv,True
+table_primary_regressions_eth.csv,True
+table_primary_regressions_combined.csv,True
+table_model_specifications.csv,True
+table_notes_part2.csv,True

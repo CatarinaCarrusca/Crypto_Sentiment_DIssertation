@@ -1,0 +1,69 @@
+Model,Role,Dependent_Variable,Predictor_Order,Predictor,Native_Eligibility_Flag
+M0_Benchmark,Primary benchmark,Target_Return,1,Own_Lagged_Return,Eligible_Benchmark
+M0_Benchmark,Primary benchmark,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Benchmark
+M0_Benchmark,Primary benchmark,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Benchmark
+M0_Benchmark,Primary benchmark,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Benchmark
+M0_Benchmark,Primary benchmark,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Benchmark
+M0_Benchmark,Primary benchmark,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Benchmark
+M0_Benchmark,Primary benchmark,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Benchmark
+M1_Activity,Benchmark + Reddit activity,Target_Return,1,Own_Lagged_Return,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Activity
+M1_Activity,Benchmark + Reddit activity,Target_Return,8,Lagged_Log_Reddit_Post_Count,Eligible_Activity
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,1,Own_Lagged_Return,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Sentiment
+M2_Sentiment,Benchmark + Reddit sentiment,Target_Return,8,Lagged_Reddit_Sentiment,Eligible_Sentiment
+M3_Both,Benchmark + activity + sentiment,Target_Return,1,Own_Lagged_Return,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,8,Lagged_Log_Reddit_Post_Count,Eligible_Both
+M3_Both,Benchmark + activity + sentiment,Target_Return,9,Lagged_Reddit_Sentiment,Eligible_Both
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,1,Own_Lagged_Return,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Benchmark_Cross
+R0_Benchmark_Cross,Cross-crypto robustness benchmark,Target_Return,8,Cross_Crypto_Lagged_Return,Eligible_Benchmark_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,1,Own_Lagged_Return,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,8,Lagged_Log_Reddit_Post_Count,Eligible_Activity_Cross
+R1_Activity_Cross,Cross-crypto robustness + activity,Target_Return,9,Cross_Crypto_Lagged_Return,Eligible_Activity_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,1,Own_Lagged_Return,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,8,Lagged_Reddit_Sentiment,Eligible_Sentiment_Cross
+R2_Sentiment_Cross,Cross-crypto robustness + sentiment,Target_Return,9,Cross_Crypto_Lagged_Return,Eligible_Sentiment_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,1,Own_Lagged_Return,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,2,Lagged_Log_Crypto_Volume,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,3,Lagged_SP500_Return_Aligned,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,4,Lagged_VIX_Change_Aligned,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,5,Lagged_Gold_Return_Aligned,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,6,Lagged_DXY_Return_Aligned,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,7,Lagged_US10Y_Change_Aligned,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,8,Lagged_Log_Reddit_Post_Count,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,9,Lagged_Reddit_Sentiment,Eligible_Both_Cross
+R3_Both_Cross,Cross-crypto robustness + activity + sentiment,Target_Return,10,Cross_Crypto_Lagged_Return,Eligible_Both_Cross

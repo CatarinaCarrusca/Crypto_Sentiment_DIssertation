@@ -1,0 +1,3 @@
+Concept,Economic_Concept,BTC_Variable,ETH_Variable,Construction,Primary_Timing,Interpretation
+Reddit activity,Attention / discussion intensity,Lagged_Log_BTC_Reddit_Post_Count,Lagged_Log_ETH_Reddit_Post_Count,log(1 + daily retained Reddit post count),t-1,"Measures how much retained Reddit discussion occurred, not whether it was positive or negative."
+Reddit sentiment,Tone / polarity of discussion,Lagged_BTC_Reddit_Sentiment,Lagged_ETH_Reddit_Sentiment,Daily aggregate sentiment score from the retained asset-specific Reddit sample,t-1,Measures the tone of retained Reddit discussion separately from the amount of discussion.

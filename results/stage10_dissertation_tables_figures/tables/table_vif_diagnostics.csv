@@ -1,0 +1,19 @@
+Asset,Variable,VIF,VIF_Above_5
+BTC,S&P 500 return,2.708,False
+BTC,VIX change,2.553,False
+BTC,Lagged log Reddit post count,1.503,False
+BTC,Lagged log trading volume,1.495,False
+BTC,DXY return,1.442,False
+BTC,Gold return,1.266,False
+BTC,US 10Y yield change,1.204,False
+BTC,Lagged own return,1.122,False
+BTC,Lagged Reddit sentiment,1.029,False
+ETH,S&P 500 return,2.755,False
+ETH,VIX change,2.592,False
+ETH,DXY return,1.448,False
+ETH,Gold return,1.271,False
+ETH,US 10Y yield change,1.204,False
+ETH,Lagged own return,1.14,False
+ETH,Lagged log Reddit post count,1.132,False
+ETH,Lagged log trading volume,1.125,False
+ETH,Lagged Reddit sentiment,1.075,False

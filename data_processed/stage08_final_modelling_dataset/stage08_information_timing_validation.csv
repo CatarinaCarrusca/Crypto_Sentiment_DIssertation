@@ -1,0 +1,10 @@
+Variable_Group,Rows_With_Source_Date,Same_Or_Future_Source_Dates,Wrong_Calendar_Gap,Expected_Gap_Days,Pass
+Reddit_Primary_t1,3650,0,0.0,1,True
+Reddit_t2,3648,0,0.0,2,True
+Reddit_t3,3646,0,0.0,3,True
+Reddit_t7,3638,0,0.0,7,True
+SP500_Strict_PreTarget,3644,0,,">=1, varies with market closure",True
+VIX_Strict_PreTarget,3644,0,,">=1, varies with market closure",True
+Gold_Strict_PreTarget,3644,0,,">=1, varies with market closure",True
+DXY_Strict_PreTarget,3650,0,,">=1, varies with market closure",True
+US10Y_Strict_PreTarget,3644,0,,">=1, varies with market closure",True

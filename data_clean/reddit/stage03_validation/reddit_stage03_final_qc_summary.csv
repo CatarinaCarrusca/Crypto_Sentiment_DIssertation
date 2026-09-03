@@ -1,0 +1,23 @@
+validation_check,result,status
+Original input posts,141560,PASS
+Retained posts,136019,PASS
+Excluded posts,5541,PASS
+Stage 02 audit reconciliation,Exact,PASS
+Primary sample membership,Exact retained-ID match,PASS
+Manual-review categories,7,PASS
+Manual-review rows,175,PASS
+Excluded posts with no primary flag,0,PASS
+Retained posts with primary flag,0,PASS
+Calendar start,2021-01-01,PASS
+Calendar end,2025-12-31,PASS
+Calendar days,1826,PASS
+Date-asset rows,3652,PASS
+Daily raw total,141560,PASS
+Daily retained total,136019,PASS
+Daily excluded total,5541,PASS
+BTC days without retained posts,1,REVIEWED
+ETH days without retained posts,23,REVIEWED
+Highest year-asset exclusion group,2023 ETH (11.1688%),REVIEWED
+ETH 2023 exclusions,258 = 125 crossposts + 133 exact duplicates,REVIEWED
+Largest year-asset share shift,2021 BTC (+0.6402 pp),REVIEWED
+Largest subreddit share shift,Bitcoin (+0.5139 pp),REVIEWED

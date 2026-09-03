@@ -1,0 +1,6 @@
+Hypothesis,Asset,p-value,Decision,Interpretation
+H1,BTC,0.673,Not supported,No statistically detectable evidence of a lagged Reddit sentiment-return association at the 5% level.
+H2,ETH,0.529,Not supported,No statistically detectable evidence of a lagged Reddit sentiment-return association at the 5% level.
+H3,BTC,0.915,Not supported,No statistically supported incremental OOS predictive improvement from lagged Reddit sentiment.
+H4,ETH,0.699,Not supported,No statistically supported incremental OOS predictive improvement from lagged Reddit sentiment.
+H5,BTC_vs_ETH,0.844,Not supported,No statistically detectable BTC-ETH difference in the lagged Reddit sentiment coefficient at the 5% level.

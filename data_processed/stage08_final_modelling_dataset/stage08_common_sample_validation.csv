@@ -1,0 +1,9 @@
+Asset,Comparison,Sample_Flag,N,Rows_With_Missing_Required_Data,Pass
+BTC,Benchmark_vs_Activity,Activity_Comparison_Sample,1821,0,True
+BTC,Benchmark_vs_Sentiment,Sentiment_Comparison_Sample,1821,0,True
+BTC,Benchmark_vs_Both,Both_Comparison_Sample,1821,0,True
+BTC,M0_M1_M2_M3_Common,Common_Main_Model_Sample,1821,0,True
+ETH,Benchmark_vs_Activity,Activity_Comparison_Sample,1821,0,True
+ETH,Benchmark_vs_Sentiment,Sentiment_Comparison_Sample,1799,0,True
+ETH,Benchmark_vs_Both,Both_Comparison_Sample,1799,0,True
+ETH,M0_M1_M2_M3_Common,Common_Main_Model_Sample,1799,0,True

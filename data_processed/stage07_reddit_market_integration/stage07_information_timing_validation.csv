@@ -1,0 +1,14 @@
+Variable,Aligned_Column,Source_Date_Column,Rows_With_Source_Date,Rows_With_Aligned_Value,Same_Day_Or_Future_Source_Failures,Information_Age_Mismatches,Aligned_Value_Reconstruction_Mismatches,Pass,Validation_Type,Rows_Checked,Same_Day_Or_Future_Failures,Incorrect_Gap_Failures
+SP500,Lagged_SP500_Return_Aligned,SP500_Source_Date,1822.0,1821.0,0.0,0.0,0.0,True,Traditional_Alignment_Reconstruction,,,
+VIX,Lagged_VIX_Change_Aligned,VIX_Source_Date,1822.0,1821.0,0.0,0.0,0.0,True,Traditional_Alignment_Reconstruction,,,
+Gold,Lagged_Gold_Return_Aligned,Gold_Source_Date,1822.0,1821.0,0.0,0.0,0.0,True,Traditional_Alignment_Reconstruction,,,
+DXY,Lagged_DXY_Return_Aligned,DXY_Source_Date,1825.0,1822.0,0.0,0.0,0.0,True,Traditional_Alignment_Reconstruction,,,
+US10Y,Lagged_US10Y_Change_Aligned,US10Y_Source_Date,1822.0,1821.0,0.0,0.0,0.0,True,Traditional_Alignment_Reconstruction,,,
+Reddit_Primary_t1,,,,,,,,True,Integrated_No_Lookahead,3650.0,0.0,0.0
+Own_Crypto_Return_t1,,,,,,,,True,Integrated_No_Lookahead,3650.0,0.0,0.0
+Crypto_Volume_t1,,,,,,,,True,Integrated_No_Lookahead,3650.0,0.0,0.0
+SP500_Strict_PreTarget,,,,,,,,True,Integrated_No_Lookahead,3644.0,0.0,0.0
+VIX_Strict_PreTarget,,,,,,,,True,Integrated_No_Lookahead,3644.0,0.0,0.0
+Gold_Strict_PreTarget,,,,,,,,True,Integrated_No_Lookahead,3644.0,0.0,0.0
+DXY_Strict_PreTarget,,,,,,,,True,Integrated_No_Lookahead,3650.0,0.0,0.0
+US10Y_Strict_PreTarget,,,,,,,,True,Integrated_No_Lookahead,3644.0,0.0,0.0

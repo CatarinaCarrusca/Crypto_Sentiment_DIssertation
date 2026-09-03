@@ -1,0 +1,7 @@
+Asset,Comparison,Forecast_N,Target_Dates_Identical,Estimation_N_Identical,Estimation_Start_Identical,Estimation_End_Identical,Historical_Dates_Identical,Benchmark_No_Lookahead,Extended_No_Lookahead,Actual_Targets_Identical,First_OOS_Forecast,First_Estimation_End,First_Forecast_Uses_Initial_Training_Only,PASS
+BTC,Activity,731,True,True,True,True,True,True,True,True,2024-01-01,2023-12-31,True,True
+BTC,Sentiment,731,True,True,True,True,True,True,True,True,2024-01-01,2023-12-31,True,True
+BTC,Both,731,True,True,True,True,True,True,True,True,2024-01-01,2023-12-31,True,True
+ETH,Activity,731,True,True,True,True,True,True,True,True,2024-01-01,2023-12-31,True,True
+ETH,Sentiment,719,True,True,True,True,True,True,True,True,2024-01-01,2023-12-31,True,True
+ETH,Both,719,True,True,True,True,True,True,True,True,2024-01-01,2023-12-31,True,True

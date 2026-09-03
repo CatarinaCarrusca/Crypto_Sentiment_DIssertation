@@ -1,0 +1,125 @@
+WHEN REDDIT DATA ARRIVES
+
+Do not redesign the model architecture in response to the results.
+
+Construct and merge the following primary variables:
+
+BITCOIN
+
+Lagged_Log_BTC_Reddit_Post_Count
+Lagged_BTC_Reddit_Sentiment
+
+
+ETHEREUM
+
+Lagged_Log_ETH_Reddit_Post_Count
+Lagged_ETH_Reddit_Sentiment
+
+
+STEP 1
+
+Estimate M1:
+
+Controls only.
+
+
+STEP 2
+
+Estimate M2:
+
+Controls + Reddit activity.
+
+
+STEP 3
+
+Estimate M3:
+
+Controls + Reddit sentiment.
+
+
+STEP 4
+
+Estimate M4:
+
+Controls + Reddit activity + Reddit sentiment.
+
+
+STEP 5
+
+Estimate cross-crypto robustness.
+
+Bitcoin:
+Add ETH_Lagged_Return.
+
+Ethereum:
+Add BTC_Lagged_Return.
+
+
+STEP 6
+
+Estimate alternative-lag robustness:
+
+t-2
+t-3
+t-7
+
+
+STEP 7
+
+Calculate economic significance.
+
+For sentiment:
+
+sentiment coefficient
+x
+standard deviation of lagged sentiment
+
+
+STEP 8
+
+Repeat the predetermined market-regime / structural-stability
+analysis for M3 and M4.
+
+
+STEP 9
+
+Produce genuine OOS forecasts.
+
+F1:
+Controls only.
+
+F2:
+Controls + activity.
+
+F3:
+Controls + sentiment.
+
+F4:
+Controls + activity + sentiment.
+
+
+STEP 10
+
+For H3/H4, compare F1 versus F3 on exactly the same OOS dates.
+
+Also compare F2 versus F4 to determine whether sentiment adds
+predictive information beyond Reddit activity.
+
+
+REPORT
+
+RMSE
+MAE
+OOS R-squared
+Directional accuracy
+Forecast-error/loss differences
+DM-type formal forecast comparison
+
+
+IMPORTANT
+
+Reddit activity measures attention / discussion intensity.
+
+Reddit sentiment measures tone / polarity.
+
+The two variables must remain conceptually and empirically separate.

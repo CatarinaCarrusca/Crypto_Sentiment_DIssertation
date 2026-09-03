@@ -1,0 +1,5 @@
+Asset,Variable,Available
+BTC,Lagged_BTC_Reddit_Sentiment,False
+BTC,Lagged_Log_BTC_Reddit_Post_Count,False
+ETH,Lagged_ETH_Reddit_Sentiment,False
+ETH,Lagged_Log_ETH_Reddit_Post_Count,False

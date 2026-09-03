@@ -1,0 +1,3 @@
+Asset,Expected_Post_Count,Post_Level_Count,Daily_Aggregated_Count,Count_Difference,Post_Level_Days,Daily_Aggregated_Days,Post_Level_Overall_Mean_Sentiment,Reconstructed_Overall_Mean_From_Daily,Mean_Difference,Validation_Pass
+BTC,117086,117086,117086,0,1825,1825,0.018965048831599204,0.018965048831599204,0.0,True
+ETH,18933,18933,18933,0,1803,1803,0.052667596088045,0.052667596088045,0.0,True

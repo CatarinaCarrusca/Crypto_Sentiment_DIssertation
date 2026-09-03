@@ -1,0 +1,23 @@
+Asset,Test,Lag,Statistic,P_Value,Secondary_Statistic,Secondary_P_Value,Reject_H0_5pct,Null_Hypothesis,Interpretation
+BTC,Breusch-Pagan,,68.59117024326208,2.8444651138253234e-12,10.13753913547159,1.6949032963864757e-12,True,Homoskedasticity,Evidence of heteroskedasticity
+ETH,Breusch-Pagan,,103.07631304176343,2.495575092374508e-19,15.540134454450733,6.856846211871174e-20,True,Homoskedasticity,Evidence of heteroskedasticity
+BTC,White,,455.0879890273515,1.4803332468080426e-74,16.991934512580897,2.808555341240063e-87,True,Homoskedasticity,Evidence of heteroskedasticity
+ETH,White,,218.26255021613957,2.337642829360232e-28,6.945236141156036,1.5701253435332499e-30,True,Homoskedasticity,Evidence of heteroskedasticity
+BTC,Breusch-Godfrey,1.0,0.1929125303648348,0.6605035186440066,0.1919794290264162,0.6613264639988303,False,No residual serial correlation through lag 1,No evidence of residual serial correlation through lag 1 at the 5% level
+BTC,Breusch-Godfrey,3.0,3.3534062498605834,0.34027839094293116,1.1130996408795861,0.3425063157122145,False,No residual serial correlation through lag 3,No evidence of residual serial correlation through lag 3 at the 5% level
+BTC,Breusch-Godfrey,7.0,6.051645677665975,0.533732074735973,0.860258409623343,0.5374034153081095,False,No residual serial correlation through lag 7,No evidence of residual serial correlation through lag 7 at the 5% level
+ETH,Breusch-Godfrey,1.0,1.6418334409327493,0.20007409825489675,1.6351932509237501,0.20114999965476246,False,No residual serial correlation through lag 1,No evidence of residual serial correlation through lag 1 at the 5% level
+ETH,Breusch-Godfrey,3.0,7.59660433244453,0.05512754348612089,2.5274490082342944,0.05582181576732471,False,No residual serial correlation through lag 3,No evidence of residual serial correlation through lag 3 at the 5% level
+ETH,Breusch-Godfrey,7.0,14.530205071360044,0.04251580574932858,2.0752037586983727,0.04314722294655293,True,No residual serial correlation through lag 7,Evidence of residual serial correlation through lag 7
+BTC,Ljung-Box,1.0,0.0032870020366062495,0.9542804255862424,,,False,Residual autocorrelations jointly equal zero through lag 1,No evidence of joint residual autocorrelation through lag 1 at the 5% level
+BTC,Ljung-Box,3.0,0.3129067558128151,0.9575830703843387,,,False,Residual autocorrelations jointly equal zero through lag 3,No evidence of joint residual autocorrelation through lag 3 at the 5% level
+BTC,Ljung-Box,7.0,3.0129951301218294,0.8837974775238779,,,False,Residual autocorrelations jointly equal zero through lag 7,No evidence of joint residual autocorrelation through lag 7 at the 5% level
+BTC,Ljung-Box,14.0,11.438150868695054,0.6513246732559563,,,False,Residual autocorrelations jointly equal zero through lag 14,No evidence of joint residual autocorrelation through lag 14 at the 5% level
+BTC,Ljung-Box,30.0,23.75152473322181,0.7831482848711572,,,False,Residual autocorrelations jointly equal zero through lag 30,No evidence of joint residual autocorrelation through lag 30 at the 5% level
+ETH,Ljung-Box,1.0,0.009721653680430412,0.9214571034116035,,,False,Residual autocorrelations jointly equal zero through lag 1,No evidence of joint residual autocorrelation through lag 1 at the 5% level
+ETH,Ljung-Box,3.0,0.8567876595283255,0.83584138666442,,,False,Residual autocorrelations jointly equal zero through lag 3,No evidence of joint residual autocorrelation through lag 3 at the 5% level
+ETH,Ljung-Box,7.0,8.161017713624258,0.31861000882896445,,,False,Residual autocorrelations jointly equal zero through lag 7,No evidence of joint residual autocorrelation through lag 7 at the 5% level
+ETH,Ljung-Box,14.0,21.878168578502784,0.08115257674642914,,,False,Residual autocorrelations jointly equal zero through lag 14,No evidence of joint residual autocorrelation through lag 14 at the 5% level
+ETH,Ljung-Box,30.0,42.886341506802125,0.059960960526115915,,,False,Residual autocorrelations jointly equal zero through lag 30,No evidence of joint residual autocorrelation through lag 30 at the 5% level
+BTC,Jarque-Bera,,20909.01621117729,0.0,-0.5692531086570136,19.561270518001713,True,Residual normality,Residual normality rejected at the 5% level
+ETH,Jarque-Bera,,3054.378619474861,0.0,-0.3442151919113521,9.307254990147973,True,Residual normality,Residual normality rejected at the 5% level

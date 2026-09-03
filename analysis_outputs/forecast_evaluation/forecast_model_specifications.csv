@@ -1,0 +1,15 @@
+Asset,Dependent_Variable,Predictor_Number,Predictor
+BTC,BTC_Return,1,BTC_Lagged_Return
+BTC,BTC_Return,2,Lagged_Log_BTC_Volume
+BTC,BTC_Return,3,Lagged_SP500_Return_Aligned
+BTC,BTC_Return,4,Lagged_VIX_Change_Aligned
+BTC,BTC_Return,5,Lagged_Gold_Return_Aligned
+BTC,BTC_Return,6,Lagged_DXY_Return_Aligned
+BTC,BTC_Return,7,Lagged_US10Y_Change_Aligned
+ETH,ETH_Return,1,ETH_Lagged_Return
+ETH,ETH_Return,2,Lagged_Log_ETH_Volume
+ETH,ETH_Return,3,Lagged_SP500_Return_Aligned
+ETH,ETH_Return,4,Lagged_VIX_Change_Aligned
+ETH,ETH_Return,5,Lagged_Gold_Return_Aligned
+ETH,ETH_Return,6,Lagged_DXY_Return_Aligned
+ETH,ETH_Return,7,Lagged_US10Y_Change_Aligned

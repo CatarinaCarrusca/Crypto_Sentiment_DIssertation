@@ -1,0 +1,5 @@
+Asset,Model,Observations_Removed,Primary_N,Sensitivity_N,Primary_Sentiment_Coefficient,Primary_Sentiment_p,Sensitivity_Sentiment_Coefficient,Sensitivity_Sentiment_p,Coefficient_Change
+BTC,M2: + Sentiment,2,1821,1819,0.00461,0.673,0.00342,0.745,-0.00119
+BTC,M3: + Activity + Sentiment,2,1821,1819,0.006,0.589,0.00479,0.654,-0.00121
+ETH,M2: + Sentiment,2,1799,1797,0.00247,0.529,0.00213,0.584,-0.00035
+ETH,M3: + Activity + Sentiment,2,1799,1797,0.00266,0.497,0.00241,0.536,-0.00025

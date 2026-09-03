@@ -1,0 +1,5 @@
+Asset,Concept,Variable,Available_In_Current_Dataset,Status
+BTC,Activity,Lagged_Log_BTC_Reddit_Post_Count,False,Pending Reddit data
+BTC,Sentiment,Lagged_BTC_Reddit_Sentiment,False,Pending Reddit data
+ETH,Activity,Lagged_Log_ETH_Reddit_Post_Count,False,Pending Reddit data
+ETH,Sentiment,Lagged_ETH_Reddit_Sentiment,False,Pending Reddit data

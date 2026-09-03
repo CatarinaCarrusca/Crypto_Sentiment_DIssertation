@@ -1,0 +1,162 @@
+FINAL EMPIRICAL MODEL ARCHITECTURE
+
+Model | Controls | Reddit Activity | Reddit Sentiment | Cross-Crypto | Role
+-----------------------------------------------------------------------------
+M1    | Yes      | No              | No               | No           | Primary
+M2    | Yes      | Yes             | No               | No           | Primary
+M3    | Yes      | No              | Yes              | No           | Primary
+M4    | Yes      | Yes             | Yes              | No           | Primary
+R1    | Yes      | No              | No               | Yes          | Robustness
+R2    | Yes      | Yes             | Yes              | Yes          | Robustness
+
+
+M1: BASELINE CONTROLS ONLY
+
+Bitcoin:
+- BTC_Lagged_Return
+- Lagged_Log_BTC_Volume
+- Lagged_SP500_Return_Aligned
+- Lagged_VIX_Change_Aligned
+- Lagged_Gold_Return_Aligned
+- Lagged_DXY_Return_Aligned
+- Lagged_US10Y_Change_Aligned
+
+Ethereum:
+- ETH_Lagged_Return
+- Lagged_Log_ETH_Volume
+- Lagged_SP500_Return_Aligned
+- Lagged_VIX_Change_Aligned
+- Lagged_Gold_Return_Aligned
+- Lagged_DXY_Return_Aligned
+- Lagged_US10Y_Change_Aligned
+
+
+M2: CONTROLS + REDDIT ACTIVITY
+
+Bitcoin:
+Add Lagged_Log_BTC_Reddit_Post_Count
+
+Ethereum:
+Add Lagged_Log_ETH_Reddit_Post_Count
+
+Activity is defined as:
+
+log(1 + daily retained Reddit post count)
+
+This represents attention or discussion intensity.
+
+
+M3: CONTROLS + REDDIT SENTIMENT
+
+Bitcoin:
+Add Lagged_BTC_Reddit_Sentiment
+
+Ethereum:
+Add Lagged_ETH_Reddit_Sentiment
+
+This represents the tone or polarity of the retained Reddit discussion.
+
+
+M4: CONTROLS + REDDIT ACTIVITY + SENTIMENT
+
+M4 includes both activity and sentiment.
+
+This is important because Reddit activity and Reddit sentiment are
+conceptually distinct.
+
+Activity measures how much discussion occurred.
+
+Sentiment measures the tone of that discussion.
+
+The M4 sentiment coefficient therefore evaluates sentiment while
+controlling separately for Reddit attention.
+
+
+R1: CROSS-CRYPTO BASELINE ROBUSTNESS
+
+Bitcoin:
+M1 + ETH_Lagged_Return
+
+Ethereum:
+M1 + BTC_Lagged_Return
+
+
+R2: FULL CROSS-CRYPTO ROBUSTNESS
+
+Bitcoin:
+M4 + ETH_Lagged_Return
+
+Ethereum:
+M4 + BTC_Lagged_Return
+
+
+ALTERNATIVE-LAG ROBUSTNESS
+
+Primary specification:
+t-1
+
+Robustness specifications:
+t-2
+t-3
+t-7
+
+
+FORECAST ARCHITECTURE
+
+F1:
+Controls only
+
+F2:
+Controls + Reddit activity
+
+F3:
+Controls + Reddit sentiment
+
+F4:
+Controls + Reddit activity + sentiment
+
+
+PRIMARY H3/H4 COMPARISON
+
+F1 versus F3
+
+This asks whether sentiment improves one-day-ahead OOS return
+forecasting relative to an otherwise identical benchmark without
+sentiment.
+
+
+ACTIVITY-ADJUSTED SENTIMENT COMPARISON
+
+F2 versus F4
+
+This asks whether sentiment adds forecast value after Reddit activity
+has already been included.
+
+
+FORECAST EVALUATION
+
+All competing forecasts must be evaluated on exactly the same OOS
+dates.
+
+Evaluation metrics:
+
+- RMSE
+- MAE
+- OOS R-squared
+- Directional accuracy
+- Forecast-error/loss differences
+- DM-type formal forecast-accuracy comparison
+
+
+IMPORTANT INTERPRETATION
+
+Reddit activity is not Reddit sentiment.
+
+Activity:
+quantity/intensity of retained Reddit discussion.
+
+Sentiment:
+tone/polarity of retained Reddit discussion.
+
+The dissertation therefore estimates the two concepts separately and
+jointly.

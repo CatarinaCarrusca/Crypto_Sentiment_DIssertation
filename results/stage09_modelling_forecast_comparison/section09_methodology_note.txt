@@ -1,0 +1,236 @@
+SECTION 09 — MODELLING AND FORECAST COMPARISON
+==============================================
+
+Purpose
+-------
+Section 09 estimates the dissertation's primary explanatory
+regressions, conducts genuine out-of-sample forecast comparisons,
+tests the BTC-versus-ETH sentiment coefficient difference, and
+implements pre-specified robustness analyses.
+
+Dependent Variable
+------------------
+Target_Return is the daily cryptocurrency log return for the
+relevant asset.
+
+Primary Benchmark Predictors
+----------------------------
+The benchmark contains:
+
+1. Own_Lagged_Return
+2. Lagged_Log_Crypto_Volume
+3. Lagged_SP500_Return_Aligned
+4. Lagged_VIX_Change_Aligned
+5. Lagged_Gold_Return_Aligned
+6. Lagged_DXY_Return_Aligned
+7. Lagged_US10Y_Change_Aligned
+
+Reddit Variables
+----------------
+Primary Reddit activity:
+    Lagged_Log_Reddit_Post_Count
+
+Primary Reddit sentiment:
+    Lagged_Reddit_Sentiment
+
+Reddit sentiment is not imputed to zero on dates without retained
+Reddit textual sentiment observations.
+
+Primary In-Sample Specifications
+--------------------------------
+M0_Benchmark:
+    benchmark controls only
+
+M1_Activity:
+    benchmark + Reddit activity
+
+M2_Sentiment:
+    benchmark + Reddit sentiment
+
+M3_Both:
+    benchmark + Reddit activity + Reddit sentiment
+
+H1 and H2
+---------
+H1 and H2 are association hypotheses, not forecasting hypotheses.
+
+The primary test is the lagged Reddit sentiment coefficient in
+M2_Sentiment.
+
+M3_Both is additionally reported to assess whether the sentiment
+coefficient is robust to controlling for Reddit posting activity.
+
+All primary in-sample models use the validated
+Common_Main_Model_Sample and HAC/Newey-West inference with
+maximum lag 7.
+
+Forecast Design
+---------------
+Initial estimation period:
+    2021-01-01 to 2023-12-31
+
+Genuine out-of-sample period:
+    2024-01-01 to 2025-12-31
+
+Forecast horizon:
+    one calendar day ahead
+
+Forecast method:
+    expanding-window re-estimation
+
+For every target date t, only observations satisfying:
+
+    Date < t
+
+are permitted in the historical estimation sample.
+
+The benchmark and extended models within every nested forecast
+comparison are required to use:
+
+1. identical target dates,
+2. identical target returns,
+3. identical estimation sample sizes,
+4. identical estimation start dates,
+5. identical estimation end dates, and
+6. the exact same historical estimation-date set.
+
+The final forecast QC explicitly reconstructs and compares the
+historical date set for benchmark and extended models at every
+forecast origin.
+
+H3 and H4
+---------
+The primary H3/H4 forecast comparison is:
+
+    M0_Benchmark versus M2_Sentiment
+
+using Sentiment_Comparison_Sample.
+
+Forecast evaluation includes:
+
+1. RMSE,
+2. MAE,
+3. OOS R-squared relative to the benchmark,
+4. directional accuracy,
+5. one-sided Clark-West nested forecast test, and
+6. supplementary DM-style squared-error loss test.
+
+The Clark-West adjusted loss differential is:
+
+    e0^2 - [e1^2 - (f0 - f1)^2]
+
+where positive values favour the sentiment-extended model.
+
+H3/H4 are treated as supported only when:
+
+    Extended RMSE < Benchmark RMSE
+
+AND
+
+    one-sided Clark-West p < 0.05
+
+H5
+--
+H5 is NOT evaluated by comparing significance levels from
+separate BTC and ETH regressions.
+
+A fully interacted pooled M3 model is estimated on common BTC/ETH
+calendar dates.
+
+BTC is the reference asset.
+
+The ETH x Lagged_Reddit_Sentiment interaction directly estimates:
+
+    beta_ETH,sentiment - beta_BTC,sentiment
+
+For H5 inference, observation-level OLS score contributions are
+aggregated by calendar date. A Bartlett-weighted Newey-West
+long-run score covariance with maximum lag 7 is then
+used in the sandwich covariance estimator.
+
+This allows contemporaneous BTC/ETH dependence within a date and
+serial dependence across dates.
+
+Cross-Cryptocurrency Robustness
+-------------------------------
+R0-R3 add Cross_Crypto_Lagged_Return to the corresponding primary
+specifications.
+
+This is a robustness analysis and does not redefine the primary
+benchmark.
+
+Alternative Sentiment Lags
+--------------------------
+Sentiment lag robustness is evaluated at:
+
+    t-1
+    t-2
+    t-3
+    t-7
+
+where the required validated lag columns are available.
+
+Year / Regime Robustness
+------------------------
+M2 and M3 sentiment coefficients are estimated separately for:
+
+    2021
+    2022
+    2023
+    2024
+    2025
+
+These analyses are descriptive robustness checks and are not used
+for ex-post specification selection.
+
+Extreme-Return Sensitivity
+--------------------------
+The primary models retain all validated observations.
+
+A supplementary sensitivity removes rows with:
+
+    abs(Target_Return) >= 0.25
+
+An additional contamination-aware diagnostic removes rows where:
+
+    abs(Target_Return) >= 0.25
+
+OR
+
+    abs(Own_Lagged_Return) >= 0.25
+
+The latter prevents an extreme return from remaining mechanically
+in the next day's lagged-return control after its target-date row
+has been excluded.
+
+Weekend / Weekday Robustness
+----------------------------
+Cryptocurrency markets trade seven days per week.
+
+The primary OOS sample therefore retains weekends.
+
+Primary sentiment forecast performance is additionally summarized
+separately for weekend and weekday targets.
+
+Traditional-Market Information Timing
+-------------------------------------
+Traditional controls were aligned upstream using the latest
+completed observation available strictly before each cryptocurrency
+target date.
+
+Thus weekend cryptocurrency observations retain the latest
+eligible completed traditional-market observation rather than
+being discarded through a weekday-only inner merge.
+
+Interpretation
+--------------
+Statistical non-significance is described as an absence of
+statistically detectable evidence under the specified model and
+sample. It is not interpreted as proof that the true effect is
+exactly zero.
+
+Similarly, a negative OOS R-squared indicates that the extended
+model has larger mean squared forecast error than the benchmark
+over the evaluated OOS sample.
+
+No result-driven specification changes are made in Section 09.

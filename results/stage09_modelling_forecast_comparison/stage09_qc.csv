@@ -1,0 +1,17 @@
+Check,Expected,Actual,Pass
+Final input rows,3652,3652,True
+Unique Date×Asset,True,True,True
+BTC Common_Main_Model_Sample N,1821,1821,True
+ETH Common_Main_Model_Sample N,1799,1799,True
+BTC primary sentiment OOS N,731,731,True
+ETH primary sentiment OOS N,719,719,True
+BTC sentiment OOS weekend forecasts,208,208,True
+ETH sentiment OOS weekend forecasts,204,204,True
+BTC primary OOS starts in 2024,True,True,True
+BTC primary OOS ends by 2025-12-31,True,True,True
+BTC expanding estimation N monotonic,True,True,True
+ETH primary OOS starts in 2024,True,True,True
+ETH primary OOS ends by 2025-12-31,True,True,True
+ETH expanding estimation N monotonic,True,True,True
+All OOS forecast pairs complete,True,True,True
+H5 uses positive BTC/ETH common-date sample,True,True,True

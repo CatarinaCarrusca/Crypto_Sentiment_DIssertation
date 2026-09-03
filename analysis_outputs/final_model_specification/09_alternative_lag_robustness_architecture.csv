@@ -1,0 +1,9 @@
+Asset,Dependent_Variable,Lag_Days,Lag_Label,Role,Own_Return_Horizon,Volume_Horizon,Traditional_Control_Horizon,Reddit_Activity_Horizon,Reddit_Sentiment_Horizon,Cross_Crypto_Horizon
+Bitcoin,BTC_Return,1,t-1,Primary,t-1,t-1,Information-aligned calendar-day horizon t-1,t-1,t-1,t-1
+Bitcoin,BTC_Return,2,t-2,Robustness,t-2,t-2,Information-aligned calendar-day horizon t-2,t-2,t-2,t-2
+Bitcoin,BTC_Return,3,t-3,Robustness,t-3,t-3,Information-aligned calendar-day horizon t-3,t-3,t-3,t-3
+Bitcoin,BTC_Return,7,t-7,Robustness,t-7,t-7,Information-aligned calendar-day horizon t-7,t-7,t-7,t-7
+Ethereum,ETH_Return,1,t-1,Primary,t-1,t-1,Information-aligned calendar-day horizon t-1,t-1,t-1,t-1
+Ethereum,ETH_Return,2,t-2,Robustness,t-2,t-2,Information-aligned calendar-day horizon t-2,t-2,t-2,t-2
+Ethereum,ETH_Return,3,t-3,Robustness,t-3,t-3,Information-aligned calendar-day horizon t-3,t-3,t-3,t-3
+Ethereum,ETH_Return,7,t-7,Robustness,t-7,t-7,Information-aligned calendar-day horizon t-7,t-7,t-7,t-7

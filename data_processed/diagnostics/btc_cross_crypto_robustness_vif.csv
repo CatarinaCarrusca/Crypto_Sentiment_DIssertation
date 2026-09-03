@@ -1,0 +1,9 @@
+Variable,VIF,Diagnostic
+Lagged_SP500_Return,2.6656750830985265,Low / acceptable
+Lagged_VIX_Change,2.506522333215231,Low / acceptable
+ETH_Lagged_Return,2.448674452230119,Low / acceptable
+BTC_Lagged_Return,2.3504943810756678,Low / acceptable
+Lagged_DXY_Return,1.3774200226724753,Low / acceptable
+Lagged_Gold_Return,1.2348742492579148,Low / acceptable
+Lagged_US10Y_Change,1.1708226621911568,Low / acceptable
+Lagged_Log_BTC_Volume,1.003594563091145,Low / acceptable

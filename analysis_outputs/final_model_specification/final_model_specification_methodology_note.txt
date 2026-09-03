@@ -1,0 +1,267 @@
+FINAL MODEL-SPECIFICATION METHODOLOGY
+
+STUDY PERIOD
+------------
+
+2021-01-01 to 2025-12-31
+
+Frequency:
+Daily
+
+Assets:
+Bitcoin and Ethereum
+
+Primary lag:
+t-1
+
+Alternative robustness lags:
+t-2, t-3 and t-7
+
+
+1. BASELINE MODEL
+-----------------
+
+M1 contains:
+
+- own lagged cryptocurrency return;
+- lagged log cryptocurrency trading volume;
+- information-aligned S&P 500 return;
+- information-aligned VIX change;
+- information-aligned gold futures return;
+- information-aligned DXY return; and
+- information-aligned US 10-year Treasury yield change.
+
+No Reddit information is included in M1.
+
+
+2. REDDIT ACTIVITY MODEL
+------------------------
+
+M2 adds lagged Reddit activity.
+
+Reddit activity is defined as:
+
+log(1 + daily retained Reddit post count)
+
+The activity variable represents discussion intensity or attention.
+
+It does not represent whether discussion is positive or negative.
+
+
+3. REDDIT SENTIMENT MODEL
+-------------------------
+
+M3 adds lagged Reddit sentiment to the baseline specification.
+
+The purpose is to test whether the tone of retained Reddit discussion
+adds information beyond traditional and cryptocurrency-market
+controls.
+
+
+4. FULL REDDIT MODEL
+--------------------
+
+M4 contains both Reddit activity and Reddit sentiment.
+
+This specification explicitly distinguishes attention from sentiment.
+
+The sentiment coefficient in M4 therefore represents the estimated
+sentiment-return relationship conditional on the quantity of Reddit
+discussion.
+
+
+5. CROSS-CRYPTO ROBUSTNESS
+--------------------------
+
+R1 adds the other cryptocurrency's lagged return to M1.
+
+Bitcoin:
+ETH_Lagged_Return
+
+Ethereum:
+BTC_Lagged_Return
+
+R2 adds the corresponding cross-crypto lagged return to M4.
+
+This addresses possible omitted cross-cryptocurrency return dynamics.
+
+
+6. ALTERNATIVE LAGS
+-------------------
+
+The primary specification uses t-1 information.
+
+Alternative robustness horizons are:
+
+t-2
+t-3
+t-7
+
+These alternative horizons assess whether conclusions are dependent
+on the one-day lag assumption.
+
+After Reddit variables become available, the same conceptual lag
+architecture should be applied to Reddit activity and sentiment.
+
+
+7. INFORMATION ALIGNMENT
+------------------------
+
+The final traditional-market controls are:
+
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+The old non-aligned traditional-market variables are excluded.
+
+This is necessary because cryptocurrency trades seven days per week
+whereas the traditional financial markets used as controls do not.
+
+The aligned variables ensure that only information available before
+the cryptocurrency return date enters the model.
+
+
+8. EXPLANATORY INFERENCE
+------------------------
+
+The explanatory models distinguish coefficient estimation from
+forecasting performance.
+
+OLS coefficients are accompanied by HAC/Newey-West inference.
+
+Maximum HAC lag:
+7
+
+
+9. ECONOMIC SIGNIFICANCE
+------------------------
+
+Statistical significance is not treated as equivalent to economic
+importance.
+
+For continuous predictors, the economic effect of a one-standard-
+deviation increase is calculated as:
+
+estimated coefficient x predictor standard deviation
+
+The same framework will be applied to Reddit sentiment and Reddit
+activity after the Reddit data become available.
+
+
+10. FORECASTING
+---------------
+
+Forecasting uses a genuine chronological out-of-sample design.
+
+Forecast horizon:
+One day ahead
+
+Estimation window:
+Expanding window
+
+Planned OOS period:
+2024-01-02 to 2025-12-31
+
+Forecast models are:
+
+F1 = controls only
+
+F2 = controls + Reddit activity
+
+F3 = controls + Reddit sentiment
+
+F4 = controls + Reddit activity + sentiment
+
+
+11. H3 AND H4
+-------------
+
+The primary sentiment forecast comparison is:
+
+F1 versus F3
+
+This directly tests whether sentiment improves forecast accuracy
+relative to an otherwise identical benchmark without sentiment.
+
+An additional comparison is:
+
+F2 versus F4
+
+This determines whether sentiment adds predictive information beyond
+Reddit activity itself.
+
+Competing forecasts must be evaluated on exactly the same OOS dates.
+
+
+12. FORECAST EVALUATION
+-----------------------
+
+Forecast evaluation includes:
+
+- RMSE;
+- MAE;
+- OOS R-squared;
+- directional accuracy;
+- forecast-error/loss differences; and
+- a DM-type formal forecast-accuracy comparison.
+
+H3 and H4 should therefore not be accepted or rejected solely because
+one model has a marginally smaller RMSE.
+
+
+13. STRUCTURAL STABILITY
+------------------------
+
+The same model architecture should be retained across predetermined
+market regimes.
+
+Before Reddit arrives, M1 can be used to assess baseline coefficient
+stability.
+
+After Reddit arrives, M3 and M4 can be estimated across the same
+regimes to determine whether the sentiment-return relationship is
+stable across different cryptocurrency-market conditions.
+
+
+14. REDDIT SAMPLE INTERPRETATION
+--------------------------------
+
+The eventual Reddit variables represent activity and sentiment in the
+retained asset-specific Reddit research sample.
+
+They should not automatically be described as measures of general
+investor sentiment.
+
+
+15. FINAL ARCHITECTURE
+----------------------
+
+M1:
+Controls only
+
+M2:
+Controls + Reddit activity
+
+M3:
+Controls + Reddit sentiment
+
+M4:
+Controls + Reddit activity + sentiment
+
+R1:
+Controls + cross-crypto return
+
+R2:
+Controls + Reddit activity + Reddit sentiment + cross-crypto return
+
+Alternative lags:
+t-2, t-3, t-7
+
+Forecast models:
+F1, F2, F3, F4
+
+This architecture explicitly distinguishes Reddit attention/activity
+from Reddit sentiment.

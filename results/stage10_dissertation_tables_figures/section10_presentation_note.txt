@@ -1,0 +1,80 @@
+SECTION 10 — DISSERTATION TABLES AND FIGURES
+
+Purpose
+-------
+Section 10 is a presentation-only stage.
+
+No statistical models are estimated or re-estimated in this
+section. No Section 08 or Section 09 analytical outputs are
+overwritten.
+
+Inputs
+------
+Section 08 validated modelling outputs and Section 09 frozen
+econometric and forecasting results are used as the sole
+analytical inputs.
+
+Tables
+------
+Section 10 creates dissertation-ready versions of:
+
+1. Descriptive statistics.
+2. BTC and ETH correlation matrices.
+3. VIF diagnostics.
+4. Primary M0-M3 HAC regression results.
+5. H1/H2 sentiment-association results.
+6. Economic-significance calculations.
+7. H3/H4 out-of-sample forecast comparisons.
+8. H5 BTC-versus-ETH coefficient-difference test.
+9. Cross-cryptocurrency robustness.
+10. Alternative sentiment-lag robustness.
+11. Year/regime robustness.
+12. Extreme-return sensitivity.
+13. Weekend/weekday out-of-sample robustness.
+14. Final H1-H5 hypothesis summary.
+
+Figures
+-------
+Section 10 creates:
+
+1. BTC daily log returns.
+2. ETH daily log returns.
+3. Lagged BTC Reddit sentiment.
+4. Lagged ETH Reddit sentiment.
+5. Alternative-lag sentiment coefficients.
+6. Year-specific sentiment coefficients.
+7. BTC cumulative OOS squared forecast error.
+8. ETH cumulative OOS squared forecast error.
+9. Benchmark-versus-sentiment OOS RMSE.
+10. Economic significance of a one-standard-deviation
+    increase in Reddit sentiment.
+11. Weekend-versus-weekday OOS R-squared.
+
+Interpretation
+--------------
+All hypothesis decisions and statistical results remain those
+produced and validated in Section 09.
+
+Section 10 changes presentation only. It does not alter the
+underlying empirical analysis.
+
+Primary inference
+-----------------
+H1 and H2 use OLS with HAC/Newey-West inference and maximum
+lag 7.
+
+H3 and H4 use genuine expanding-window one-step-ahead
+out-of-sample forecasts, with 2021-2023 as the initial
+estimation period and 2024-2025 as the OOS evaluation period.
+
+The Clark-West test is the primary nested-model forecast test.
+
+H5 uses the ETH-by-lagged-Reddit-sentiment interaction in a
+fully interacted pooled BTC/ETH model, with date-clustered
+Newey-West score aggregation and maximum lag 7.
+
+Final principle
+---------------
+Section 09 is treated as frozen. Section 10 exists only to
+translate validated results into dissertation-ready tables
+and figures.

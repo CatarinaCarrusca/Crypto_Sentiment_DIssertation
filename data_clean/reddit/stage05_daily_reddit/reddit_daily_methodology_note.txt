@@ -1,0 +1,138 @@
+SECTION 05 — DAILY REDDIT VARIABLE CONSTRUCTION
+================================================
+
+Study period
+------------
+2021-01-01 to 2025-12-31
+
+Assets
+------
+Bitcoin (BTC) and Ethereum (ETH)
+
+Frozen Stage 04 input
+---------------------
+Total retained and sentiment-scored Reddit posts:
+    136,019
+
+BTC:
+    117,086
+
+ETH:
+    18,933
+
+Unit of aggregation
+-------------------
+Date × asset.
+
+Post-level sentiment
+--------------------
+Each retained Reddit post has a continuous sentiment score:
+
+    S_i = P(Positive_i) - P(Negative_i)
+
+where P(Positive_i) and P(Negative_i) are probabilities assigned by the
+Stage 04 sentiment model.
+
+Daily Reddit sentiment
+----------------------
+For each asset a and date t:
+
+    Sentiment_(a,t)
+        = (1 / N_(a,t)) * SUM(S_i)
+
+where N_(a,t) is the number of retained Reddit posts observed for asset a
+on date t.
+
+The primary daily sentiment measure is therefore the unweighted arithmetic
+mean of post-level continuous sentiment.
+
+Reddit scores, upvotes, upvote ratios and comment counts are not used as
+sentiment weights.
+
+Reddit activity
+---------------
+Observed daily Reddit activity is measured using the number of retained
+posts:
+
+    N_(a,t)
+
+For later econometric modelling, the activity variable is:
+
+    Activity_(a,t) = log(1 + N_(a,t))
+
+The raw count is retained for descriptive reporting.
+
+Sentiment versus activity
+-------------------------
+Sentiment measures the estimated tone of Reddit discussion.
+
+Activity measures the observed quantity or intensity of Reddit discussion.
+
+The variables are retained separately so later models can distinguish
+whether incremental explanatory or predictive information is associated
+with sentiment, activity, or both.
+
+Timing
+------
+Stage 05 contains contemporaneous daily Reddit variables only.
+
+No t-1, t-2, t-3 or t-7 forecasting variables are created here.
+
+Forecasting lags are constructed only at the subsequent information-
+alignment stage so that information available at t-1 can be used to
+predict cryptocurrency returns at t.
+
+Unobserved asset-days
+---------------------
+A date × asset combination absent from the Stage 04 post-level data is
+identified in Stage 05 as an unobserved Reddit asset-day.
+
+Stage 05 does NOT assume that every such date is a genuine zero-post day.
+
+An absent asset-day may represent:
+
+    1. a genuine date with no retained Reddit posts; or
+    2. unavailable/incomplete Reddit source coverage.
+
+The distinction is made in Stage 06 using the available source-coverage
+information.
+
+Consequently, Stage 05 does not automatically assign:
+
+    Post_Count = 0
+    Log_Reddit_Post_Count = 0
+    Sentiment = 0
+
+to unobserved asset-days.
+
+This is particularly important because a sentiment value of zero means
+measured neutral sentiment and must not be used as a generic missing-value
+code.
+
+Aggregation validation
+----------------------
+Daily aggregation is independently validated against Stage 04 by checking:
+
+    - frozen total Stage 04 input rows;
+    - frozen BTC and ETH post counts;
+    - unique post identifiers;
+    - valid study dates;
+    - valid BTC/ETH asset values;
+    - valid sentiment values and labels;
+    - total post-count reconstruction;
+    - asset-specific post-count reconstruction;
+    - observed-date reconstruction;
+    - reconstruction of the overall post-level sentiment mean from daily
+      means weighted by daily post counts;
+    - daily sentiment-share reconstruction;
+    - log(1 + post count) construction;
+    - uniqueness of date × asset rows;
+    - daily sentiment bounds.
+
+Stage boundary
+--------------
+No cryptocurrency returns, trading volume or traditional-market variables
+are merged in Stage 05.
+
+Calendar completion, classification of missing Reddit days, forecasting
+lags and information alignment are performed in later stages.

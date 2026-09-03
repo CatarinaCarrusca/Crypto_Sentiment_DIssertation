@@ -1,0 +1,21 @@
+Asset,Year,Model,N,Sentiment_Coefficient,HAC_SE,t_stat,p_value,R_Squared,Statistically_Significant_5pct,Decision
+BTC,2021,M2: + Sentiment,360,0.0403,0.0451,0.8929,0.372,0.0209,False,Not supported
+BTC,2021,M3: + Activity + Sentiment,360,0.0387,0.0453,0.8548,0.393,0.0216,False,Not supported
+BTC,2022,M2: + Sentiment,365,-0.0109,0.0269,-0.4035,0.687,0.0173,False,Not supported
+BTC,2022,M3: + Activity + Sentiment,365,-0.0095,0.0281,-0.3377,0.736,0.0176,False,Not supported
+BTC,2023,M2: + Sentiment,365,-0.0013,0.0237,-0.0566,0.955,0.1066,False,Not supported
+BTC,2023,M3: + Activity + Sentiment,365,0.0005,0.0234,0.0206,0.984,0.113,False,Not supported
+BTC,2024,M2: + Sentiment,366,-0.0104,0.0168,-0.6178,0.537,0.0089,False,Not supported
+BTC,2024,M3: + Activity + Sentiment,366,-0.0098,0.0169,-0.5837,0.559,0.0094,False,Not supported
+BTC,2025,M2: + Sentiment,365,0.0007,0.0154,0.0466,0.963,0.027,False,Not supported
+BTC,2025,M3: + Activity + Sentiment,365,0.0012,0.0153,0.0786,0.937,0.0279,False,Not supported
+ETH,2021,M2: + Sentiment,360,0.005,0.0222,0.2275,0.820,0.0283,False,Not supported
+ETH,2021,M3: + Activity + Sentiment,360,0.0038,0.0226,0.1681,0.867,0.0284,False,Not supported
+ETH,2022,M2: + Sentiment,365,0.0311,0.0171,1.8228,0.068,0.0199,False,Not supported
+ETH,2022,M3: + Activity + Sentiment,365,0.0311,0.0171,1.8217,0.069,0.0199,False,Not supported
+ETH,2023,M2: + Sentiment,355,-0.0009,0.0045,-0.2032,0.839,0.057,False,Not supported
+ETH,2023,M3: + Activity + Sentiment,355,-0.0008,0.0044,-0.1878,0.851,0.0575,False,Not supported
+ETH,2024,M2: + Sentiment,354,-0.0019,0.005,-0.3835,0.701,0.0214,False,Not supported
+ETH,2024,M3: + Activity + Sentiment,354,-0.0019,0.0049,-0.3881,0.698,0.0214,False,Not supported
+ETH,2025,M2: + Sentiment,365,0.0038,0.0126,0.3009,0.763,0.0113,False,Not supported
+ETH,2025,M3: + Activity + Sentiment,365,0.0017,0.0146,0.1175,0.906,0.0117,False,Not supported

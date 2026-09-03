@@ -1,0 +1,152 @@
+FORECAST EVALUATION INFRASTRUCTURE
+
+PURPOSE
+-------
+This script establishes the out-of-sample forecast-evaluation
+infrastructure required for H3 and H4.
+
+FORECAST DESIGN
+---------------
+Forecasts are one-day-ahead daily cryptocurrency return forecasts.
+
+The benchmark models are estimated recursively using an expanding
+window.
+
+For each forecast date t, only observations dated strictly before t
+are used to estimate the model.
+
+OOS PERIOD
+----------
+2024-01-02 to 2025-12-31
+
+ASSETS
+------
+Bitcoin
+Ethereum
+
+BENCHMARK MODEL
+---------------
+The Bitcoin benchmark contains:
+
+BTC_Lagged_Return
+Lagged_Log_BTC_Volume
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+The Ethereum benchmark contains:
+
+ETH_Lagged_Return
+Lagged_Log_ETH_Volume
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+INFORMATION ALIGNMENT
+---------------------
+Only information-aligned traditional-market controls are used.
+
+The old non-aligned lagged traditional-market variables are not used.
+
+HISTORICAL-MEAN FORECAST
+------------------------
+For each forecast date, the historical-mean forecast is calculated
+from the same expanding training sample used to estimate the
+benchmark model.
+
+No observation dated on or after the forecast date enters this
+historical mean.
+
+OOS R-SQUARED
+-------------
+OOS R-squared is calculated as:
+
+R2_OOS = 1 - SSE_model / SSE_historical_mean
+
+A negative OOS R-squared means that the model forecasts perform worse
+than the expanding historical-mean forecast over the same OOS sample.
+
+FORECAST PERFORMANCE
+--------------------
+The evaluation framework reports:
+
+1. RMSE
+2. MAE
+3. OOS R-squared
+4. directional accuracy
+5. date-level forecast errors
+6. squared-error loss
+7. absolute-error loss
+8. forecast-loss differences
+
+COMMON OOS SAMPLE
+-----------------
+When sentiment forecasts become available, the benchmark and
+sentiment-augmented models are merged by date.
+
+Formal comparisons are performed only on dates for which both models
+have valid forecasts and the realised return is identical.
+
+Both models therefore use exactly the same OOS dates, actual returns
+and historical-mean OOS R-squared denominator.
+
+DIEBOLD-MARIANO-TYPE TEST
+-------------------------
+The formal forecast comparison uses the loss differential:
+
+d_t = Loss_Benchmark,t - Loss_Sentiment,t
+
+Therefore:
+
+d_t > 0
+means the sentiment model has lower forecast loss.
+
+d_t < 0
+means the benchmark has lower forecast loss.
+
+The long-run variance of the loss differential is estimated using a
+Bartlett-weighted HAC/Newey-West estimator with maximum lag:
+
+7
+
+Formal comparisons are reported for:
+
+1. squared-error loss
+2. absolute-error loss
+
+The squared-error comparison is the primary formal forecast-accuracy
+test because RMSE is a primary forecasting metric.
+
+Both two-sided and one-sided p-values are reported.
+
+H3 AND H4
+---------
+H3 and H4 should not be evaluated solely from a small difference in
+RMSE.
+
+Evidence should consider:
+
+1. whether the sentiment model has lower RMSE;
+2. whether it has lower MAE;
+3. whether it has higher OOS R-squared;
+4. whether it has higher directional accuracy;
+5. the mean forecast-loss differential; and
+6. the formal DM-type forecast-accuracy comparison.
+
+PRE-REDDIT STATUS
+-----------------
+Before sentiment forecasts exist, the script generates and validates
+the traditional-market benchmark forecasts and saves templates for
+the future sentiment forecasts.
+
+It does not create artificial sentiment forecasts.
+
+The absence of a sentiment forecast file therefore does not represent
+a methodological or software failure.
+
+Once the sentiment forecast files are supplied, the formal comparison
+runs automatically.

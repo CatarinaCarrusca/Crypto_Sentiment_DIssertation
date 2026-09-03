@@ -1,0 +1,6 @@
+measure,count
+Link-only posts,220
+Unusable-text posts,220
+Both link-only and unusable,220
+Link-only but not unusable,0
+Unusable but not link-only,0

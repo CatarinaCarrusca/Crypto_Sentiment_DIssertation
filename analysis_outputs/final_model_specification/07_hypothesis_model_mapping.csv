@@ -1,0 +1,6 @@
+Hypothesis,Asset,Research_Focus,Primary_Model,Conditional_Model,Primary_Comparison,Activity_Adjusted_Comparison
+H1,Bitcoin,Lagged Bitcoin Reddit sentiment and subsequent Bitcoin returns,M3,M4,M1 vs M3,M2 vs M4
+H2,Ethereum,Lagged Ethereum Reddit sentiment and subsequent Ethereum returns,M3,M4,M1 vs M3,M2 vs M4
+H3,Bitcoin,Whether lagged Bitcoin Reddit sentiment improves one-day-ahead OOS Bitcoin return forecasts,F3,F4,F1 vs F3,F2 vs F4
+H4,Ethereum,Whether lagged Ethereum Reddit sentiment improves one-day-ahead OOS Ethereum return forecasts,F3,F4,F1 vs F3,F2 vs F4
+H5,BTC versus ETH,Whether the sentiment-return relationship differs between Bitcoin and Ethereum,M3,M4,Formal BTC-versus-ETH sentiment coefficient test,Formal BTC-versus-ETH comparison using M4

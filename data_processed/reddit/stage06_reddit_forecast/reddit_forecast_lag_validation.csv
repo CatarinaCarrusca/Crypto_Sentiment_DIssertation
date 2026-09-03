@@ -1,0 +1,9 @@
+Asset,Lag,Count_Mismatches,Activity_Mismatches,Sentiment_Mismatches,Source_Date_Mismatches,Pass
+BTC,1,0,0,0,0,True
+BTC,2,0,0,0,0,True
+BTC,3,0,0,0,0,True
+BTC,7,0,0,0,0,True
+ETH,1,0,0,0,0,True
+ETH,2,0,0,0,0,True
+ETH,3,0,0,0,0,True
+ETH,7,0,0,0,0,True

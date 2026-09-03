@@ -1,0 +1,3 @@
+asset,calendar_days,days_with_raw_posts,days_without_raw_posts,days_with_retained_posts,days_without_retained_posts,raw_day_coverage_percent,retained_day_coverage_percent
+BTC,1826,1825,1,1825,1,99.9452,99.9452
+ETH,1826,1811,15,1803,23,99.1785,98.7404

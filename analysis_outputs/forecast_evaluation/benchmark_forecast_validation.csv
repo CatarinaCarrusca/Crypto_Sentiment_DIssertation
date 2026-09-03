@@ -1,0 +1,3 @@
+Asset,N,OOS_Start,OOS_End,Weekend_Observations,Dates_Unique,Dates_Sorted,Forecasts_Complete,Training_Strictly_Prior,OOS_Start_Valid,OOS_End_Valid
+BTC,730,2024-01-02,2025-12-31,208,True,True,True,True,True,True
+ETH,730,2024-01-02,2025-12-31,208,True,True,True,True,True,True

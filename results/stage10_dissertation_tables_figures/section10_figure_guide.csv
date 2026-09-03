@@ -1,0 +1,12 @@
+Figure,Title,Suggested_Location,Main_or_Appendix
+Figure 1,"Bitcoin Daily Log Returns, 2021–2025",Descriptive results / data overview,Main text or appendix
+Figure 2,"Ethereum Daily Log Returns, 2021–2025",Descriptive results / data overview,Main text or appendix
+Figure 3,"Lagged Bitcoin Reddit Sentiment, 2021–2025",Data / descriptive results,Appendix preferred
+Figure 4,"Lagged Ethereum Reddit Sentiment, 2021–2025",Data / descriptive results,Appendix preferred
+Figure 5,Reddit Sentiment Coefficients Across Alternative Lags,Robustness results,Appendix preferred
+Figure 6,Year-Specific Reddit Sentiment Coefficients,Regime robustness,Appendix preferred
+Figure 7,Bitcoin Cumulative OOS Squared Forecast Error,H3 forecast results,Main text
+Figure 8,Ethereum Cumulative OOS Squared Forecast Error,H4 forecast results,Main text
+Figure 9,Out-of-Sample RMSE: Benchmark vs Sentiment Model,H3/H4 forecast results,Main text
+Figure 10,Economic Significance of Reddit Sentiment,H1/H2 results,Main text or appendix
+Figure 11,Weekend vs Weekday OOS R-Squared,Forecast robustness,Appendix preferred

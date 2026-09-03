@@ -1,0 +1,3 @@
+Asset,Calendar_Days,Days_With_Retained_Posts,Raw_Posts_All_Excluded_Days,Zero_Raw_Observed_Days,Outside_Source_Coverage_Days,Analytical_Activity_Available_Days,Sentiment_Available_Days,T1_Activity_Predictor_Available_Days,T1_Sentiment_Predictor_Available_Days,T1_Both_Predictors_Available_Days
+BTC,1826,1825,0,0,1,1825,1825,1825,1825,1825
+ETH,1826,1803,8,14,1,1825,1803,1825,1803,1803

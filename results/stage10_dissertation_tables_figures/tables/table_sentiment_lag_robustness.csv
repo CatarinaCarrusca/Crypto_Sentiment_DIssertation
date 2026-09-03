@@ -1,0 +1,9 @@
+Asset,Lag,N,Coefficient,HAC_SE,t_stat,p_value,Statistically_Significant_5pct,Status,Decision
+BTC,t-1,1821,0.0046,0.0109,0.4218,0.673,False,Estimated,Not supported
+BTC,t-2,1821,0.0058,0.0099,0.5812,0.561,False,Estimated,Not supported
+BTC,t-3,1821,0.0152,0.0116,1.3116,0.190,False,Estimated,Not supported
+BTC,t-7,1819,-0.0028,0.0104,-0.2703,0.787,False,Estimated,Not supported
+ETH,t-1,1799,0.0025,0.0039,0.6292,0.529,False,Estimated,Not supported
+ETH,t-2,1799,-0.0038,0.0044,-0.8691,0.385,False,Estimated,Not supported
+ETH,t-3,1799,0.0001,0.004,0.0228,0.982,False,Estimated,Not supported
+ETH,t-7,1797,0.003,0.004,0.7508,0.453,False,Estimated,Not supported

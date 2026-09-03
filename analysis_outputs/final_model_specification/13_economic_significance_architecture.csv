@@ -1,0 +1,7 @@
+Asset,Model,Variable,Concept,Economic_Effect
+Bitcoin,M2,Lagged_Log_BTC_Reddit_Post_Count,Reddit activity,Coefficient x sample standard deviation of lagged Reddit activity
+Bitcoin,M3,Lagged_BTC_Reddit_Sentiment,Reddit sentiment,Coefficient x sample standard deviation of lagged Reddit sentiment
+Bitcoin,M4,Lagged_BTC_Reddit_Sentiment,Reddit sentiment conditional on activity,Coefficient x sample standard deviation of lagged Reddit sentiment
+Ethereum,M2,Lagged_Log_ETH_Reddit_Post_Count,Reddit activity,Coefficient x sample standard deviation of lagged Reddit activity
+Ethereum,M3,Lagged_ETH_Reddit_Sentiment,Reddit sentiment,Coefficient x sample standard deviation of lagged Reddit sentiment
+Ethereum,M4,Lagged_ETH_Reddit_Sentiment,Reddit sentiment conditional on activity,Coefficient x sample standard deviation of lagged Reddit sentiment

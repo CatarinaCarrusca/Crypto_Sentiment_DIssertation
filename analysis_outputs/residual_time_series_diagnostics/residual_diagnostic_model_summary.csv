@@ -1,0 +1,3 @@
+Asset,N,Start_Date,End_Date,Weekend_Observations,R_Squared,Adjusted_R_Squared,Durbin_Watson,Breusch_Pagan_P,White_P,Heteroskedasticity_Detected_5pct,BG_Serial_Correlation_Detected_5pct,Ljung_Box_Serial_Correlation_Detected_5pct,Any_Serial_Correlation_Detected_5pct,Jarque_Bera_P,Residual_Normality_Rejected_5pct,HAC_Empirically_Supported,HAC_Maxlags
+BTC,1821,2021-01-06,2025-12-31,520,0.013687447403473274,0.009879290829741483,2.000121571147947,2.8444651138253234e-12,1.4803332468080426e-74,True,False,False,False,0.0,True,True,7
+ETH,1821,2021-01-06,2025-12-31,520,0.004283252423555872,0.000438786216697018,2.0019190225180252,2.495575092374508e-19,2.337642829360232e-28,True,True,False,True,0.0,True,True,7

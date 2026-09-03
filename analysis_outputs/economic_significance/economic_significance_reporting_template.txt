@@ -1,0 +1,37 @@
+ECONOMIC-SIGNIFICANCE REPORTING TEMPLATE
+
+The economic significance of the estimated relationships was assessed
+in addition to conventional statistical significance. For each
+continuous predictor, the estimated regression coefficient was
+multiplied by the predictor's sample standard deviation. This
+expresses the coefficient as the expected change in daily
+cryptocurrency return associated with a one-standard-deviation change
+in the predictor, holding the remaining regressors constant.
+
+A suitable variable-specific sentence is:
+
+"For [ASSET], a one-standard-deviation increase in [PREDICTOR] was
+associated with an estimated [INCREASE/DECREASE] of [Y] in expected
+daily log return, equivalent to approximately [Z] basis points,
+holding the remaining regressors constant."
+
+Statistical precision should then be discussed separately:
+
+"The corresponding HAC/Newey-West p-value was [P], indicating that
+the estimated economic magnitude was [precisely/imprecisely]
+estimated."
+
+IMPORTANT:
+
+Do not automatically describe a coefficient as economically important
+only because it is statistically significant.
+
+Do not automatically describe an economically sizeable point estimate
+as statistically reliable if its confidence interval is wide.
+
+Once sentiment is added, use the same language:
+
+"A one-standard-deviation increase in lagged Reddit sentiment was
+associated with an estimated [Y] basis-point change in expected
+next-day [Bitcoin/Ethereum] return, holding traditional market
+indicators and the other controls constant."

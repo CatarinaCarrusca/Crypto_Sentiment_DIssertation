@@ -1,0 +1,917 @@
+review_category,total_posts_with_flag,post_id,post_date,subreddit,asset,title_original,body_original,analysis_text,analysis_text_preview,normalized_text_frequency,exclusion_reason
+unusable_text,220,t3_kowleg,2021-01-02,Bitcoin,BTC,"30,000! 🍻",,"30,000! 🍻","30,000! 🍻",1,unusable_text;link_only
+unusable_text,220,t3_ksj79b,2021-01-07,Bitcoin,BTC,40k...!!!,,40k...!!!,40k...!!!,2,unusable_text;link_only
+unusable_text,220,t3_kt04uj,2021-01-08,Bitcoin,BTC,41k!,,41k!,41k!,1,unusable_text;link_only
+unusable_text,220,t3_ku3115,2021-01-10,Bitcoin,BTC,"""no""",,"""no""","""no""",2,unusable_text;link_only
+unusable_text,220,t3_kx9dtx,2021-01-14,Bitcoin,BTC,40K!,,40K!,40K!,2,unusable_text;exact_duplicate;link_only
+unusable_text,220,t3_kxs144,2021-01-15,Bitcoin,BTC,"21,000,000 / 7,830,458,560= .00268183",,"21,000,000 / 7,830,458,560= .00268183","21,000,000 / 7,830,458,560= .00268183",1,unusable_text;link_only
+unusable_text,220,t3_l7r2cc,2021-01-29,Bitcoin,BTC,E,,E,E,1,unusable_text;link_only
+unusable_text,220,t3_laisrn,2021-02-02,Bitcoin,BTC,https://cointelegraph.com/news/cryptoquant-ceo-says-coinbase-bitcoin-outflows-are-a-bullish-signal,,,,0,unusable_text;link_only
+unusable_text,220,t3_lesr60,2021-02-07,Bitcoin,BTC,https://finanzsache.com/bitcoin-pension/,,,,0,unusable_text;link_only
+unusable_text,220,t3_lgvzzz,2021-02-10,Bitcoin,BTC,B,,B,B,2,unusable_text;link_only
+unusable_text,220,t3_lh2mbi,2021-02-10,Bitcoin,BTC,https://coin-mining-farm.com/join/vpvS41612769206,,,,0,unusable_text;link_only
+unusable_text,220,t3_ll2t82,2021-02-16,Bitcoin,BTC,50k 🚀,,50k 🚀,50k 🚀,2,unusable_text;link_only
+unusable_text,220,t3_ll3qdh,2021-02-16,Bitcoin,BTC,https://youtu.be/ltYScJ_BzTI,,,,0,unusable_text;link_only
+unusable_text,220,t3_lla46q,2021-02-16,Bitcoin,BTC,🚀🌖,,🚀🌖,🚀🌖,0,unusable_text;link_only
+unusable_text,220,t3_llloks,2021-02-17,Bitcoin,BTC,50k!!!!!,,50k!!!!!,50k!!!!!,2,unusable_text;exact_duplicate;link_only
+unusable_text,220,t3_lmpp0s,2021-02-18,Bitcoin,BTC,https://youtu.be/c-G99P0K_r4,,,,0,unusable_text;link_only
+unusable_text,220,t3_lngqrc,2021-02-19,Bitcoin,BTC,https://www.newswire.ca/news-releases/toronto-stock-exchange-lists-world-s-first-bitcoin-etf-832388562.html,,,,0,unusable_text;link_only
+unusable_text,220,t3_lnjb4w,2021-02-19,Bitcoin,BTC,1T,,1T,1T,1,unusable_text;link_only
+unusable_text,220,t3_lnlky1,2021-02-19,Bitcoin,BTC,"$1,000,000,000,000",,"$1,000,000,000,000","$1,000,000,000,000",1,unusable_text;link_only
+unusable_text,220,t3_lnlmum,2021-02-19,Bitcoin,BTC,54k,,54k,54k,1,unusable_text;link_only
+unusable_text,220,t3_lo7rye,2021-02-20,Bitcoin,BTC,😂,,😂,😂,0,unusable_text;link_only
+unusable_text,220,t3_loet0q,2021-02-20,Bitcoin,BTC,.,,.,.,0,unusable_text;link_only
+unusable_text,220,t3_lvem6j,2021-03-01,Bitcoin,BTC,2008,,2008,2008,1,unusable_text;link_only
+unusable_text,220,t3_m33kc7,2021-03-11,Bitcoin,BTC,#tb,,#tb,#tb,1,unusable_text;link_only
+unusable_text,220,t3_m49l0g,2021-03-13,Bitcoin,BTC,60k!!,,60k!!,60k!!,1,unusable_text;link_only
+crosspost,1147,t3_kqsd5v,2021-01-05,BitcoinMarkets,BTC,US Treasury OCC will allow US banks to use public blockchains and stablecoins as a settlement infrastructure in the US financial system,,US Treasury OCC will allow US banks to use public blockchains and stablecoins as a settlement infrastructure in the US financial system,US Treasury OCC will allow US banks to use public blockchains and stablecoins as a settlement infrastructure in the US financial system,1,crosspost
+crosspost,1147,t3_krryv7,2021-01-06,ethereum,ETH,Help Us Test The Next-Generation EY Ethereum Smart Contract Testing Tool,,Help Us Test The Next-Generation EY Ethereum Smart Contract Testing Tool,Help Us Test The Next-Generation EY Ethereum Smart Contract Testing Tool,1,crosspost
+crosspost,1147,t3_kshslk,2021-01-07,ethereum,ETH,What are the predictions for Data Unions and the data economy in 2021? Chelsea Rustrum compiles the expert opinions of the Streamr advisory board.,,What are the predictions for Data Unions and the data economy in 2021? Chelsea Rustrum compiles the expert opinions of the Streamr advisory board.,What are the predictions for Data Unions and the data economy in 2021? Chelsea Rustrum compiles the expert opinions of the Streamr advisory board.,1,crosspost
+crosspost,1147,t3_kve6hq,2021-01-11,ethereum,ETH,Learn about the token economics of the Streamr Network!,,Learn about the token economics of the Streamr Network!,Learn about the token economics of the Streamr Network!,1,crosspost
+crosspost,1147,t3_kwjlwu,2021-01-13,ethereum,ETH,Update on Ethereum 2.0 Staking Rewards | Kraken Blog,,Update on Ethereum 2.0 Staking Rewards | Kraken Blog,Update on Ethereum 2.0 Staking Rewards | Kraken Blog,1,crosspost
+crosspost,1147,t3_kwm1uo,2021-01-13,ethereum,ETH,Learn more about the scalabilities of the Streamr Network. Get more in-depth on the opportunities and possibilities for developers,,Learn more about the scalabilities of the Streamr Network. Get more in-depth on the opportunities and possibilities for developers,Learn more about the scalabilities of the Streamr Network. Get more in-depth on the opportunities and possibilities for developers,1,crosspost
+crosspost,1147,t3_kx8gn3,2021-01-14,ethereum,ETH,Meet the winners: Golem Gitcoin Hackathon 2020,,Meet the winners: Golem Gitcoin Hackathon 2020,Meet the winners: Golem Gitcoin Hackathon 2020,1,crosspost
+crosspost,1147,t3_kzrplk,2021-01-18,ethereum,ETH,Ethereum L2 solution Matic is about to get its own NFT Market!!,,Ethereum L2 solution Matic is about to get its own NFT Market!!,Ethereum L2 solution Matic is about to get its own NFT Market!!,1,crosspost
+crosspost,1147,t3_kzx71x,2021-01-18,ethereum,ETH,"What lies ahead for Streamr in 2021? Decentralized governance, DataUnions 2.0, the Brubeck milestone and more – take a look at the Streamr roadmap!",,"What lies ahead for Streamr in 2021? Decentralized governance, DataUnions 2.0, the Brubeck milestone and more – take a look at the Streamr roadmap!","What lies ahead for Streamr in 2021? Decentralized governance, DataUnions 2.0, the Brubeck milestone and more – take a look at the Streamr roadmap!",1,crosspost
+crosspost,1147,t3_l0tcuc,2021-01-19,ethereum,ETH,"Head of Partnerships, Rob Holmes gives an update on the KRAKEN pilot project. KRAKEN aims to leverage Streamr technology to establish a privacy-protecting data marketplace tailored to the health and education sectors",,"Head of Partnerships, Rob Holmes gives an update on the KRAKEN pilot project. KRAKEN aims to leverage Streamr technology to establish a privacy-protecting data marketplace tailored to the health and education sectors","Head of Partnerships, Rob Holmes gives an update on the KRAKEN pilot project. KRAKEN aims to leverage Streamr technology to establish a privacy-protecting data marketplace tailored to the health and education sectors",1,crosspost
+crosspost,1147,t3_l1wsev,2021-01-21,ethereum,ETH,"Company that tokenises the production of location data bought by Snapchat, but Littercoin is the first token rewarded for producing geographic information.",,"Company that tokenises the production of location data bought by Snapchat, but Littercoin is the first token rewarded for producing geographic information.","Company that tokenises the production of location data bought by Snapchat, but Littercoin is the first token rewarded for producing geographic information.",1,crosspost
+crosspost,1147,t3_l2dese,2021-01-22,Bitcoin,BTC,Ninepoint Partners LP Files Final Prospectus For Bitcoin Trust: “BITC.U” and “BITC.UN” - Closes on Jan 27th,,Ninepoint Partners LP Files Final Prospectus For Bitcoin Trust: “BITC.U” and “BITC.UN” - Closes on Jan 27th,Ninepoint Partners LP Files Final Prospectus For Bitcoin Trust: “BITC.U” and “BITC.UN” - Closes on Jan 27th,1,crosspost
+crosspost,1147,t3_l2hf6s,2021-01-22,ethereum,ETH,"Enzyme has gone live. Create your own DeFi track record with options for AMM, lending, and more!",,"Enzyme has gone live. Create your own DeFi track record with options for AMM, lending, and more!","Enzyme has gone live. Create your own DeFi track record with options for AMM, lending, and more!",1,crosspost
+crosspost,1147,t3_l2scin,2021-01-22,ethereum,ETH,"Watch the full fireside chat from the MyData conference. MIT's Professor Alex Pentland discusses his latest research into new forms of data governance, such as data trusts and Data Unions, with host Shiv Malik.",,"Watch the full fireside chat from the MyData conference. MIT's Professor Alex Pentland discusses his latest research into new forms of data governance, such as data trusts and Data Unions, with host Shiv Malik.","Watch the full fireside chat from the MyData conference. MIT's Professor Alex Pentland discusses his latest research into new forms of data governance, such as data trusts and Data Unions, with host Shiv Malik.",1,crosspost
+crosspost,1147,t3_l2yk1v,2021-01-22,ethereum,ETH,GU State of the Beta - January 2021,,GU State of the Beta - January 2021,GU State of the Beta - January 2021,1,crosspost
+crosspost,1147,t3_l5fhwi,2021-01-26,ethereum,ETH,"Is this what you guys mean when you say send it to the moon? Seriously though, what is the meaning behind that phrase?",,"Is this what you guys mean when you say send it to the moon? Seriously though, what is the meaning behind that phrase?","Is this what you guys mean when you say send it to the moon? Seriously though, what is the meaning behind that phrase?",1,crosspost
+crosspost,1147,t3_l5iayc,2021-01-26,ethereum,ETH,New SEC Chair Gary Gensler taught a class at MIT on Blockchain and Bitcoin/Ethereum. Here is the link to 24 of his 1-hour lectures:,,New SEC Chair Gary Gensler taught a class at MIT on Blockchain and Bitcoin/Ethereum. Here is the link to 24 of his 1-hour lectures:,New SEC Chair Gary Gensler taught a class at MIT on Blockchain and Bitcoin/Ethereum. Here is the link to 24 of his 1-hour lectures:,1,crosspost
+crosspost,1147,t3_l5k8op,2021-01-26,ethereum,ETH,"The current Rocket Pool Beta is ending, launch is in sight.",,"The current Rocket Pool Beta is ending, launch is in sight.","The current Rocket Pool Beta is ending, launch is in sight.",1,crosspost
+crosspost,1147,t3_l5ojw2,2021-01-26,ethereum,ETH,CFTC Charges New York Man in Multi-Million Dollar Digital Asset Ponzi Scheme Involving Bitcoin and Ether,,CFTC Charges New York Man in Multi-Million Dollar Digital Asset Ponzi Scheme Involving Bitcoin and Ether,CFTC Charges New York Man in Multi-Million Dollar Digital Asset Ponzi Scheme Involving Bitcoin and Ether,1,crosspost
+crosspost,1147,t3_l6ivvt,2021-01-28,ethereum,ETH,REPOST: Ethereum interacting with the Sony Playstation 4 network through RAD/Littlstar VR and the Ara token.,,REPOST: Ethereum interacting with the Sony Playstation 4 network through RAD/Littlstar VR and the Ara token.,REPOST: Ethereum interacting with the Sony Playstation 4 network through RAD/Littlstar VR and the Ara token.,1,crosspost
+crosspost,1147,t3_l7gqht,2021-01-29,ethereum,ETH,Request Network currently used by Celo,,Request Network currently used by Celo,Request Network currently used by Celo,1,crosspost
+crosspost,1147,t3_l7nggf,2021-01-29,ethereum,ETH,TORN hodlers assemble (tornado.cash governance token),,TORN hodlers assemble (tornado.cash governance token),TORN hodlers assemble (tornado.cash governance token),1,crosspost
+crosspost,1147,t3_l84yvc,2021-01-29,BitcoinMarkets,BTC,"bitcoin social volume has cranked up to a 6-month high of 426,695 social mentions today. The only date in history w/ more bitcoin mentions was the Twitter hack on 7/14/20.",,"bitcoin social volume has cranked up to a 6-month high of 426,695 social mentions today. The only date in history w/ more bitcoin mentions was the Twitter hack on 7/14/20.","bitcoin social volume has cranked up to a 6-month high of 426,695 social mentions today. The only date in history w/ more bitcoin mentions was the Twitter hack on 7/14/20.",1,crosspost
+crosspost,1147,t3_l939pq,2021-01-31,ethereum,ETH,For those hesitant to put hard earned dollars into crypto,,For those hesitant to put hard earned dollars into crypto,For those hesitant to put hard earned dollars into crypto,1,crosspost
+crosspost,1147,t3_la2fkh,2021-02-01,ethereum,ETH,Kraken Brings Spot Prices to DeFi with New Chainlink Node | Kraken Blog,,Kraken Brings Spot Prices to DeFi with New Chainlink Node | Kraken Blog,Kraken Brings Spot Prices to DeFi with New Chainlink Node | Kraken Blog,1,crosspost
+promotional,61,t3_ko280y,2021-01-01,Bitcoin,BTC,KOHO Rules - Best Card 2021,"Let me just say this I’ve use a lot of prepaid credit cards for a lot of different reasons and most of them come up short in terms of being able to do certain things major credit cards do like renting a hotel room, a car or even gambling  online. Imho, all of them just became obsolete thanks to KOHO.
+
+I found the holy grail of prepaid cards and if you played hockey in the 80’s and 90’s, you’ll ask yourself what tempted them to get out of the stick business and into micro-finance.  
+
+The app is amazing; you could accept a portion of your payroll directly to the card and if you’re in a real tight squeeze, they’ll even lend you 100 bucks !!!!!  You can even e-transfer to load it, INSTANTLY!!!!I The app is full of features to help save money and even comes with a cute little vault so you can squirrel-away a rainy day!
+
+No more going to the corner store and inputting receipt codes! No more paying five dollars for a single transaction and the app they have will knock your socks off until next Tuesday!!!
+
+They have a contest going on right now and if you use my referral code,  I might win a ton of money!!! For you frequent travellers out there, they even give you 6% cash-back on booking.com!!!!
+
+If you’re Canadian you know what an E transfer is and the ability to top up your account with a 
+state—the-art app like this blows any other competition right out of the water.
+
+Use my referral code and get in on this. They even send the card out free. Trust me when I say you’ll be very happy with the results and I’m extremely impressed and will be using KOHO from here on out for all my dirty little deeds :-D
+
+Download the app and check it out !!
+
+https://web.koho.ca/referral/4FRPT7J3
+
+You can use my code to sign up and start stacking your cashback options. Your welcome!!
+
+4FRPT7J3","KOHO Rules - Best Card 2021. Let me just say this I’ve use a lot of prepaid credit cards for a lot of different reasons and most of them come up short in terms of being able to do certain things major credit cards do like renting a hotel room, a car or even gambling online. Imho, all of them just became obsolete thanks to KOHO. I found the holy grail of prepaid cards and if you played hockey in the 80’s and 90’s, you’ll ask yourself what tempted them to get out of the stick business and into micro-finance. The app is amazing; you could accept a portion of your payroll directly to the card and if you’re in a real tight squeeze, they’ll even lend you 100 bucks !!!!! You can even e-transfer to load it, INSTANTLY!!!!I The app is full of features to help save money and even comes with a cute little vault so you can squirrel-away a rainy day! No more going to the corner store and inputting receipt codes! No more paying five dollars for a single transaction and the app they have will knock your socks off until next Tuesday!!! They have a contest going on right now and if you use my referral code, I might win a ton of money!!! For you frequent travellers out there, they even give you 6% cash-back on booking.com!!!! If you’re Canadian you know what an E transfer is and the ability to top up your account with a state—the-art app like this blows any other competition right out of the water. Use my referral code and get in on this. They even send the card out free. Trust me when I say you’ll be very happy with the results and I’m extremely impressed and will be using KOHO from here on out for all my dirty little deeds :-D Download the app and check it out !! You can use my code to sign up and start stacking your cashback options. Your welcome!! 4FRPT7J3","KOHO Rules - Best Card 2021. Let me just say this I’ve use a lot of prepaid credit cards for a lot of different reasons and most of them come up short in terms of being able to do certain things major credit cards do like renting a hotel room, a car or even gambling online. Imho, all of them just became obsolete thanks to KOHO. I found the holy grail of prepaid cards and if you played hockey in the 80’s and 90’s, you’ll ask yourself what tempted them to get out of the stick business and into mic",1,promotional
+promotional,61,t3_ks46ll,2021-01-07,BitcoinMarkets,BTC,Anna Macko 2% Theory Review - SCAM! DO NOT BUY,"**\*EDIT:\*** This is an honest customer review. I am a course member, who was pretty new to trading.  Anna, and her small insider cult following, appears to be unaware that paying customer reviews are permitted and now want vengeance (please see some below comments). Censorship is *never* OK, and I will continue to speak up; it is a civil right.
+
+\----------------------------
+
+For anyone who is new to this and looking to start BTC/ALT coin trading, I feel the need to get the word out so that someone else doesn't make the same stupid mistake that I did...
+
+As someone who for *whatever reason* bought Anna Macko's $1,997 2% theory bundle (trust me, I feel like a total imbecile rn), all I can say is **don't buy it!** Most (me included) bought via her Instagram, where she now has close to 400,000 followers. Her courses are an absolute **mess.** Tons of duplicate videos, many are also incoherent, outdated or beyond vague.
+
+Anna doesn't believe in technical analysis or learning how to read charts, and so doesn't teach it to her students. Without exaggerating, you learn almost **nothing.** Support is minimal to non-existent. Questions go unanswered by Anna, and there are *no* moderators in the Facebook group.
+
+The picture is actually even worse, as her $100/day course is basically just Anna giving you her affiliate link for crypto dot com. More money for Anna!
+
+Anna is also currently trying to charge $14,999.99 for a one-to-one. [https://internetlifeacademy.thinkific.com/courses/1-1-direct-cryptocurrency-coaching](https://internetlifeacademy.thinkific.com/courses/1-1-direct-cryptocurrency-coaching)
+
+Suppose you dare to voice any of your concerns to Anna in private, or hell, want to get a refund? Good luck. Anna will accuse you of making **""defamatory statements""** against her or being a **""hater""**, and then remove you from the crappy Facebook group and signals channel. Furthermore, this has happened to members who have been perceived by Anna to be 'negative', or who don't sing her praises 24/7. There is also another particular trading course and group, which if you are part of, means automatic removal from Anna's. You are booted, ghosted, and with no refund - see *proof* below.
+
+She spends most days banging on about ""the scammers!"" when Anna is the only *real* scammer, lol. As it turns out, it's also *illegal* for her to be selling signals, as she isn't licensed.
+
+She recently created a 'new' course, the Passive Income Class. $1,000 for 1-hour-ish of video content of her promoting her affiliate link for crypto dot com, once again. This course has now been *legally banned* for violating investment opportunities. Anna is very active on Insta playing the victim and taking no responsibility.
+
+Lately, Anna has also resorted to hiring a VA from Fiverr (this is *strongly* suspected by many), to pose as a wildly successful course student.
+
+[https://www.youtube.com/watch?v=DRfpxwWzGK4](https://www.youtube.com/watch?v=DRfpxwWzGK4)
+
+Anna is highly narcissistic and possesses *zero* empathy for her paying course members.
+
+**TLDR:** Pay $2K for very shoddy course, private Facebook group and signals channel. Course is duplicate videos with no real substance, terrible production, no TA or proper chart reading. No support from Anna in group, signals often careless. Voice opinions and concerns. Get booted from Facebook group and signals by tyrant Anna, course access possibly blocked too. **No refund.**
+
+\-------------------------------
+
+**\*UPDATE:\*** Anna is now fully aware of this review. As predicted, she is busy over on Insta, her ego wild, brandishing me ""jealous and obsessed"", and making other references towards anyone who dares to speak out of line, calling them a ""narcissist"" or ""hater."" Meanwhile, she is referring to herself as a ""goddess"" and posting ""you can never be me."" Lol.
+
+This is how Anna talks to her **full paying course members,** who by this point, want nothing other than a basic refund and to be free from this hell. Nice.","Anna Macko 2% Theory Review - SCAM! DO NOT BUY. \EDIT:\ This is an honest customer review. I am a course member, who was pretty new to trading. Anna, and her small insider cult following, appears to be unaware that paying customer reviews are permitted and now want vengeance (please see some below comments). Censorship is never OK, and I will continue to speak up; it is a civil right. \---------------------------- For anyone who is new to this and looking to start BTC/ALT coin trading, I feel the need to get the word out so that someone else doesn't make the same stupid mistake that I did... As someone who for whatever reason bought Anna Macko's $1,997 2% theory bundle (trust me, I feel like a total imbecile rn), all I can say is don't buy it! Most (me included) bought via her Instagram, where she now has close to 400,000 followers. Her courses are an absolute mess. Tons of duplicate videos, many are also incoherent, outdated or beyond vague. Anna doesn't believe in technical analysis or learning how to read charts, and so doesn't teach it to her students. Without exaggerating, you learn almost nothing. Support is minimal to non-existent. Questions go unanswered by Anna, and there are no moderators in the Facebook group. The picture is actually even worse, as her $100/day course is basically just Anna giving you her affiliate link for crypto dot com. More money for Anna! Anna is also currently trying to charge $14,999.99 for a one-to-one. Suppose you dare to voice any of your concerns to Anna in private, or hell, want to get a refund? Good luck. Anna will accuse you of making ""defamatory statements"" against her or being a ""hater"", and then remove you from the crappy Facebook group and signals channel. Furthermore, this has happened to members who have been perceived by Anna to be 'negative', or who don't sing her praises 24/7. There is also another particular trading course and group, which if you are part of, means automatic removal from Anna's. You are booted, ghosted, and with no refund - see proof below. She spends most days banging on about ""the scammers!"" when Anna is the only real scammer, lol. As it turns out, it's also illegal for her to be selling signals, as she isn't licensed. She recently created a 'new' course, the Passive Income Class. $1,000 for 1-hour-ish of video content of her promoting her affiliate link for crypto dot com, once again. This course has now been legally banned for violating investment opportunities. Anna is very active on Insta playing the victim and taking no responsibility. Lately, Anna has also resorted to hiring a VA from Fiverr (this is strongly suspected by many), to pose as a wildly successful course student. Anna is highly narcissistic and possesses zero empathy for her paying course members. TLDR: Pay $2K for very shoddy course, private Facebook group and signals channel. Course is duplicate videos with no real substance, terrible production, no TA or proper chart reading. No support from Anna in group, signals often careless. Voice opinions and concerns. Get booted from Facebook group and signals by tyrant Anna, course access possibly blocked too. No refund. \------------------------------- \UPDATE:\ Anna is now fully aware of this review. As predicted, she is busy over on Insta, her ego wild, brandishing me ""jealous and obsessed"", and making other references towards anyone who dares to speak out of line, calling them a ""narcissist"" or ""hater."" Meanwhile, she is referring to herself as a ""goddess"" and posting ""you can never be me."" Lol. This is how Anna talks to her full paying course members, who by this point, want nothing other than a basic refund and to be free from this hell. Nice.","Anna Macko 2% Theory Review - SCAM! DO NOT BUY. \EDIT:\ This is an honest customer review. I am a course member, who was pretty new to trading. Anna, and her small insider cult following, appears to be unaware that paying customer reviews are permitted and now want vengeance (please see some below comments). Censorship is never OK, and I will continue to speak up; it is a civil right. \---------------------------- For anyone who is new to this and looking to start BTC/ALT coin trading, I feel th",1,promotional
+promotional,61,t3_l9rozx,2021-02-01,Bitcoin,BTC,Anyone just getting into Binance?,"For all the people who are just getting into Binance, you can use my referral code, it's set up to split my comission 50-50 with you. :) 
+
+ **UMLY2ZJ1** 
+
+Thank you and have a good and fruitful time investing and trading. :)","Anyone just getting into Binance?. For all the people who are just getting into Binance, you can use my referral code, it's set up to split my comission 50-50 with you. :) UMLY2ZJ1 Thank you and have a good and fruitful time investing and trading. :)","Anyone just getting into Binance?. For all the people who are just getting into Binance, you can use my referral code, it's set up to split my comission 50-50 with you. :) UMLY2ZJ1 Thank you and have a good and fruitful time investing and trading. :)",1,promotional
+promotional,61,t3_lb4afo,2021-02-02,ethereum,ETH,MurAll - a new on-chain art project just launched!,"MurAll is an on-chain digital collaborative mural/canvas/wall that anyone anywhere in the world can draw on, without restrictions on what you can draw. A neutral place that doesn’t filter, censor or stop any drawing. A place for true freedom of speech through art.
+
+MurAll requires the PAINT token to draw on it - a fixed supply ERC-20 token analogous with real-life paint; you can't take paint off a wall and reuse it once it's on there, and similarly any PAINT used during drawing is burned as part of the transaction thus preventing it from being reused.
+
+When you draw on the MurAll canvas, you also get a MURALL Non-Fungible Token (NFT) of your contribution, a token containing your drawing, which you own and are free to do with as you please - hold, display, trade, collect, the choice is yours.
+
+**Here's the exciting part:** If you are an owner of an ERC-721 NFT or have created blockchain art before (Known Origin/Rarible/SuperRare/Async Art) then **you are eligible for an AIRDROP**!
+
+There is only enough supply of PAINT to allow MurAll to be drawn over in it's entirety a maximum of 21 thousand times, meaning MurAll has a finite lifespan; **once PAINT runs out you won’t be able to draw on MurAll again**.
+
+Go check out MurAll at [https://murall.art/](https://murall.art/)
+
+or join our Discord [https://discord.gg/c5U9Cb6PAU](https://discord.gg/c5U9Cb6PAU) where you can chat with the team directly.
+
+Feel free to ask any questions you may have!
+
+**TLDR:** MurAll is a new on-chain collaborative art project and you may be eligible to claim free tokens!","MurAll - a new on-chain art project just launched!. MurAll is an on-chain digital collaborative mural/canvas/wall that anyone anywhere in the world can draw on, without restrictions on what you can draw. A neutral place that doesn’t filter, censor or stop any drawing. A place for true freedom of speech through art. MurAll requires the PAINT token to draw on it - a fixed supply ERC-20 token analogous with real-life paint; you can't take paint off a wall and reuse it once it's on there, and similarly any PAINT used during drawing is burned as part of the transaction thus preventing it from being reused. When you draw on the MurAll canvas, you also get a MURALL Non-Fungible Token (NFT) of your contribution, a token containing your drawing, which you own and are free to do with as you please - hold, display, trade, collect, the choice is yours. Here's the exciting part: If you are an owner of an ERC-721 NFT or have created blockchain art before (Known Origin/Rarible/SuperRare/Async Art) then you are eligible for an AIRDROP! There is only enough supply of PAINT to allow MurAll to be drawn over in it's entirety a maximum of 21 thousand times, meaning MurAll has a finite lifespan; once PAINT runs out you won’t be able to draw on MurAll again. Go check out MurAll at or join our Discord where you can chat with the team directly. Feel free to ask any questions you may have! TLDR: MurAll is a new on-chain collaborative art project and you may be eligible to claim free tokens!","MurAll - a new on-chain art project just launched!. MurAll is an on-chain digital collaborative mural/canvas/wall that anyone anywhere in the world can draw on, without restrictions on what you can draw. A neutral place that doesn’t filter, censor or stop any drawing. A place for true freedom of speech through art. MurAll requires the PAINT token to draw on it - a fixed supply ERC-20 token analogous with real-life paint; you can't take paint off a wall and reuse it once it's on there, and simila",1,promotional
+promotional,61,t3_ldb5qt,2021-02-05,Bitcoin,BTC,"""Yikes, due to local laws and regulations, we are not allowed to support operations in New York. ""","I live in NY and I am trying to verify my address on the Celsius app, but I'm getting prompted with this message: 
+
+Yikes, due to local laws and regulations, we are not allowed to support operations in New York.
+
+This is weird because I joined from a referral code by a friend who has a registered account in New York. I have tried disabling VPN on my mobile phone, downloading third party apps, switching from WiFi to cellular data. No dice.  Is there anyway to get around this?","""Yikes, due to local laws and regulations, we are not allowed to support operations in New York. "". I live in NY and I am trying to verify my address on the Celsius app, but I'm getting prompted with this message: Yikes, due to local laws and regulations, we are not allowed to support operations in New York. This is weird because I joined from a referral code by a friend who has a registered account in New York. I have tried disabling VPN on my mobile phone, downloading third party apps, switching from WiFi to cellular data. No dice. Is there anyway to get around this?","""Yikes, due to local laws and regulations, we are not allowed to support operations in New York. "". I live in NY and I am trying to verify my address on the Celsius app, but I'm getting prompted with this message: Yikes, due to local laws and regulations, we are not allowed to support operations in New York. This is weird because I joined from a referral code by a friend who has a registered account in New York. I have tried disabling VPN on my mobile phone, downloading third party apps, switchi",1,promotional
+promotional,61,t3_lg3dzh,2021-02-09,Bitcoin,BTC,New to crypto and need to know which app to use?,"Use my referral code and get $25
+
+https://crypto.com/app/hws745tm8stosignupforCrypto.comandwebothget$25USD:)",New to crypto and need to know which app to use?. Use my referral code and get $25,New to crypto and need to know which app to use?. Use my referral code and get $25,1,promotional
+promotional,61,t3_lpbhey,2021-02-22,Bitcoin,BTC,Pros and Cons of Crypto Trading Platforms in Canada,"With the influx of new investors coming into the space, I thought it might be helpful to share my thoughts on three of the best crypto trading platforms from my experience. More specifically to buy and sell  BTC/ETH, with other coins also being available depending on the platform.  
+
+I'd also recommend if you plan on buying more than $300 worth of crypto (buy $101 in each platform), to take advantage of the referral bonuses available in all three platforms and simply transfer your crypto from the other platforms to your prefered platform after receiving the bonus. 
+
+Overall winner: Newton
+
+//
+
+**Newton: 0.50% - 0.70% Spread**
+
+\- Buy: Approx. 0.25% - 0.35% 
+
+\- Sell: Spprox 0.25% - 0.35%
+
+\- Pros: 
+
+* The best spread I've come across for Canadians; 
+* Accessibility (e-transfer, mobile app);
+* UI is easy to understand and navigate;
+* Full transparency for buying and selling fees. Can be found here: [https://www.newton.co/prices](https://www.newton.co/prices) ; and
+* $25 CAD bonus when you buy $200+ of crypto: with this referral code: [web.newton.co](https://web.newton.co) followed by r/1M4046
+
+\- Cons:
+
+* The verification process can be slow for some users; and
+* Only 13 coins are available to purchase on the platform (as of the date of this post).
+
+**Shakepay: Approx. 3.0% Spread**
+
+\- Buy: Approx. 1.5%
+
+\- Sell: Approx. 1.5%
+
+\- Pros:
+
+* Accesibility (e-transfer, mobile app)''
+* You can shake your phone every day to receive free satoshis (parts of a bitcoin);
+* $30 CAD bonus when you buy $100+ of crypto with this referral code: [shakepay.me](https://shakepay.me) followed by r/S1GXLIV
+* UI is also very easy to navigate.
+
+\- Cons;
+
+* Support during bull markets is slow.
+* Little transparency on fees;
+* Only BTC and ETH are available for purchase.
+
+Coinbase: 8% Spread
+
+\- Buy: 4%
+
+\- Sell 4%
+
+\- Pros: 
+
+* One of the largest (and safest) places to hold your crypto. They even have a vault.
+* Accesibility (e-transfer, mobile app);
+* Full transparency of fees;
+* Many coins are available to buy and sell;
+* $13 bonus when you buy $100+ of crypto: [coinbase.com](https://coinbase.com) followed by /join/sud\_oh
+
+\- Cons: 
+
+* Very high fees.","Pros and Cons of Crypto Trading Platforms in Canada. With the influx of new investors coming into the space, I thought it might be helpful to share my thoughts on three of the best crypto trading platforms from my experience. More specifically to buy and sell BTC/ETH, with other coins also being available depending on the platform. I'd also recommend if you plan on buying more than $300 worth of crypto (buy $101 in each platform), to take advantage of the referral bonuses available in all three platforms and simply transfer your crypto from the other platforms to your prefered platform after receiving the bonus. Overall winner: Newton // Newton: 0.50% - 0.70% Spread \- Buy: Approx. 0.25% - 0.35% \- Sell: Spprox 0.25% - 0.35% \- Pros: The best spread I've come across for Canadians; Accessibility (e-transfer, mobile app); UI is easy to understand and navigate; Full transparency for buying and selling fees. Can be found here: ; and $25 CAD bonus when you buy $200+ of crypto: with this referral code: web.newton.co followed by r/1M4046 \- Cons: The verification process can be slow for some users; and Only 13 coins are available to purchase on the platform (as of the date of this post). Shakepay: Approx. 3.0% Spread \- Buy: Approx. 1.5% \- Sell: Approx. 1.5% \- Pros: Accesibility (e-transfer, mobile app)'' You can shake your phone every day to receive free satoshis (parts of a bitcoin); $30 CAD bonus when you buy $100+ of crypto with this referral code: shakepay.me followed by r/S1GXLIV UI is also very easy to navigate. \- Cons; Support during bull markets is slow. Little transparency on fees; Only BTC and ETH are available for purchase. Coinbase: 8% Spread \- Buy: 4% \- Sell 4% \- Pros: One of the largest (and safest) places to hold your crypto. They even have a vault. Accesibility (e-transfer, mobile app); Full transparency of fees; Many coins are available to buy and sell; $13 bonus when you buy $100+ of crypto: coinbase.com followed by /join/sud\oh \- Cons: Very high fees.","Pros and Cons of Crypto Trading Platforms in Canada. With the influx of new investors coming into the space, I thought it might be helpful to share my thoughts on three of the best crypto trading platforms from my experience. More specifically to buy and sell BTC/ETH, with other coins also being available depending on the platform. I'd also recommend if you plan on buying more than $300 worth of crypto (buy $101 in each platform), to take advantage of the referral bonuses available in all three ",1,promotional
+promotional,61,t3_ls5k17,2021-02-25,Bitcoin,BTC,Has someone a promo code for the bitbox02,"Hey guys, I'm about to buy a bitbox02 as a hardware wallet and I'm interested if someone has a promo code for discount?","Has someone a promo code for the bitbox02. Hey guys, I'm about to buy a bitbox02 as a hardware wallet and I'm interested if someone has a promo code for discount?","Has someone a promo code for the bitbox02. Hey guys, I'm about to buy a bitbox02 as a hardware wallet and I'm interested if someone has a promo code for discount?",1,promotional
+promotional,61,t3_lvopw1,2021-03-02,Bitcoin,BTC,"I'm trying to figure out if I'm getting scammed or not, I'm new to crypto","I got a message of discord saying that I won a raffle for some bitcoin with a promo code and a link to a site [coinetwork.net](https://coinetwork.net) and I had .3 bitcoin after using the promo code, I was going to try to send a small amount to a friend of mines wallet, but it wouldn't let me do so saying I needed to make a deposit of .01 into my account before I'm allowed to withdraw money to other wallets. .01 seems a little high and I can't tell if I'm being suckered into depositing money into a website that may not even be legitimate and not knowing if I'll even be able to pull my bitcoin back out of the wallet, and on another note I still trying to figure out if the bitcoin i'm seeing is even real or not or just some elaborate scheme. Any advice would help, I'd hate for this to be real and I never took advantage of it 
+
+edit: here's a screenshot of what my account looks like 
+
+![img](7q030x23iik61)","I'm trying to figure out if I'm getting scammed or not, I'm new to crypto. I got a message of discord saying that I won a raffle for some bitcoin with a promo code and a link to a site coinetwork.net and I had .3 bitcoin after using the promo code, I was going to try to send a small amount to a friend of mines wallet, but it wouldn't let me do so saying I needed to make a deposit of .01 into my account before I'm allowed to withdraw money to other wallets. .01 seems a little high and I can't tell if I'm being suckered into depositing money into a website that may not even be legitimate and not knowing if I'll even be able to pull my bitcoin back out of the wallet, and on another note I still trying to figure out if the bitcoin i'm seeing is even real or not or just some elaborate scheme. Any advice would help, I'd hate for this to be real and I never took advantage of it edit: here's a screenshot of what my account looks like !img","I'm trying to figure out if I'm getting scammed or not, I'm new to crypto. I got a message of discord saying that I won a raffle for some bitcoin with a promo code and a link to a site coinetwork.net and I had .3 bitcoin after using the promo code, I was going to try to send a small amount to a friend of mines wallet, but it wouldn't let me do so saying I needed to make a deposit of .01 into my account before I'm allowed to withdraw money to other wallets. .01 seems a little high and I can't tel",1,promotional
+promotional,61,t3_lym4vb,2021-03-05,Bitcoin,BTC,is bitmipay.com from discord legit,someone gave me a promo code and i got 1000 worth of bitcoin from it should i redeem it is it safe?,is bitmipay.com from discord legit. someone gave me a promo code and i got 1000 worth of bitcoin from it should i redeem it is it safe?,is bitmipay.com from discord legit. someone gave me a promo code and i got 1000 worth of bitcoin from it should i redeem it is it safe?,1,promotional
+promotional,61,t3_m2n746,2021-03-11,Bitcoin,BTC,Any kind soul have a Trezor promo code?,"Want to get off Electrum (as good as it is) sooner rather than later!
+
+Thanks in advance!",Any kind soul have a Trezor promo code?. Want to get off Electrum (as good as it is) sooner rather than later! Thanks in advance!,Any kind soul have a Trezor promo code?. Want to get off Electrum (as good as it is) sooner rather than later! Thanks in advance!,1,promotional
+promotional,61,t3_madl9f,2021-03-22,BitcoinMarkets,BTC,Trade Ideas: BTC-HASH-2021Q1,"This is a no risk - low reward futures trade
+
+&#x200B;
+
+Ticker: 
+
+BTC-HASH-2021Q1
+
+&#x200B;
+
+Exchange:
+
+FTX
+
+(Note that FTX has US website, however this futures product is only available on the international FTX website which is not available for US residents)
+
+&#x200B;
+
+Description:
+
+BTC-HASH-2021Q1 settles to the average difficulty of Bitcoin blocks mined during 2021 Q1, divided by 1,000,000,000,000 
+
+&#x200B;
+
+Expiration time:
+
+3/26/2021, 12:00:00 PM JST
+
+&#x200B;
+
+**At this point of time (about 4 days before expiration) the settlement price is already known:**
+
+>**21.87**
+
+&#x200B;
+
+Sources:	
+
+[https://btc.com/stats/diff](https://btc.com/stats/diff)
+
+[https://www.blockchain.com/charts/difficulty](https://www.blockchain.com/charts/difficulty)
+
+&#x200B;
+
+Trade Ideas:
+
+Ladder long limit orders a little % below 21.87
+
+Ladder short limit orders a little % above 21.87
+
+&#x200B;
+
+If you don't have FTX account yet, you can use my referral link to get fee discounts
+
+[https://ftx.com/#a=TokyoCuddlingService](https://ftx.com/#a=TokyoCuddlingService)","Trade Ideas: BTC-HASH-2021Q1. This is a no risk - low reward futures trade Ticker: BTC-HASH-2021Q1 Exchange: FTX (Note that FTX has US website, however this futures product is only available on the international FTX website which is not available for US residents) Description: BTC-HASH-2021Q1 settles to the average difficulty of Bitcoin blocks mined during 2021 Q1, divided by 1,000,000,000,000 Expiration time: 3/26/2021, 12:00:00 PM JST At this point of time (about 4 days before expiration) the settlement price is already known: 21.87 Sources: Trade Ideas: Ladder long limit orders a little % below 21.87 Ladder short limit orders a little % above 21.87 If you don't have FTX account yet, you can use my referral link to get fee discounts","Trade Ideas: BTC-HASH-2021Q1. This is a no risk - low reward futures trade Ticker: BTC-HASH-2021Q1 Exchange: FTX (Note that FTX has US website, however this futures product is only available on the international FTX website which is not available for US residents) Description: BTC-HASH-2021Q1 settles to the average difficulty of Bitcoin blocks mined during 2021 Q1, divided by 1,000,000,000,000 Expiration time: 3/26/2021, 12:00:00 PM JST At this point of time (about 4 days before expiration) the ",1,promotional
+promotional,61,t3_mc749v,2021-03-24,ethereum,ETH,Giveth.io - The Future of Giving has Arrived!,"&#x200B;
+
+![video](a7btj80zjzo61)
+
+We’ve launched a new Decentralized Application, [Giveth.io](https://giveth.io/) for creating and donating to *‘for good’* projects and we’d like you, r/Ethereum, to come check it out! 
+
+Giveth is a community of changemakers dedicated to building tools using blockchain technology to better human collaboration and coordination. Our DApps connect donors and project creators enabling a means for transparent peer-to-peer giving, powered by the Ethereum blockchain. We allow inspired creators to bring their projects onto the platform and raise funds from donors with cryptocurrency as well as fiat via the [Torus Wallet](https://toruswallet.io/) on-ramp. 
+
+We’ve been on the block since 2017 with our original Giveth DApp rebranded now as [Giveth TRACE](https://beta.giveth.io/). This DApp is designed for users looking for strong layers of security and control over managing contributions.
+
+Our new DApp is streamlined for easy user experience, it allows makers to create projects in minutes and begin receiving donations to their projects.  Donors can donate with Ethereum, and ERC-20 tokens on Mainnet and [xDai network](https://www.xdaichain.com/)! Blockchain technology has revolutionized the way we handle money, its implementation in an area that often lacks transparency is paramount to our mission. Giveth cuts through the red tape of well-intentioned giving and allows seamless peer-to-peer donations; we do not collect a fee for this. All contributions are forever immortalized on the blockchain and can be seen by all! 
+
+More features are in the pipeline for the coming weeks and beyond, notably focused on creating a sustainable, well incentivized Giving Economy. We’re nurturing an ever changing project and appreciate community feedback to constantly improve. The future of giving is here.[ Swing on by and check us out!](https://giveth.io/) 
+
+* Join us on[ Discord](https://discord.gg/JftjK8Un3z) or[ Telegram](http://t.me/givethio)
+* Discover our [Site](http://giveth.io/) and[ Wiki](https://wiki.giveth.io/)
+* Fork our code on[ GitHub](https://github.com/Giveth/)
+* Follow us on[ Medium](http://medium.com/giveth/), [Facebook](https://www.facebook.com/givethio), [Twitter](http://twitter.com/givethio) and[ Reddit](https://www.reddit.com/r/giveth/)
+
+Help us Build the Future of Giving: 🦄[ Donate directly](http://donate.giveth.io/) 🦄 or[ buy a Ledger with our affiliate link](https://www.ledgerwallet.com/products/ledger-nano-s?utm_source=&utm_medium=affiliate&utm_campaign=d663)","Giveth.io - The Future of Giving has Arrived!. !video We’ve launched a new Decentralized Application, Giveth.io for creating and donating to ‘for good’ projects and we’d like you, r/Ethereum, to come check it out! Giveth is a community of changemakers dedicated to building tools using blockchain technology to better human collaboration and coordination. Our DApps connect donors and project creators enabling a means for transparent peer-to-peer giving, powered by the Ethereum blockchain. We allow inspired creators to bring their projects onto the platform and raise funds from donors with cryptocurrency as well as fiat via the Torus Wallet on-ramp. We’ve been on the block since 2017 with our original Giveth DApp rebranded now as Giveth TRACE. This DApp is designed for users looking for strong layers of security and control over managing contributions. Our new DApp is streamlined for easy user experience, it allows makers to create projects in minutes and begin receiving donations to their projects. Donors can donate with Ethereum, and ERC-20 tokens on Mainnet and xDai network! Blockchain technology has revolutionized the way we handle money, its implementation in an area that often lacks transparency is paramount to our mission. Giveth cuts through the red tape of well-intentioned giving and allows seamless peer-to-peer donations; we do not collect a fee for this. All contributions are forever immortalized on the blockchain and can be seen by all! More features are in the pipeline for the coming weeks and beyond, notably focused on creating a sustainable, well incentivized Giving Economy. We’re nurturing an ever changing project and appreciate community feedback to constantly improve. The future of giving is here. Swing on by and check us out! Join us on Discord or Telegram Discover our Site and Wiki Fork our code on GitHub Follow us on Medium, Facebook, Twitter and Reddit Help us Build the Future of Giving: 🦄 Donate directly 🦄 or buy a Ledger with our affiliate link","Giveth.io - The Future of Giving has Arrived!. !video We’ve launched a new Decentralized Application, Giveth.io for creating and donating to ‘for good’ projects and we’d like you, r/Ethereum, to come check it out! Giveth is a community of changemakers dedicated to building tools using blockchain technology to better human collaboration and coordination. Our DApps connect donors and project creators enabling a means for transparent peer-to-peer giving, powered by the Ethereum blockchain. We allow",1,promotional
+promotional,61,t3_mdds7d,2021-03-26,Bitcoin,BTC,Just had an idea,"Have a friend or family member to whom you owe some money?  Consider offering to pay them back with bitcoin instead of cash.  If they're in the know, then they might be all about it.  Otherwise, it could be an opportunity to share about the trajectory of cryptocurrency's future.  You may convince them to open up a wallet somewhere (shoot, you could even give them a referral code of your own).  And if they say, ""No, I'll take cash"" or if they agree to a split repayment, say, 50/50 --> BTC/USD, then alright.  
+
+At the very least you'll have a nice discussion about crypto and the debt you owe will be satisfied.
+
+At the very most you could lead the person into significant future wealth as BTC continues to climb over the years and one days becomes the dominant currency worldwide (that is, if they have the discipline to leave the BTC that you paid them alone for a few years and/or they become a crypto-fan like you and begin investing in it because of your initiative.)
+
+\*shrug\* Just wanted to share the idea.
+
+Gotta get the word out somehow ;)","Just had an idea. Have a friend or family member to whom you owe some money? Consider offering to pay them back with bitcoin instead of cash. If they're in the know, then they might be all about it. Otherwise, it could be an opportunity to share about the trajectory of cryptocurrency's future. You may convince them to open up a wallet somewhere (shoot, you could even give them a referral code of your own). And if they say, ""No, I'll take cash"" or if they agree to a split repayment, say, 50/50 --> BTC/USD, then alright. At the very least you'll have a nice discussion about crypto and the debt you owe will be satisfied. At the very most you could lead the person into significant future wealth as BTC continues to climb over the years and one days becomes the dominant currency worldwide (that is, if they have the discipline to leave the BTC that you paid them alone for a few years and/or they become a crypto-fan like you and begin investing in it because of your initiative.) \shrug\ Just wanted to share the idea. Gotta get the word out somehow ;)","Just had an idea. Have a friend or family member to whom you owe some money? Consider offering to pay them back with bitcoin instead of cash. If they're in the know, then they might be all about it. Otherwise, it could be an opportunity to share about the trajectory of cryptocurrency's future. You may convince them to open up a wallet somewhere (shoot, you could even give them a referral code of your own). And if they say, ""No, I'll take cash"" or if they agree to a split repayment, say, 50/50 --",1,promotional
+promotional,61,t3_mdq6yj,2021-03-26,BitcoinMarkets,BTC,Trade Ideas: BTC-MOVE-2021Q2,"NOT a financial advice.
+
+TLDR: If you are bullish on BTC, long BTC-MOVE-2021Q2 is actually better than long June futures
+
+I will explain below.
+
+&#x200B;
+
+Ticker:
+
+BTC-MOVE-2021Q2
+
+&#x200B;
+
+Exchange:
+
+FTX
+
+(Note that FTX has US website, however this futures product is only available on the international FTX website which is not available for US residents)
+
+&#x200B;
+
+Description:
+
+BTC-MOVE-2021Q2 settles to the absolute value of the change in the price of BTC between 3/26/2021 and 6/25/2021.
+
+&#x200B;
+
+Trade Ideas:
+
+BTC-MOVE-2021Q2 strike price is 52k
+
+Currently it costs 17k (33% of strike price)
+
+&#x200B;
+
+Let's assume BTC doubles its price in Q2 from 52k to 104k
+
+(assume 1x leverage with fiat collateral, long trade, no liquidation price)
+
+&#x200B;
+
+>If you long BTC June futures at 52k
+
+Settlement price: 104k
+
+Your profit: 104k / 52k = **2x (100% PNL)**
+
+&#x200B;
+
+>If you long 2021 Q2 MOVE at 17k with the same capital as above
+
+Settlement price: 104k - 52k = 52k
+
+Your profit 52k / 17k = **3.05x (205% PNL)**
+
+&#x200B;
+
+(you profit more with the same capital)
+
+&#x200B;
+
+But wait, what if Q2 is the start of bear market and we end up at 20k on Jun 25?
+
+&#x200B;
+
+>If you long June futures at 52k
+
+Loss, definitely.
+
+&#x200B;
+
+>If you long 2021 Q2 MOVE at 17k
+
+You actually still profit because MOVE settlement price is the absolute difference of BTC price between 03/26 and 06/25
+
+Settlement price: abs(20k - 52k) = 32k
+
+Your profit 32k / 17k = **1.88x (88% PNL)**
+
+&#x200B;
+
+The catch?
+
+long 2021 Q2 MOVE at 17k will lose if BTC price at the end of June is between 35k - 69k (the absolute difference is less than your long entry)
+
+but of course you can close before expiration (after a +/-30% move, you should be able to close in profit)
+
+&#x200B;
+
+Final notes:
+
+Since currently BTC price is still very near Q2 MOVE strike price, it's highly likely that you can get better price than 17k during low volatility period like this weekend.
+
+&#x200B;
+
+If you don't have FTX account yet, you can use my referral link to get fee discounts
+
+[https://ftx.com/#a=TokyoCuddlingService](https://ftx.com/#a=TokyoCuddlingService)
+
+&#x200B;
+
+References:
+
+For reference, here's some past data of BTC % movement over a quarter (measured from previous quarter's last Friday open to current quarter's last Friday close)
+
+&#x200B;
+
+**Last Bull Market**
+
+&#x200B;
+
+2017 Q1
+
+10.44% (Open to Close)
+
+35.40% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+2017 Q2
+
+136.49% (Open to Close)
+
+188.25% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+2017 Q3
+
+65.03% (Open to Close)
+
+97.26% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+2017 Q4
+
+245.78% (Open to Close)
+
+372.21% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+&#x200B;
+
+**Last Bear Market**
+
+&#x200B;
+
+2018 Q1
+
+\-52.69% (Open to Close)
+
+\-59.02% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+2018 Q2
+
+\-17.36% (Open to Close)
+
+\-40.59% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+2018 Q3
+
+\-8.00% (Open to Close)
+
+\-38.21% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+2018 Q4
+
+\-41.32% (Open to Close)
+
+\-52.91% (Open to Highest/Lowest Wick)
+
+&#x200B;
+
+&#x200B;
+
+As you can see from above, 35% of strike price or lower should be a good entry for quarterly MOVE long.
+
+&#x200B;","Trade Ideas: BTC-MOVE-2021Q2. NOT a financial advice. TLDR: If you are bullish on BTC, long BTC-MOVE-2021Q2 is actually better than long June futures I will explain below. Ticker: BTC-MOVE-2021Q2 Exchange: FTX (Note that FTX has US website, however this futures product is only available on the international FTX website which is not available for US residents) Description: BTC-MOVE-2021Q2 settles to the absolute value of the change in the price of BTC between 3/26/2021 and 6/25/2021. Trade Ideas: BTC-MOVE-2021Q2 strike price is 52k Currently it costs 17k (33% of strike price) Let's assume BTC doubles its price in Q2 from 52k to 104k (assume 1x leverage with fiat collateral, long trade, no liquidation price) If you long BTC June futures at 52k Settlement price: 104k Your profit: 104k / 52k = 2x (100% PNL) If you long 2021 Q2 MOVE at 17k with the same capital as above Settlement price: 104k - 52k = 52k Your profit 52k / 17k = 3.05x (205% PNL) (you profit more with the same capital) But wait, what if Q2 is the start of bear market and we end up at 20k on Jun 25? If you long June futures at 52k Loss, definitely. If you long 2021 Q2 MOVE at 17k You actually still profit because MOVE settlement price is the absolute difference of BTC price between 03/26 and 06/25 Settlement price: abs(20k - 52k) = 32k Your profit 32k / 17k = 1.88x (88% PNL) The catch? long 2021 Q2 MOVE at 17k will lose if BTC price at the end of June is between 35k - 69k (the absolute difference is less than your long entry) but of course you can close before expiration (after a +/-30% move, you should be able to close in profit) Final notes: Since currently BTC price is still very near Q2 MOVE strike price, it's highly likely that you can get better price than 17k during low volatility period like this weekend. If you don't have FTX account yet, you can use my referral link to get fee discounts References: For reference, here's some past data of BTC % movement over a quarter (measured from previous quarter's last Friday open to current quarter's last Friday close) Last Bull Market 2017 Q1 10.44% (Open to Close) 35.40% (Open to Highest/Lowest Wick) 2017 Q2 136.49% (Open to Close) 188.25% (Open to Highest/Lowest Wick) 2017 Q3 65.03% (Open to Close) 97.26% (Open to Highest/Lowest Wick) 2017 Q4 245.78% (Open to Close) 372.21% (Open to Highest/Lowest Wick) Last Bear Market 2018 Q1 \-52.69% (Open to Close) \-59.02% (Open to Highest/Lowest Wick) 2018 Q2 \-17.36% (Open to Close) \-40.59% (Open to Highest/Lowest Wick) 2018 Q3 \-8.00% (Open to Close) \-38.21% (Open to Highest/Lowest Wick) 2018 Q4 \-41.32% (Open to Close) \-52.91% (Open to Highest/Lowest Wick) As you can see from above, 35% of strike price or lower should be a good entry for quarterly MOVE long.","Trade Ideas: BTC-MOVE-2021Q2. NOT a financial advice. TLDR: If you are bullish on BTC, long BTC-MOVE-2021Q2 is actually better than long June futures I will explain below. Ticker: BTC-MOVE-2021Q2 Exchange: FTX (Note that FTX has US website, however this futures product is only available on the international FTX website which is not available for US residents) Description: BTC-MOVE-2021Q2 settles to the absolute value of the change in the price of BTC between 3/26/2021 and 6/25/2021. Trade Ideas:",1,promotional
+promotional,61,t3_mkbpni,2021-04-05,Bitcoin,BTC,Bitcoin Withdrawal Strategy,"Motivated by Binance's outrageous withdrawal fees I put together a simple website that lays out a stategy that can save you some (or lots of!) sats and will also hopefully prevent people from just leaving small amounts in the exchange due to those high withdrawal fees.
+
+[https://bilthon.github.io/withdrawal-strategy/](https://bilthon.github.io/withdrawal-strategy/)
+
+Disclaimer: The links at the bottom of that website do contain referral codes. But you're not required to use them. You can just google those services by yourself or remove the referral code from the URL. If you found the information useful however, I'd appreciate you do keep them there.
+
+PS: The website looks shit in mobile, I know. It was just a weekend project. I'll add better mobile support depending on the feedback.","Bitcoin Withdrawal Strategy. Motivated by Binance's outrageous withdrawal fees I put together a simple website that lays out a stategy that can save you some (or lots of!) sats and will also hopefully prevent people from just leaving small amounts in the exchange due to those high withdrawal fees. Disclaimer: The links at the bottom of that website do contain referral codes. But you're not required to use them. You can just google those services by yourself or remove the referral code from the URL. If you found the information useful however, I'd appreciate you do keep them there. PS: The website looks shit in mobile, I know. It was just a weekend project. I'll add better mobile support depending on the feedback.",Bitcoin Withdrawal Strategy. Motivated by Binance's outrageous withdrawal fees I put together a simple website that lays out a stategy that can save you some (or lots of!) sats and will also hopefully prevent people from just leaving small amounts in the exchange due to those high withdrawal fees. Disclaimer: The links at the bottom of that website do contain referral codes. But you're not required to use them. You can just google those services by yourself or remove the referral code from the U,1,promotional
+promotional,61,t3_n09r77,2021-04-28,Bitcoin,BTC,Learning Bitcoin,"Hi all.
+
+I am currently trying to teach myself how cryptocurrency, trading and mining works. At home while i am at work i have started mining on my 1080 graphics card using nice hash. However, I know there is a lot of money to be made in trading. i have invested £20 into bitcoin and Ethereum on binance, £20 on an alt coin from coin base and £20 worth of bitcoin on blockfi to help get some interest maybe.
+
+When i am at work, i am sat at a desk with a computer where i can constantly look at my stuff most of the time. 
+
+My point in creating this post is because i need some help and guidance to start trading. I have no clue how it works, and videos that i look at are just bad and don't give advice they just make the videos to get people to use their referral code lmao.
+
+But yes back to the point, all i need is help and guidance and good, efficient ways to help me learn!
+
+Thank you.","Learning Bitcoin. Hi all. I am currently trying to teach myself how cryptocurrency, trading and mining works. At home while i am at work i have started mining on my 1080 graphics card using nice hash. However, I know there is a lot of money to be made in trading. i have invested £20 into bitcoin and Ethereum on binance, £20 on an alt coin from coin base and £20 worth of bitcoin on blockfi to help get some interest maybe. When i am at work, i am sat at a desk with a computer where i can constantly look at my stuff most of the time. My point in creating this post is because i need some help and guidance to start trading. I have no clue how it works, and videos that i look at are just bad and don't give advice they just make the videos to get people to use their referral code lmao. But yes back to the point, all i need is help and guidance and good, efficient ways to help me learn! Thank you.","Learning Bitcoin. Hi all. I am currently trying to teach myself how cryptocurrency, trading and mining works. At home while i am at work i have started mining on my 1080 graphics card using nice hash. However, I know there is a lot of money to be made in trading. i have invested £20 into bitcoin and Ethereum on binance, £20 on an alt coin from coin base and £20 worth of bitcoin on blockfi to help get some interest maybe. When i am at work, i am sat at a desk with a computer where i can constantl",1,promotional
+promotional,61,t3_n7i8ge,2021-05-08,Bitcoin,BTC,Late to the party,"I own 2 e-commerce websites [Stickerfool.com](https://Stickerfool.com) & [Isolatedcards.com](https://Isolatedcards.com) both are set up to accept bitcoin using Coinbase Commerce but we have one problem! No one ever uses it and we want to start testing it plus finally start collecting coins! 
+
+We are offering 10% off to this subreddit only using promo code r/Bitcoin at check out on both sites for all products!",Late to the party. I own 2 e-commerce websites Stickerfool.com & Isolatedcards.com both are set up to accept bitcoin using Coinbase Commerce but we have one problem! No one ever uses it and we want to start testing it plus finally start collecting coins! We are offering 10% off to this subreddit only using promo code r/Bitcoin at check out on both sites for all products!,Late to the party. I own 2 e-commerce websites Stickerfool.com & Isolatedcards.com both are set up to accept bitcoin using Coinbase Commerce but we have one problem! No one ever uses it and we want to start testing it plus finally start collecting coins! We are offering 10% off to this subreddit only using promo code r/Bitcoin at check out on both sites for all products!,1,promotional
+promotional,61,t3_n7x4ca,2021-05-08,Bitcoin,BTC,Is BYCOINBIT.COM trustworthy?,"I don't think so, but still.
+
+I received a message on discord from this BYCOINBIT EXCHANGE, saying that I won 0.4BTC from some kind of charity lottery (lol).  
+Logging to the site and using the referral code, I actually got 0.4BTC (27k dollars).  
+BUT, there is always a BUT, to withdraw those btc I need to verify my external wallet, and to do it I obviously had to send 0.01BTC to the address.
+
+While I think this is a fraud, and I think the website is pretty new since I can't find almost anything on google, review or anything.. Anyone had to do with them?","Is BYCOINBIT.COM trustworthy?. I don't think so, but still. I received a message on discord from this BYCOINBIT EXCHANGE, saying that I won 0.4BTC from some kind of charity lottery (lol). Logging to the site and using the referral code, I actually got 0.4BTC (27k dollars). BUT, there is always a BUT, to withdraw those btc I need to verify my external wallet, and to do it I obviously had to send 0.01BTC to the address. While I think this is a fraud, and I think the website is pretty new since I can't find almost anything on google, review or anything.. Anyone had to do with them?","Is BYCOINBIT.COM trustworthy?. I don't think so, but still. I received a message on discord from this BYCOINBIT EXCHANGE, saying that I won 0.4BTC from some kind of charity lottery (lol). Logging to the site and using the referral code, I actually got 0.4BTC (27k dollars). BUT, there is always a BUT, to withdraw those btc I need to verify my external wallet, and to do it I obviously had to send 0.01BTC to the address. While I think this is a fraud, and I think the website is pretty new since I c",1,promotional
+promotional,61,t3_nbl57k,2021-05-13,Bitcoin,BTC,What is a fast way to earn BTC online?,"I've been endlessly browsing the web trying to earn bitcoin and haven't found much of anything.. If anyone could help me, it would be very much appreciated. I have a referral link but I can't post it on here otherwise I'm pretty sure I would get banned. Any help would mean a lot! Thank you!","What is a fast way to earn BTC online?. I've been endlessly browsing the web trying to earn bitcoin and haven't found much of anything.. If anyone could help me, it would be very much appreciated. I have a referral link but I can't post it on here otherwise I'm pretty sure I would get banned. Any help would mean a lot! Thank you!","What is a fast way to earn BTC online?. I've been endlessly browsing the web trying to earn bitcoin and haven't found much of anything.. If anyone could help me, it would be very much appreciated. I have a referral link but I can't post it on here otherwise I'm pretty sure I would get banned. Any help would mean a lot! Thank you!",1,promotional
+promotional,61,t3_ofm6k9,2021-07-07,Bitcoin,BTC,Seeking Honest Opinion," 
+
+I received a random email that I had won a fair amount of BTC in a discord drawing and the page linked me to bitcoinspirex. Sure enough I go to bitcoinspirex and input the promo code and there the funds are input into my newly created account. Unfortunate for me I have never head of bitcoinspirex. There is no reddit page for the website, I have never seen any discussion of the exchange.
+
+Then I get on the exchange, it looks nice, multiple pages with a solid layout, live chat where people responded to my questions and said it was a good option trading platform, then I que support and ask about retrieving these funds. Support was automated and this was the response.
+
+""Dear user. Since our platform is fully automated and your account has no deposits with an active balance, the account will be automatically frozen and no Opitons Bets/Transfer/Withdrawal functions are available. To unfreeze and verify your account, you need to make a verification deposit of at least 0.01 BTC which you can then be withdrawn along with the remaining balance""
+
+Now I am curious to what the deal is with this page because the winnings would make a deposit of .01 BTC feasible, but to think that this could all be a very well planned scam to get .01 which is about $350 Right now.
+
+This is their claims:
+
+""Cold storage for cryptocurrency funds
+
+PCI DSS certificate
+
+Strong relations with banks
+
+Legal Compliance
+
+MSB status in FinCEN (USA)
+
+Registered with the ICO in the UK (EU)
+
+Internal AML/KYC policy and procedures""
+
+Any one? I want the good, bad and ugly of this exchange? Does anyone even know anything of bitcoinspirex or have every heard of the page","Seeking Honest Opinion. I received a random email that I had won a fair amount of BTC in a discord drawing and the page linked me to bitcoinspirex. Sure enough I go to bitcoinspirex and input the promo code and there the funds are input into my newly created account. Unfortunate for me I have never head of bitcoinspirex. There is no reddit page for the website, I have never seen any discussion of the exchange. Then I get on the exchange, it looks nice, multiple pages with a solid layout, live chat where people responded to my questions and said it was a good option trading platform, then I que support and ask about retrieving these funds. Support was automated and this was the response. ""Dear user. Since our platform is fully automated and your account has no deposits with an active balance, the account will be automatically frozen and no Opitons Bets/Transfer/Withdrawal functions are available. To unfreeze and verify your account, you need to make a verification deposit of at least 0.01 BTC which you can then be withdrawn along with the remaining balance"" Now I am curious to what the deal is with this page because the winnings would make a deposit of .01 BTC feasible, but to think that this could all be a very well planned scam to get .01 which is about $350 Right now. This is their claims: ""Cold storage for cryptocurrency funds PCI DSS certificate Strong relations with banks Legal Compliance MSB status in FinCEN (USA) Registered with the ICO in the UK (EU) Internal AML/KYC policy and procedures"" Any one? I want the good, bad and ugly of this exchange? Does anyone even know anything of bitcoinspirex or have every heard of the page","Seeking Honest Opinion. I received a random email that I had won a fair amount of BTC in a discord drawing and the page linked me to bitcoinspirex. Sure enough I go to bitcoinspirex and input the promo code and there the funds are input into my newly created account. Unfortunate for me I have never head of bitcoinspirex. There is no reddit page for the website, I have never seen any discussion of the exchange. Then I get on the exchange, it looks nice, multiple pages with a solid layout, live ch",1,promotional
+promotional,61,t3_oi7aan,2021-07-11,Bitcoin,BTC,Bitcpex.com trustable?,"Hi guys,
+
+I recently won a promo code worth 0,34 BTC for [Bitcpex.com](https://Bitcpex.com) on a Discord server. I'm not sure if this website is legit or scam. Does anyone have experience with this site?","Bitcpex.com trustable?. Hi guys, I recently won a promo code worth 0,34 BTC for Bitcpex.com on a Discord server. I'm not sure if this website is legit or scam. Does anyone have experience with this site?","Bitcpex.com trustable?. Hi guys, I recently won a promo code worth 0,34 BTC for Bitcpex.com on a Discord server. I'm not sure if this website is legit or scam. Does anyone have experience with this site?",1,promotional
+promotional,61,t3_pgyfjq,2021-09-03,ethereum,ETH,What if we need another Proof-of-Stake consensus token? My idea/theory," 
+
+People see these tokens launching/NFTs and they do numbers of 2x, 5x, 10x, 100x etc. They expect all tokens/cryptocurrencies to behave like that. They want Ethereum to 10x or 3x, when the cryptocurrencies themselves are not meant to be a SUPER fast multiple token because it is needed to be spread out over time for security reasons.
+
+The tokens/NFTs that launch on top of Eth don't need to behave like the traditional BTC/ETH, which have ongoing distributions still. They are over in days/weeks
+
+BECAUSE THEY DONT NEED SECURITY
+
+Now imagen needing another token distribution in order to have a more secure blockchain on ETH, when ETH is deflationary and PoS.
+
+How can and will we use miners to enable  a new system be built on top of ETH??
+
+Well first we need a fair distribution, something Bitcoin are known for. However; bitcoin isnt native to Ethereum and must be bridged which has risks.  Now with 0xBitcoin adopting Bitcoins properties and being ERC20 Native it has a huge advantage. Here is why.
+
+Coinbase owns 25% of stakers, Kraken another 15%, for a system of consensus that is a very scary situation. They could collude on any token release and own too large of a percentage(because Coinbase is rich). They would be no fair way to launch another Consensus token fairly. Now maybe just maybe, Proof-of-work is still needed to secure ""another"" layer of consensus(Think LAYER 3, Layer 4, ETC)
+
+\--IN STEPS 0xBitcoin--
+
+Would it be possible for a layer 2, 3,4 or 5 built on top of a native ERC20 token that is fairly distributed(better than ETHs own distribution).
+
+I think so(Polygon), in fact we have already made a blockchain much like polygon but abandoned because of no use(years ago when ETH was empty LOL), that is why we are on Polygon, we decided to use their system. So it works. I could talk for days about this project and its' fair distribution using Proof-of-Work. [www.0xbitcoin.org](https://www.0xbitcoin.org/)
+
+[https://etherscan.io/token/0xb6ed7644c69416d67b522e20bc294a9a9b405b31](https://etherscan.io/token/0xb6ed7644c69416d67b522e20bc294a9a9b405b31)
+
+We just had a top 10 whale sell all his shares, very attractive price. 0.40$ and 5 million market cap!
+
+[https://coinmarketcap.com/currencies/0xbtc/](https://coinmarketcap.com/currencies/0xbtc/)
+
+This contract has been running since before Uniswap v1, Compound and A LOT of apps. Non-stop mining for almost 4 years. No scams ever so far in our whole history. No exchange hacks. Everyone who bought coins securely holds them in the Ethereum account. We are on Uniswap v1, v2 and v3.
+
+I advertised about our Uniswap v1 pool in reddit.com/[r/Ethtrader](https://www.reddit.com/r/Ethtrader/) banner for donuts before the Uniswap airdrop date. A lot of members got airdrops because we had a large Uniswap v1 pool! We love decentralization!!!!!! Our members are into NFTs and active in the Github community. We build/built a lot of stuff on top of Ethereum! Join our discord for a ton of Alpha(good) information!!!
+
+Mr. Fahrenheit (Mr. F) was in our community and we congratulated him on having the first proposal for ETH PoS! 😄
+
+[https://etherscan.io/stat/supply](https://etherscan.io/stat/supply)
+
+Ethereums' distribution is below
+
+Genesis (60M Crowdsale 12M Other): 72,009,990.50 Ether
+
+Current Total Supply 117,427,916.15 Ether
+
+THEY DISTRIBUTED 3/5th of Ethereum currently in the first token in a crowdsale
+
+Ethereums DISTRIBUTION SUCKED, that is why 0xBitcoin will be needed. It is built on Ethereum!
+
+0xBitcoin has only distributed 1/3rd of ALL 0xBitcoin Tokens in almost 4 years! It won't get to 3/5th until 10 years from now!
+
+For good graphs check here: [https://imgur.com/a/xxDNBKb](https://imgur.com/a/xxDNBKb)","What if we need another Proof-of-Stake consensus token? My idea/theory. People see these tokens launching/NFTs and they do numbers of 2x, 5x, 10x, 100x etc. They expect all tokens/cryptocurrencies to behave like that. They want Ethereum to 10x or 3x, when the cryptocurrencies themselves are not meant to be a SUPER fast multiple token because it is needed to be spread out over time for security reasons. The tokens/NFTs that launch on top of Eth don't need to behave like the traditional BTC/ETH, which have ongoing distributions still. They are over in days/weeks BECAUSE THEY DONT NEED SECURITY Now imagen needing another token distribution in order to have a more secure blockchain on ETH, when ETH is deflationary and PoS. How can and will we use miners to enable a new system be built on top of ETH?? Well first we need a fair distribution, something Bitcoin are known for. However; bitcoin isnt native to Ethereum and must be bridged which has risks. Now with 0xBitcoin adopting Bitcoins properties and being ERC20 Native it has a huge advantage. Here is why. Coinbase owns 25% of stakers, Kraken another 15%, for a system of consensus that is a very scary situation. They could collude on any token release and own too large of a percentage(because Coinbase is rich). They would be no fair way to launch another Consensus token fairly. Now maybe just maybe, Proof-of-work is still needed to secure ""another"" layer of consensus(Think LAYER 3, Layer 4, ETC) \--IN STEPS 0xBitcoin-- Would it be possible for a layer 2, 3,4 or 5 built on top of a native ERC20 token that is fairly distributed(better than ETHs own distribution). I think so(Polygon), in fact we have already made a blockchain much like polygon but abandoned because of no use(years ago when ETH was empty LOL), that is why we are on Polygon, we decided to use their system. So it works. I could talk for days about this project and its' fair distribution using Proof-of-Work. We just had a top 10 whale sell all his shares, very attractive price. 0.40$ and 5 million market cap! This contract has been running since before Uniswap v1, Compound and A LOT of apps. Non-stop mining for almost 4 years. No scams ever so far in our whole history. No exchange hacks. Everyone who bought coins securely holds them in the Ethereum account. We are on Uniswap v1, v2 and v3. I advertised about our Uniswap v1 pool in reddit.com/r/Ethtrader banner for donuts before the Uniswap airdrop date. A lot of members got airdrops because we had a large Uniswap v1 pool! We love decentralization!!!!!! Our members are into NFTs and active in the Github community. We build/built a lot of stuff on top of Ethereum! Join our discord for a ton of Alpha(good) information!!! Mr. Fahrenheit (Mr. F) was in our community and we congratulated him on having the first proposal for ETH PoS! 😄 Ethereums' distribution is below Genesis (60M Crowdsale 12M Other): 72,009,990.50 Ether Current Total Supply 117,427,916.15 Ether THEY DISTRIBUTED 3/5th of Ethereum currently in the first token in a crowdsale Ethereums DISTRIBUTION SUCKED, that is why 0xBitcoin will be needed. It is built on Ethereum! 0xBitcoin has only distributed 1/3rd of ALL 0xBitcoin Tokens in almost 4 years! It won't get to 3/5th until 10 years from now! For good graphs check here:","What if we need another Proof-of-Stake consensus token? My idea/theory. People see these tokens launching/NFTs and they do numbers of 2x, 5x, 10x, 100x etc. They expect all tokens/cryptocurrencies to behave like that. They want Ethereum to 10x or 3x, when the cryptocurrencies themselves are not meant to be a SUPER fast multiple token because it is needed to be spread out over time for security reasons. The tokens/NFTs that launch on top of Eth don't need to behave like the traditional BTC/ETH, w",1,promotional
+promotional,61,t3_pkzv5a,2021-09-09,Bitcoin,BTC,Best Canadian Site to buy Crypto???,"Whats the cheapest site & most user friendly site to buy crypto? Please give detail if possible. From my knowledge Newton is the cheapest from the research ive done.
+
+(Do not dm me your referral code. If I want to use your suggestion I will dm you for it.)",Best Canadian Site to buy Crypto???. Whats the cheapest site & most user friendly site to buy crypto? Please give detail if possible. From my knowledge Newton is the cheapest from the research ive done. (Do not dm me your referral code. If I want to use your suggestion I will dm you for it.),Best Canadian Site to buy Crypto???. Whats the cheapest site & most user friendly site to buy crypto? Please give detail if possible. From my knowledge Newton is the cheapest from the research ive done. (Do not dm me your referral code. If I want to use your suggestion I will dm you for it.),1,promotional
+promotional,61,t3_ps0689,2021-09-20,Bitcoin,BTC,Is this site legit??,"Hello, guys o/.
+
+&#x200B;
+
+So, early this morning I recieved this messagem in my Discord account and it says that I  earned 0,28 BTC. So I entered the site and it seems like a cryptogambling site where people gamble if the crypto will drop or raise. So I entered the promo code and got my BTC but to withdraw the amount to my wallet I need to deposit 0,01 BTC in the site to ""verify"" my account. I never heard about the site and I would like to know if you guys could help to find if it's legit or not.  
+
+
+Sorry if the question is too newbee but I'm really new in this thig. The site is [bitctown.com](https://bitctown.com)  
+
+
+Sorry about my poor english too :P","Is this site legit??. Hello, guys o/. So, early this morning I recieved this messagem in my Discord account and it says that I earned 0,28 BTC. So I entered the site and it seems like a cryptogambling site where people gamble if the crypto will drop or raise. So I entered the promo code and got my BTC but to withdraw the amount to my wallet I need to deposit 0,01 BTC in the site to ""verify"" my account. I never heard about the site and I would like to know if you guys could help to find if it's legit or not. Sorry if the question is too newbee but I'm really new in this thig. The site is bitctown.com Sorry about my poor english too :P","Is this site legit??. Hello, guys o/. So, early this morning I recieved this messagem in my Discord account and it says that I earned 0,28 BTC. So I entered the site and it seems like a cryptogambling site where people gamble if the crypto will drop or raise. So I entered the promo code and got my BTC but to withdraw the amount to my wallet I need to deposit 0,01 BTC in the site to ""verify"" my account. I never heard about the site and I would like to know if you guys could help to find if it's l",1,promotional
+recurring_template,1846,t3_ko6zw5,2021-01-01,Bitcoin,BTC,"Daily Discussion, January 01, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/2SheZB3DSU)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/knl4y7/daily_discussion_december_31_2020/) for unanswered questions.","Daily Discussion, January 01, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 01, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kosxbh,2021-01-02,Bitcoin,BTC,"Daily Discussion, January 02, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ko6zw5/daily_discussion_january_01_2021/) for unanswered questions.","Daily Discussion, January 02, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 02, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kpfwfc,2021-01-03,Bitcoin,BTC,"Daily Discussion, January 03, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kosxbh/daily_discussion_january_02_2021/) for unanswered questions.","Daily Discussion, January 03, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 03, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kpo2ru,2021-01-03,BitcoinMarkets,BTC,Daily Discussion,"\*\*Thread topics include, but are not limited to:\*\*
+
+&#x200B;
+
+\* General discussion related to the day's events
+
+\* Technical analysis, trading ideas & strategies
+
+\* Quick questions that do not warrant a separate post
+
+&#x200B;
+
+\*\*Thread guidelines:\*\*
+
+&#x200B;
+
+\* \*\*Be excellent to each other.\*\*
+
+\* Do not make posts outside of the daily thread for the topics mentioned above.
+
+&#x200B;
+
+\*\*Other ways to interact:\*\*
+
+&#x200B;
+
+\* \[Get an invite\]([https://reddit-bitcoinmarkets.slack.com/join/shared\_invite/enQtNjM1NTg3ODgwODUzLWRhOGI3MGFlZDVjMzBlYWYwYzIzZWNlOThjZDQ3ZjhlZGU2MDY2ZGY5ZDZjYzY5MzQyYWJiZWE5YzRiNmY0NmM](https://reddit-bitcoinmarkets.slack.com/join/shared_invite/enQtNjM1NTg3ODgwODUzLWRhOGI3MGFlZDVjMzBlYWYwYzIzZWNlOThjZDQ3ZjhlZGU2MDY2ZGY5ZDZjYzY5MzQyYWJiZWE5YzRiNmY0NmM)) to live chat on \[our Slack group\]([https://reddit-bitcoinmarkets.slack.com/](https://reddit-bitcoinmarkets.slack.com/))","Daily Discussion. \\Thread topics include, but are not limited to:\\ \ General discussion related to the day's events \ Technical analysis, trading ideas & strategies \ Quick questions that do not warrant a separate post \\Thread guidelines:\\ \ \\Be excellent to each other.\\ \ Do not make posts outside of the daily thread for the topics mentioned above. \\Other ways to interact:\\ \ \Get an invite\) to live chat on \our Slack group\)","Daily Discussion. \\Thread topics include, but are not limited to:\\ \ General discussion related to the day's events \ Technical analysis, trading ideas & strategies \ Quick questions that do not warrant a separate post \\Thread guidelines:\\ \ \\Be excellent to each other.\\ \ Do not make posts outside of the daily thread for the topics mentioned above. \\Other ways to interact:\\ \ \Get an invite\) to live chat on \our Slack group\)",1,recurring_template
+recurring_template,1846,t3_kq3gy2,2021-01-04,Bitcoin,BTC,"Daily Discussion, January 04, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kpfwfc/daily_discussion_january_03_2021/) for unanswered questions.","Daily Discussion, January 04, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 04, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kqswa0,2021-01-05,Bitcoin,BTC,"Daily Discussion, January 05, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kq6jd8/mentor_monday_january_04_2021_ask_all_your/) for unanswered questions.","Daily Discussion, January 05, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 05, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_krimfn,2021-01-06,Bitcoin,BTC,"Daily Discussion, January 06, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kqswa0/daily_discussion_january_05_2021/) for unanswered questions.","Daily Discussion, January 06, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 06, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_ks7w0j,2021-01-07,Bitcoin,BTC,"Daily Discussion, January 07, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/krimfn/daily_discussion_january_06_2021/) for unanswered questions.","Daily Discussion, January 07, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 07, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_ksxc0z,2021-01-08,Bitcoin,BTC,"Daily Discussion, January 08, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ks7w0j/daily_discussion_january_07_2021/) for unanswered questions.","Daily Discussion, January 08, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 08, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_ktm361,2021-01-09,Bitcoin,BTC,"Daily Discussion, January 09, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ksxc0z/daily_discussion_january_08_2021/) for unanswered questions.","Daily Discussion, January 09, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 09, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_ku9muh,2021-01-10,Bitcoin,BTC,"Daily Discussion, January 10, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ktm361/daily_discussion_january_09_2021/) for unanswered questions.","Daily Discussion, January 10, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 10, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kuxhe4,2021-01-11,Bitcoin,BTC,"Daily Discussion, January 11, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/ku9muh/daily_discussion_january_10_2021/) for unanswered questions.","Daily Discussion, January 11, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 11, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kvmmlf,2021-01-12,Bitcoin,BTC,"Daily Discussion, January 12, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kv0ire/mentor_monday_january_11_2021_ask_all_your/) for unanswered questions.","Daily Discussion, January 12, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 12, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kwb9ek,2021-01-13,Bitcoin,BTC,"Daily Discussion, January 13, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kvmmlf/daily_discussion_january_12_2021/) for unanswered questions.","Daily Discussion, January 13, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 13, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kx0ksx,2021-01-14,Bitcoin,BTC,"Daily Discussion, January 14, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kwb9ek/daily_discussion_january_13_2021/) for unanswered questions.","Daily Discussion, January 14, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 14, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kxp9ku,2021-01-15,Bitcoin,BTC,"Daily Discussion, January 15, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kx0ksx/daily_discussion_january_14_2021/) for unanswered questions.","Daily Discussion, January 15, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 15, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kye5fw,2021-01-16,Bitcoin,BTC,"Daily Discussion, January 16, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kxp9ku/daily_discussion_january_15_2021/) for unanswered questions.","Daily Discussion, January 16, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 16, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kz1mnf,2021-01-17,Bitcoin,BTC,"Daily Discussion, January 17, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kye5fw/daily_discussion_january_16_2021/) for unanswered questions.","Daily Discussion, January 17, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 17, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_kzph14,2021-01-18,Bitcoin,BTC,"Daily Discussion, January 18, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kz1mnf/daily_discussion_january_17_2021/) for unanswered questions.","Daily Discussion, January 18, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 18, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_l0eigd,2021-01-19,Bitcoin,BTC,"Daily Discussion, January 19, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/kzsk5w/mentor_monday_january_18_2021_ask_all_your/) for unanswered questions.","Daily Discussion, January 19, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 19, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_l13ylz,2021-01-20,Bitcoin,BTC,"Daily Discussion, January 20, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/l0eigd/daily_discussion_january_19_2021/) for unanswered questions.","Daily Discussion, January 20, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 20, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_l1t73l,2021-01-21,Bitcoin,BTC,"Daily Discussion, January 21, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/l13ylz/daily_discussion_january_20_2021/) for unanswered questions.","Daily Discussion, January 21, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 21, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_l2iapx,2021-01-22,Bitcoin,BTC,"Daily Discussion, January 22, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/l1t73l/daily_discussion_january_21_2021/) for unanswered questions.","Daily Discussion, January 22, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 22, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_l37bpw,2021-01-23,Bitcoin,BTC,"Daily Discussion, January 23, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/l2iapx/daily_discussion_january_22_2021/) for unanswered questions.","Daily Discussion, January 23, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 23, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+recurring_template,1846,t3_l3ul9o,2021-01-24,Bitcoin,BTC,"Daily Discussion, January 24, 2021","Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/l37bpw/daily_discussion_january_23_2021/) for unanswered questions.","Daily Discussion, January 24, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questions.","Daily Discussion, January 24, 2021. Please utilize this sticky thread for all general Bitcoin discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you! If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. Join us in the r/Bitcoin Chatroom! Please check the previous discussion thread for unanswered questi",1,recurring_template
+exact_duplicate,2340,t3_kovqnq,2021-01-02,Bitcoin,BTC,Unboxing Citadel21 magazines and Mt Socks Bitcoin socks,,Unboxing Citadel21 magazines and Mt Socks Bitcoin socks,Unboxing Citadel21 magazines and Mt Socks Bitcoin socks,2,exact_duplicate
+exact_duplicate,2340,t3_kpo2gn,2021-01-03,Bitcoin,BTC,Happy birthday Bitcoin! 🥳🎊,,Happy birthday Bitcoin! 🥳🎊,Happy birthday Bitcoin! 🥳🎊,3,exact_duplicate
+exact_duplicate,2340,t3_kpqi0e,2021-01-03,Bitcoin,BTC,"Happy Birthday, Bitcoin!",,"Happy Birthday, Bitcoin!","Happy Birthday, Bitcoin!",3,exact_duplicate
+exact_duplicate,2340,t3_kq0cc6,2021-01-04,Bitcoin,BTC,Michael Novogratz on BBC World News Explains The Bitcoin Rally to Over $30000 - Jan 3rd 2020,,Michael Novogratz on BBC World News Explains The Bitcoin Rally to Over $30000 - Jan 3rd 2020,Michael Novogratz on BBC World News Explains The Bitcoin Rally to Over $30000 - Jan 3rd 2020,2,exact_duplicate
+exact_duplicate,2340,t3_ksvlc3,2021-01-08,BitcoinMarkets,BTC,"[Daily Discussion] - Friday, January 08, 2021","**Thread topics include, but are not limited to:**
+
+*  General discussion related to the day's events
+* Technical analysis, trading ideas & strategies
+* Quick questions that do not warrant a separate post
+
+**Thread guidelines:**
+
+* **Be excellent to each other.**
+* Do not make posts outside of the daily thread for the topics mentioned above.
+
+**Other ways to interact:**
+
+[Get an invite](https://reddit-bitcoinmarkets.slack.com/join/shared_invite/enQtNjM1NTg3ODgwODUzLWRhOGI3MGFlZDVjMzBlYWYwYzIzZWNlOThjZDQ3ZjhlZGU2MDY2ZGY5ZDZjYzY5MzQyYWJiZWE5YzRiNmY0NmM) to live chat on [our Slack group](https://reddit-bitcoinmarkets.slack.com/)","[Daily Discussion] - Friday, January 08, 2021. Thread topics include, but are not limited to: General discussion related to the day's events Technical analysis, trading ideas & strategies Quick questions that do not warrant a separate post Thread guidelines: Be excellent to each other. Do not make posts outside of the daily thread for the topics mentioned above. Other ways to interact: Get an invite to live chat on our Slack group","[Daily Discussion] - Friday, January 08, 2021. Thread topics include, but are not limited to: General discussion related to the day's events Technical analysis, trading ideas & strategies Quick questions that do not warrant a separate post Thread guidelines: Be excellent to each other. Do not make posts outside of the daily thread for the topics mentioned above. Other ways to interact: Get an invite to live chat on our Slack group",2,exact_duplicate
+exact_duplicate,2340,t3_kt08gq,2021-01-08,Bitcoin,BTC,Strike Is Bringing The Lightning Network To More Than 200 Countries,,Strike Is Bringing The Lightning Network To More Than 200 Countries,Strike Is Bringing The Lightning Network To More Than 200 Countries,2,exact_duplicate
+exact_duplicate,2340,t3_ku4z0e,2021-01-10,Bitcoin,BTC,Is the financial establishment coming round to bitcoin?,,Is the financial establishment coming round to bitcoin?,Is the financial establishment coming round to bitcoin?,2,exact_duplicate
+exact_duplicate,2340,t3_kw39x3,2021-01-12,Bitcoin,BTC,Lost Passwords Lock Millionaires Out of Their Bitcoin Fortunes,,Lost Passwords Lock Millionaires Out of Their Bitcoin Fortunes,Lost Passwords Lock Millionaires Out of Their Bitcoin Fortunes,2,exact_duplicate
+exact_duplicate,2340,t3_kx338u,2021-01-14,Bitcoin,BTC,Trading App May Curb Bitcoin Buying This Weekend If Market Goes Wild,,Trading App May Curb Bitcoin Buying This Weekend If Market Goes Wild,Trading App May Curb Bitcoin Buying This Weekend If Market Goes Wild,2,exact_duplicate
+exact_duplicate,2340,t3_kx9dtx,2021-01-14,Bitcoin,BTC,40K!,,40K!,40K!,2,unusable_text;exact_duplicate;link_only
+exact_duplicate,2340,t3_kxf53j,2021-01-14,Bitcoin,BTC,Large bitcoin payments to right-wing activists a month before Capitol riot linked to foreign account,[https://www.yahoo.com/news/exclusive-large-bitcoin-payments-to-rightwing-activists-a-month-before-capitol-riot-linked-to-foreign-account-181954668.html](https://www.yahoo.com/news/exclusive-large-bitcoin-payments-to-rightwing-activists-a-month-before-capitol-riot-linked-to-foreign-account-181954668.html),Large bitcoin payments to right-wing activists a month before Capitol riot linked to foreign account,Large bitcoin payments to right-wing activists a month before Capitol riot linked to foreign account,2,exact_duplicate
+exact_duplicate,2340,t3_kxslpl,2021-01-15,BitcoinMarkets,BTC,Are new regulations coming for Bitcoin?,"On Wednesday the president of the European Central Bank, Christine Lagarde, gave an interview where she specifically emphasized the importance of creating international Bitcoin regulation. She believes that BTC is a “highly speculative asset” and is widely used for criminal purposes. Thus, it needs to be controlled. Christine Lagarde also considers that the measures taken by countries separately are not enough. From her point of view, G7 must establish unified rules.  
+Doesn’t it make you believe in Bitcoin even more?","Are new regulations coming for Bitcoin?. On Wednesday the president of the European Central Bank, Christine Lagarde, gave an interview where she specifically emphasized the importance of creating international Bitcoin regulation. She believes that BTC is a “highly speculative asset” and is widely used for criminal purposes. Thus, it needs to be controlled. Christine Lagarde also considers that the measures taken by countries separately are not enough. From her point of view, G7 must establish unified rules. Doesn’t it make you believe in Bitcoin even more?","Are new regulations coming for Bitcoin?. On Wednesday the president of the European Central Bank, Christine Lagarde, gave an interview where she specifically emphasized the importance of creating international Bitcoin regulation. She believes that BTC is a “highly speculative asset” and is widely used for criminal purposes. Thus, it needs to be controlled. Christine Lagarde also considers that the measures taken by countries separately are not enough. From her point of view, G7 must establish un",2,exact_duplicate
+exact_duplicate,2340,t3_ky7cks,2021-01-16,Bitcoin,BTC,PUMP IT UP ↑,,PUMP IT UP ↑,PUMP IT UP ↑,7,exact_duplicate
+exact_duplicate,2340,t3_l00yuj,2021-01-18,ethereum,ETH,⟠ Latest Week in Ethereum News,,⟠ Latest Week in Ethereum News,⟠ Latest Week in Ethereum News,170,exact_duplicate
+exact_duplicate,2340,t3_l1yu5a,2021-01-21,Bitcoin,BTC,Bitcoin Mining Comes to the Arctic Circle,,Bitcoin Mining Comes to the Arctic Circle,Bitcoin Mining Comes to the Arctic Circle,3,exact_duplicate
+exact_duplicate,2340,t3_l2pds0,2021-01-22,Bitcoin,BTC,"Fidelity Digital Assets on Bitcoin Price Action, Regulation & Blackrock - Jan 21st 2021",,"Fidelity Digital Assets on Bitcoin Price Action, Regulation & Blackrock - Jan 21st 2021","Fidelity Digital Assets on Bitcoin Price Action, Regulation & Blackrock - Jan 21st 2021",2,exact_duplicate
+exact_duplicate,2340,t3_l2y3wl,2021-01-22,BitcoinMarkets,BTC,Looking for good chart comparison apps or websites,"I'm looking for some type of format where I can see graphs of different crypto next to bitcoin and see what is up and what is down in comparison, to see where there is an edge for trading.  Does anyone know of any good resources?  Or any advice for how to tell when to buy which cryptos based on charts","Looking for good chart comparison apps or websites. I'm looking for some type of format where I can see graphs of different crypto next to bitcoin and see what is up and what is down in comparison, to see where there is an edge for trading. Does anyone know of any good resources? Or any advice for how to tell when to buy which cryptos based on charts","Looking for good chart comparison apps or websites. I'm looking for some type of format where I can see graphs of different crypto next to bitcoin and see what is up and what is down in comparison, to see where there is an edge for trading. Does anyone know of any good resources? Or any advice for how to tell when to buy which cryptos based on charts",2,exact_duplicate
+exact_duplicate,2340,t3_l3fazp,2021-01-23,Bitcoin,BTC,Earn sats with Call of Duty: Warzone over Lightning this weekend! Join now! Free entry. ⚡,"Hello,
+
+Recently we launched HangarSix, a bitcoin/lightning Call of Duty: Warzone tournament platform, where players can sign up and play warzone tournaments for bitcoin.
+
+Participating is really easy, as we use the Call of Duty API's to automate everything, no pasting screenshots of scores or other hassle. See [https://www.hangarsixgaming.com/howtoplay](https://www.hangarsixgaming.com/howtoplay).
+
+1. Register.
+2. Join tournament.
+3. Play game according to the tournament rules.
+4. WIN!
+
+Tournaments Live atm that you could join:
+
+Twosome 9 - 40.000sat ($15) [https://www.hangarsixgaming.com/tournament/twosome-9-09287](https://www.hangarsixgaming.com/tournament/twosome-9-09287)
+
+Lone wolf 9 - 40.000sat ($15) [https://www.hangarsixgaming.com/tournament/lonewolf-9-62955](https://www.hangarsixgaming.com/tournament/lonewolf-9-62955)
+
+More tournaments to follow coming days.
+
+Website: [https://www.hangarsixgaming.com/](https://www.hangarsixgaming.com/)
+
+See you in Verdansk!
+
+HangarSix","Earn sats with Call of Duty: Warzone over Lightning this weekend! Join now! Free entry. ⚡. Hello, Recently we launched HangarSix, a bitcoin/lightning Call of Duty: Warzone tournament platform, where players can sign up and play warzone tournaments for bitcoin. Participating is really easy, as we use the Call of Duty API's to automate everything, no pasting screenshots of scores or other hassle. See 1. Register. 2. Join tournament. 3. Play game according to the tournament rules. 4. WIN! Tournaments Live atm that you could join: Twosome 9 - 40.000sat ($15) Lone wolf 9 - 40.000sat ($15) More tournaments to follow coming days. Website: See you in Verdansk! HangarSix","Earn sats with Call of Duty: Warzone over Lightning this weekend! Join now! Free entry. ⚡. Hello, Recently we launched HangarSix, a bitcoin/lightning Call of Duty: Warzone tournament platform, where players can sign up and play warzone tournaments for bitcoin. Participating is really easy, as we use the Call of Duty API's to automate everything, no pasting screenshots of scores or other hassle. See 1. Register. 2. Join tournament. 3. Play game according to the tournament rules. 4. WIN! Tournamen",2,exact_duplicate
+exact_duplicate,2340,t3_l4hgiw,2021-01-25,Bitcoin,BTC,This Is Why Bitcoin Will Be $500k (With Tyler Winklevoss),,This Is Why Bitcoin Will Be $500k (With Tyler Winklevoss),This Is Why Bitcoin Will Be $500k (With Tyler Winklevoss),2,exact_duplicate
+exact_duplicate,2340,t3_l5j4qy,2021-01-26,Bitcoin,BTC,"2020, The year that changed Bitcoin’s narrative.",,"2020, The year that changed Bitcoin’s narrative.","2020, The year that changed Bitcoin’s narrative.",2,exact_duplicate
+exact_duplicate,2340,t3_l5kioj,2021-01-26,Bitcoin,BTC,Corrupted Wallet.dat,"I have a bitcoin core wallet.dat that is corrupted. There isn’t much information on this online, but from what I’ve found I have not had any luck recovering the private keys from the file. 
+
+I am hesitant to download third party software to spit my public and private keys out to me because they could be malicious. 
+
+I need tips? If your tip is successful, I will send you bitcoin for your time.","Corrupted Wallet.dat. I have a bitcoin core wallet.dat that is corrupted. There isn’t much information on this online, but from what I’ve found I have not had any luck recovering the private keys from the file. I am hesitant to download third party software to spit my public and private keys out to me because they could be malicious. I need tips? If your tip is successful, I will send you bitcoin for your time.","Corrupted Wallet.dat. I have a bitcoin core wallet.dat that is corrupted. There isn’t much information on this online, but from what I’ve found I have not had any luck recovering the private keys from the file. I am hesitant to download third party software to spit my public and private keys out to me because they could be malicious. I need tips? If your tip is successful, I will send you bitcoin for your time.",2,exact_duplicate
+exact_duplicate,2340,t3_l5sbdg,2021-01-27,ethereum,ETH,⟠ Latest Week in Ethereum News,,⟠ Latest Week in Ethereum News,⟠ Latest Week in Ethereum News,170,exact_duplicate
+exact_duplicate,2340,t3_l6eean,2021-01-27,ethereum,ETH,Dogecoin Is Now Available on Ethereum for DeFi Users,,Dogecoin Is Now Available on Ethereum for DeFi Users,Dogecoin Is Now Available on Ethereum for DeFi Users,2,exact_duplicate
+exact_duplicate,2340,t3_l6vkon,2021-01-28,BitcoinMarkets,BTC,The Bank of Singapore considers Bitcoin to be a possible digital gold,"Mansoor Mohi-uddin, chief executive of the Bank of Singapore, notices in his research note that investors’ interest in having BTC as a part of their portfolio is increasing. However, Bitcoin is a highly volatile asset, and at the time of economic crisis such assets are first to be dumped. On the other hand, Bitcoin performed better than gold and the Dow Jones stock market. The CEO of the Bank of Singapore believes that such a powerful performance makes investors see it as a new digital gold.","The Bank of Singapore considers Bitcoin to be a possible digital gold. Mansoor Mohi-uddin, chief executive of the Bank of Singapore, notices in his research note that investors’ interest in having BTC as a part of their portfolio is increasing. However, Bitcoin is a highly volatile asset, and at the time of economic crisis such assets are first to be dumped. On the other hand, Bitcoin performed better than gold and the Dow Jones stock market. The CEO of the Bank of Singapore believes that such a powerful performance makes investors see it as a new digital gold.","The Bank of Singapore considers Bitcoin to be a possible digital gold. Mansoor Mohi-uddin, chief executive of the Bank of Singapore, notices in his research note that investors’ interest in having BTC as a part of their portfolio is increasing. However, Bitcoin is a highly volatile asset, and at the time of economic crisis such assets are first to be dumped. On the other hand, Bitcoin performed better than gold and the Dow Jones stock market. The CEO of the Bank of Singapore believes that such a",2,exact_duplicate
+exact_duplicate,2340,t3_l7h28f,2021-01-29,Bitcoin,BTC,Satoshi’s real identity,"I have an idea who Satoshi was. Every new thing I find, the more I’m convinced. 
+
+So I started trying to prove I’m wrong. I’ve had a hard time doing it. 
+
+I could use this group of interested people to help me find out the truth either way. Anybody down?","Satoshi’s real identity. I have an idea who Satoshi was. Every new thing I find, the more I’m convinced. So I started trying to prove I’m wrong. I’ve had a hard time doing it. I could use this group of interested people to help me find out the truth either way. Anybody down?","Satoshi’s real identity. I have an idea who Satoshi was. Every new thing I find, the more I’m convinced. So I started trying to prove I’m wrong. I’ve had a hard time doing it. I could use this group of interested people to help me find out the truth either way. Anybody down?",2,exact_duplicate
+link_only,220,t3_kowleg,2021-01-02,Bitcoin,BTC,"30,000! 🍻",,"30,000! 🍻","30,000! 🍻",1,unusable_text;link_only
+link_only,220,t3_ksj79b,2021-01-07,Bitcoin,BTC,40k...!!!,,40k...!!!,40k...!!!,2,unusable_text;link_only
+link_only,220,t3_kt04uj,2021-01-08,Bitcoin,BTC,41k!,,41k!,41k!,1,unusable_text;link_only
+link_only,220,t3_ku3115,2021-01-10,Bitcoin,BTC,"""no""",,"""no""","""no""",2,unusable_text;link_only
+link_only,220,t3_kx9dtx,2021-01-14,Bitcoin,BTC,40K!,,40K!,40K!,2,unusable_text;exact_duplicate;link_only
+link_only,220,t3_kxs144,2021-01-15,Bitcoin,BTC,"21,000,000 / 7,830,458,560= .00268183",,"21,000,000 / 7,830,458,560= .00268183","21,000,000 / 7,830,458,560= .00268183",1,unusable_text;link_only
+link_only,220,t3_l7r2cc,2021-01-29,Bitcoin,BTC,E,,E,E,1,unusable_text;link_only
+link_only,220,t3_laisrn,2021-02-02,Bitcoin,BTC,https://cointelegraph.com/news/cryptoquant-ceo-says-coinbase-bitcoin-outflows-are-a-bullish-signal,,,,0,unusable_text;link_only
+link_only,220,t3_lesr60,2021-02-07,Bitcoin,BTC,https://finanzsache.com/bitcoin-pension/,,,,0,unusable_text;link_only
+link_only,220,t3_lgvzzz,2021-02-10,Bitcoin,BTC,B,,B,B,2,unusable_text;link_only
+link_only,220,t3_lh2mbi,2021-02-10,Bitcoin,BTC,https://coin-mining-farm.com/join/vpvS41612769206,,,,0,unusable_text;link_only
+link_only,220,t3_ll2t82,2021-02-16,Bitcoin,BTC,50k 🚀,,50k 🚀,50k 🚀,2,unusable_text;link_only
+link_only,220,t3_ll3qdh,2021-02-16,Bitcoin,BTC,https://youtu.be/ltYScJ_BzTI,,,,0,unusable_text;link_only
+link_only,220,t3_lla46q,2021-02-16,Bitcoin,BTC,🚀🌖,,🚀🌖,🚀🌖,0,unusable_text;link_only
+link_only,220,t3_llloks,2021-02-17,Bitcoin,BTC,50k!!!!!,,50k!!!!!,50k!!!!!,2,unusable_text;exact_duplicate;link_only
+link_only,220,t3_lmpp0s,2021-02-18,Bitcoin,BTC,https://youtu.be/c-G99P0K_r4,,,,0,unusable_text;link_only
+link_only,220,t3_lngqrc,2021-02-19,Bitcoin,BTC,https://www.newswire.ca/news-releases/toronto-stock-exchange-lists-world-s-first-bitcoin-etf-832388562.html,,,,0,unusable_text;link_only
+link_only,220,t3_lnjb4w,2021-02-19,Bitcoin,BTC,1T,,1T,1T,1,unusable_text;link_only
+link_only,220,t3_lnlky1,2021-02-19,Bitcoin,BTC,"$1,000,000,000,000",,"$1,000,000,000,000","$1,000,000,000,000",1,unusable_text;link_only
+link_only,220,t3_lnlmum,2021-02-19,Bitcoin,BTC,54k,,54k,54k,1,unusable_text;link_only
+link_only,220,t3_lo7rye,2021-02-20,Bitcoin,BTC,😂,,😂,😂,0,unusable_text;link_only
+link_only,220,t3_loet0q,2021-02-20,Bitcoin,BTC,.,,.,.,0,unusable_text;link_only
+link_only,220,t3_lvem6j,2021-03-01,Bitcoin,BTC,2008,,2008,2008,1,unusable_text;link_only
+link_only,220,t3_m33kc7,2021-03-11,Bitcoin,BTC,#tb,,#tb,#tb,1,unusable_text;link_only
+link_only,220,t3_m49l0g,2021-03-13,Bitcoin,BTC,60k!!,,60k!!,60k!!,1,unusable_text;link_only
+repeated_text_5plus_diagnostic,1309,t3_krhjua,2021-01-06,Bitcoin,BTC,This is the way,,This is the way,This is the way,6,retained
+repeated_text_5plus_diagnostic,1309,t3_kshm6a,2021-01-07,Bitcoin,BTC,Pump It Up,,Pump It Up,Pump It Up,7,retained
+repeated_text_5plus_diagnostic,1309,t3_kurtwa,2021-01-11,ethereum,ETH,⟠ Latest Week in Ethereum News,,⟠ Latest Week in Ethereum News,⟠ Latest Week in Ethereum News,170,retained
+repeated_text_5plus_diagnostic,1309,t3_kuvie7,2021-01-11,Bitcoin,BTC,bitcoin right now,,bitcoin right now,bitcoin right now,7,retained
+repeated_text_5plus_diagnostic,1309,t3_ky7cks,2021-01-16,Bitcoin,BTC,PUMP IT UP ↑,,PUMP IT UP ↑,PUMP IT UP ↑,7,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_l00yuj,2021-01-18,ethereum,ETH,⟠ Latest Week in Ethereum News,,⟠ Latest Week in Ethereum News,⟠ Latest Week in Ethereum News,170,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_l0veyf,2021-01-19,Bitcoin,BTC,Here we go!,,Here we go!,Here we go!,8,retained
+repeated_text_5plus_diagnostic,1309,t3_l2xhc2,2021-01-22,Bitcoin,BTC,Thoughts?,,Thoughts?,Thoughts?,14,retained
+repeated_text_5plus_diagnostic,1309,t3_l5nvoz,2021-01-26,ethereum,ETH,Webinar: Automate your Ethereum operations with OpenZeppelin Defender 🎦 Defender product demo 💡 Lowering user risk with Defender and Contracts 🛡️ DevSecOps for Ethereum (DevOps + SecOps) 🗣️ Live Q&A with our team 🕛 Wednesday noon PT/3pm ET/8pm UTC,,Webinar: Automate your Ethereum operations with OpenZeppelin Defender 🎦 Defender product demo 💡 Lowering user risk with Defender and Contracts 🛡️ DevSecOps for Ethereum (DevOps + SecOps) 🗣️ Live Q&A with our team 🕛 Wednesday noon PT/3pm ET/8pm UTC,Webinar: Automate your Ethereum operations with OpenZeppelin Defender 🎦 Defender product demo 💡 Lowering user risk with Defender and Contracts 🛡️ DevSecOps for Ethereum (DevOps + SecOps) 🗣️ Live Q&A with our team 🕛 Wednesday noon PT/3pm ET/8pm UTC,5,retained
+repeated_text_5plus_diagnostic,1309,t3_l5sbdg,2021-01-27,ethereum,ETH,⟠ Latest Week in Ethereum News,,⟠ Latest Week in Ethereum News,⟠ Latest Week in Ethereum News,170,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_l7d9x2,2021-01-29,Bitcoin,BTC,Bitcoin Magazine Happy Hour LIVE NOW,,Bitcoin Magazine Happy Hour LIVE NOW,Bitcoin Magazine Happy Hour LIVE NOW,7,retained
+repeated_text_5plus_diagnostic,1309,t3_laig1k,2021-02-02,Bitcoin,BTC,Bitcoin to the Moon!,,Bitcoin to the Moon!,Bitcoin to the Moon!,7,retained
+repeated_text_5plus_diagnostic,1309,t3_lb5dlj,2021-02-02,ethereum,ETH,Webinar: Automate your Ethereum operations with OpenZeppelin Defender 🎦 Defender product demo 💡 Lowering user risk with Defender and Contracts 🛡️ DevSecOps for Ethereum (DevOps + SecOps) 🗣️ Live Q&A with our team 🕛 Wednesday noon PT/3pm ET/8pm UTC,,Webinar: Automate your Ethereum operations with OpenZeppelin Defender 🎦 Defender product demo 💡 Lowering user risk with Defender and Contracts 🛡️ DevSecOps for Ethereum (DevOps + SecOps) 🗣️ Live Q&A with our team 🕛 Wednesday noon PT/3pm ET/8pm UTC,Webinar: Automate your Ethereum operations with OpenZeppelin Defender 🎦 Defender product demo 💡 Lowering user risk with Defender and Contracts 🛡️ DevSecOps for Ethereum (DevOps + SecOps) 🗣️ Live Q&A with our team 🕛 Wednesday noon PT/3pm ET/8pm UTC,5,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_lcudmx,2021-02-05,Bitcoin,BTC,Bitcoin Magazine Happy Hour LIVE NOW,,Bitcoin Magazine Happy Hour LIVE NOW,Bitcoin Magazine Happy Hour LIVE NOW,7,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_les5hw,2021-02-07,Bitcoin,BTC,Hodl,,Hodl,Hodl,42,retained
+repeated_text_5plus_diagnostic,1309,t3_lfbb3w,2021-02-08,Bitcoin,BTC,hodl,,hodl,hodl,42,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_lfdidr,2021-02-08,Bitcoin,BTC,BITCOIN is going to ZERO ! 😎⚡✨,,BITCOIN is going to ZERO ! 😎⚡✨,BITCOIN is going to ZERO ! 😎⚡✨,5,retained
+repeated_text_5plus_diagnostic,1309,t3_lfvbzc,2021-02-09,Bitcoin,BTC,Nice.,,Nice.,Nice.,9,retained
+repeated_text_5plus_diagnostic,1309,t3_lgwi5q,2021-02-10,Bitcoin,BTC,This is the way!,,This is the way!,This is the way!,6,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_lhr31z,2021-02-11,Bitcoin,BTC,BULLISH,,BULLISH,BULLISH,7,retained
+repeated_text_5plus_diagnostic,1309,t3_lhz3ub,2021-02-12,Bitcoin,BTC,Bitcoin Magazine Happy Hour LIVE NOW,,Bitcoin Magazine Happy Hour LIVE NOW,Bitcoin Magazine Happy Hour LIVE NOW,7,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_li94hj,2021-02-12,Bitcoin,BTC,The Future,,The Future,The Future,5,retained
+repeated_text_5plus_diagnostic,1309,t3_lia806,2021-02-12,Bitcoin,BTC,Bitcoin 🚀,,Bitcoin 🚀,Bitcoin 🚀,54,retained
+repeated_text_5plus_diagnostic,1309,t3_lil7p0,2021-02-12,Bitcoin,BTC,Bitcoin!!!🤙🤙🤙🤙🤙,,Bitcoin!!!🤙🤙🤙🤙🤙,Bitcoin!!!🤙🤙🤙🤙🤙,54,exact_duplicate
+repeated_text_5plus_diagnostic,1309,t3_lj2ael,2021-02-13,Bitcoin,BTC,Magic internet money!,,Magic internet money!,Magic internet money!,8,retained

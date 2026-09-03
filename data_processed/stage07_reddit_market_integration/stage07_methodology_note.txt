@@ -1,0 +1,199 @@
+
+SECTION 07 — REDDIT–MARKET DATA INTEGRATION
+===========================================
+
+Purpose
+-------
+Section 07 integrates the forecast-ready Reddit variables produced in
+Section 06 with the information-aligned cryptocurrency and traditional
+financial-market dataset.
+
+The integration preserves the cryptocurrency target calendar rather than
+restricting the sample to conventional financial-market trading days.
+
+Study period
+------------
+2021-01-01 to 2025-12-31.
+
+Assets
+------
+Bitcoin (BTC)
+Ethereum (ETH)
+
+Target calendar
+---------------
+Cryptocurrency markets operate continuously. The market-side master calendar
+therefore contains every calendar day in the study period.
+
+The final integrated structure contains:
+
+    1,826 calendar dates
+    2 assets
+    3,652 Date × Asset observations
+
+The market target calendar is treated as the master structure. Reddit data
+are merged onto that structure rather than using an inner merge that could
+remove target observations.
+
+Dependent variable
+------------------
+For each asset row:
+
+    Target_Return
+
+equals the BTC daily return for BTC observations and the ETH daily return for
+ETH observations.
+
+The target return is not altered during the Reddit merge.
+
+Cryptocurrency autoregressive control
+-------------------------------------
+Predictive specifications use the cryptocurrency's own lagged return rather
+than its target-day return as an explanatory variable.
+
+The previous calendar-day return is represented as:
+
+    Own_Lagged_Return
+
+Cross-cryptocurrency robustness
+-------------------------------
+A robustness variable is retained:
+
+    Cross_Crypto_Lagged_Return
+
+For BTC observations this contains the lagged ETH return.
+For ETH observations this contains the lagged BTC return.
+
+This permits later robustness analysis of common cryptocurrency-market
+conditions without using contemporaneous cross-asset returns.
+
+Cryptocurrency trading volume
+-----------------------------
+Trading volume comes from the existing Yahoo Finance-based cryptocurrency
+volume series.
+
+The modelling transformation is:
+
+    log(1 + volume)
+
+Predictive specifications use:
+
+    Lagged_Log_Crypto_Volume
+
+rather than target-day volume.
+
+This reflects the information-timing requirement that a predictor used to
+forecast the target-day return must be known before that return is realised.
+
+Reddit predictors
+-----------------
+The primary Reddit variables are:
+
+    Lagged_Reddit_Sentiment
+    Lagged_Log_Reddit_Post_Count
+
+They refer to calendar day t-1 when predicting the cryptocurrency return on
+calendar day t.
+
+Reddit sentiment represents textual sentiment among the selected Reddit
+communities included in the dissertation and should not be described as
+general investor sentiment.
+
+Reddit activity and sentiment remain separate predictors so that later models
+can distinguish discussion intensity from the tone of discussion.
+
+Traditional-market controls
+---------------------------
+The traditional financial controls are:
+
+    S&P 500 return
+    VIX change
+    Gold return
+    DXY return
+    US 10-year Treasury yield change
+
+Because conventional financial markets do not operate on the same 24/7
+calendar as cryptocurrencies, Section 07 does not merge same-date traditional
+market observations as forecasting predictors.
+
+Instead, it uses the information-aligned variables previously constructed
+from the latest completed transformed observation strictly before the
+cryptocurrency target date.
+
+The predictive control variables are:
+
+    Lagged_SP500_Return_Aligned
+    Lagged_VIX_Change_Aligned
+    Lagged_Gold_Return_Aligned
+    Lagged_DXY_Return_Aligned
+    Lagged_US10Y_Change_Aligned
+
+Each aligned control is accompanied by its actual source date and information
+age.
+
+No-look-ahead protection
+------------------------
+For every traditional-market source date, Section 07 verifies:
+
+    Source_Date < Target_Date
+
+It independently reconstructs each aligned traditional control from the
+transformed value recorded on the stated source date.
+
+It also verifies that the stored information age equals:
+
+    Target_Date - Source_Date
+
+Reddit, cryptocurrency returns and cryptocurrency volume use calendar t-1
+timing in the primary predictive design.
+
+Same-day traditional-market controls and same-day cryptocurrency volume are
+excluded from the modelling-facing Section 07 output to reduce the risk of
+their accidental use in predictive specifications.
+
+Explanatory versus predictive interpretation
+---------------------------------------------
+The integrated dataset supports both explanatory and predictive analyses,
+but the two should not be interpreted interchangeably.
+
+Statistical significance or increased in-sample R-squared may demonstrate
+association or explanatory contribution. They do not establish improved
+forecasting performance.
+
+Out-of-sample forecasting must later compare models on identical held-out
+forecast dates using metrics such as RMSE, MAE and out-of-sample R-squared.
+
+Later model specifications
+--------------------------
+The integrated dataset permits the following main specification sequence:
+
+    1. controls only
+    2. controls + Reddit activity
+    3. controls + Reddit sentiment
+    4. controls + Reddit activity + Reddit sentiment
+
+This allows the incremental contribution of textual sentiment to be evaluated
+separately from the contribution of Reddit activity.
+
+The dataset also preserves cross-cryptocurrency lagged returns for robustness
+analysis and the Section 06 alternative Reddit lag structures for lag-length
+robustness.
+
+Section 07 does not estimate H1-H5.
+
+Later inference and forecasting
+--------------------------------
+Explanatory regressions should use appropriate robust inference such as
+HAC/Newey-West standard errors.
+
+Predictive hypotheses should be evaluated using genuinely held-out
+one-step-ahead forecasts.
+
+BTC-versus-ETH sentiment differences should be assessed using a formal
+coefficient-difference test rather than by comparing significance levels from
+two independent regressions.
+
+Structural stability, multicollinearity, alternative lag lengths and economic
+significance are later modelling and robustness tasks.
+
+SECTION 07 END

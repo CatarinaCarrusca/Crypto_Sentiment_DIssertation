@@ -1,0 +1,43 @@
+{
+    "dissertation_stage": "04_post_level_sentiment_analysis",
+    "created_utc": "2026-08-31T22:56:28.660865+00:00",
+    "input_file": "/Users/catarinacarrusca/PycharmProjects/Crypto_Sentiment_Dissertation/data_clean/reddit/reddit_posts_primary_sentiment_sample.csv",
+    "input_rows": 136019,
+    "model_name": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "model_commit_hash_if_available": "3216a57f2a0d9c45a2e6c20157c20c49fb4bf9c7",
+    "model_type": "roberta",
+    "model_id2label": {
+        "0": "negative",
+        "1": "neutral",
+        "2": "positive"
+    },
+    "unit_of_analysis": "individual retained Reddit post",
+    "text_variable": "analysis_text",
+    "sentiment_score_formula": "P(positive) - P(negative)",
+    "categorical_label_rule": "class with maximum predicted probability",
+    "probability_variables": [
+        "prob_negative",
+        "prob_neutral",
+        "prob_positive"
+    ],
+    "max_token_length": 512,
+    "batch_size": 16,
+    "checkpoint_every_posts": 1000,
+    "random_seed": 42,
+    "device": "mps",
+    "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "torch_version": "2.13.0",
+    "transformers_version": "5.14.1",
+    "number_posts_truncated": 2561,
+    "percentage_posts_truncated": 1.882825193539138,
+    "manual_validation_sample_per_asset_year": 30,
+    "manual_validation_total_planned": 300,
+    "manual_validation_status": "COMPLETE",
+    "stage_boundaries": {
+        "daily_aggregation": false,
+        "lag_creation": false,
+        "market_merge": false,
+        "forecasting": false
+    }
+}

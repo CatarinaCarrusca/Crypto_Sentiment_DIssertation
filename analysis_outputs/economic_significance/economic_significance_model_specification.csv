@@ -1,0 +1,15 @@
+Asset,Dependent_Variable,Predictor_Number,Predictor,Predictor_Label,Information_Aligned
+BTC,BTC_Return,1,BTC_Lagged_Return,Bitcoin lagged return,Not applicable
+BTC,BTC_Return,2,Lagged_Log_BTC_Volume,Bitcoin lagged log trading volume,Not applicable
+BTC,BTC_Return,3,Lagged_SP500_Return_Aligned,Lagged S&P 500 return,True
+BTC,BTC_Return,4,Lagged_VIX_Change_Aligned,Lagged VIX change,True
+BTC,BTC_Return,5,Lagged_Gold_Return_Aligned,Lagged gold futures return,True
+BTC,BTC_Return,6,Lagged_DXY_Return_Aligned,Lagged US Dollar Index return,True
+BTC,BTC_Return,7,Lagged_US10Y_Change_Aligned,Lagged US 10-year Treasury yield change,True
+ETH,ETH_Return,1,ETH_Lagged_Return,Ethereum lagged return,Not applicable
+ETH,ETH_Return,2,Lagged_Log_ETH_Volume,Ethereum lagged log trading volume,Not applicable
+ETH,ETH_Return,3,Lagged_SP500_Return_Aligned,Lagged S&P 500 return,True
+ETH,ETH_Return,4,Lagged_VIX_Change_Aligned,Lagged VIX change,True
+ETH,ETH_Return,5,Lagged_Gold_Return_Aligned,Lagged gold futures return,True
+ETH,ETH_Return,6,Lagged_DXY_Return_Aligned,Lagged US Dollar Index return,True
+ETH,ETH_Return,7,Lagged_US10Y_Change_Aligned,Lagged US 10-year Treasury yield change,True

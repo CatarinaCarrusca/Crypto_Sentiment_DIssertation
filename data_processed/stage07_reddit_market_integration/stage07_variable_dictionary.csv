@@ -1,0 +1,12 @@
+Variable,Role,Timing,Description
+Target_Return,Dependent variable,Return on target calendar day t,BTC return for BTC rows and ETH return for ETH rows.
+Own_Lagged_Return,Benchmark predictor,Previous calendar-day cryptocurrency return,Asset's own lagged return.
+Lagged_Log_Crypto_Volume,Benchmark predictor,Previous calendar-day information,Lagged log-transformed Yahoo Finance-reported cryptocurrency volume.
+Cross_Crypto_Lagged_Return,Robustness predictor,Previous calendar-day information,Lagged ETH return in BTC rows and lagged BTC return in ETH rows.
+Lagged_Reddit_Sentiment,Primary sentiment predictor,t-1 calendar day,Lagged Reddit textual sentiment among the selected asset-related Reddit communities.
+Lagged_Log_Reddit_Post_Count,Reddit activity predictor,t-1 calendar day,"log(1 + retained Reddit post count), lagged one calendar day."
+Lagged_SP500_Return_Aligned,Traditional control,Latest completed observation strictly before target,Forecast-safe aligned S&P 500 return.
+Lagged_VIX_Change_Aligned,Traditional control,Latest completed observation strictly before target,Forecast-safe aligned daily VIX change.
+Lagged_Gold_Return_Aligned,Traditional control,Latest completed observation strictly before target,Forecast-safe aligned gold return.
+Lagged_DXY_Return_Aligned,Traditional control,Latest completed observation strictly before target,Forecast-safe aligned DXY return.
+Lagged_US10Y_Change_Aligned,Traditional control,Latest completed observation strictly before target,Forecast-safe aligned US 10-year Treasury yield change.

@@ -1,0 +1,13 @@
+metric,value
+n_posts,136019.0
+mean_sentiment_score,0.023656234086646574
+median_sentiment_score,0.0399469919502735
+std_sentiment_score,0.457807960087365
+min_sentiment_score,-0.9563523903489112
+max_sentiment_score,0.990103453863412
+mean_prob_negative,0.20175752517590798
+mean_prob_neutral,0.5728287176697024
+mean_prob_positive,0.22541375926255452
+mean_max_probability,0.7347806635896915
+n_truncated,2561.0
+pct_truncated,1.882825193539138

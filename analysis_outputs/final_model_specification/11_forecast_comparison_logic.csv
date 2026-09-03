@@ -1,0 +1,5 @@
+Comparison,Added_Information,Purpose
+F1 vs F2,Reddit activity,Tests whether Reddit activity improves OOS forecast accuracy beyond the baseline benchmark.
+F1 vs F3,Reddit sentiment,Primary H3/H4 comparison: tests whether sentiment improves OOS forecasting beyond the benchmark.
+F2 vs F4,Reddit sentiment,Tests whether sentiment improves OOS forecasts after Reddit activity is already controlled for.
+F3 vs F4,Reddit activity,Tests whether activity improves OOS forecasts after sentiment is already included.

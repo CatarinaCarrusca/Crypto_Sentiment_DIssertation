@@ -1,0 +1,7 @@
+Model,Specification,Own_Lagged_Return,Lagged_Log_Volume,Aligned_Traditional_Controls,Reddit_Activity,Reddit_Sentiment,Cross_Crypto_Return,Role
+M1,Baseline controls only,Yes,Yes,Yes,No,No,No,Primary
+M2,Controls + Reddit activity,Yes,Yes,Yes,Yes,No,No,Primary
+M3,Controls + Reddit sentiment,Yes,Yes,Yes,No,Yes,No,Primary
+M4,Controls + Reddit activity + sentiment,Yes,Yes,Yes,Yes,Yes,No,Primary
+R1,Controls + cross-crypto return,Yes,Yes,Yes,No,No,Yes,Robustness
+R2,Controls + Reddit activity + sentiment + cross-crypto return,Yes,Yes,Yes,Yes,Yes,Yes,Robustness

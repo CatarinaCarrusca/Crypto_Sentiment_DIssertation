@@ -1,0 +1,7 @@
+Asset,Comparison,Benchmark_Model,Extended_Model,Sample,OOS_N,OOS_Start,OOS_End,Initial_Estimation_N,Final_Estimation_N,Benchmark_No_Lookahead,Extended_No_Lookahead,Benchmark_Extended_Same_Target_Dates,Benchmark_Extended_Same_Estimation_N
+BTC,Activity,M0_Benchmark,M1_Activity,Activity_Comparison_Sample,731,2024-01-01,2025-12-31,1090,1820,True,True,False,False
+BTC,Sentiment,M0_Benchmark,M2_Sentiment,Sentiment_Comparison_Sample,731,2024-01-01,2025-12-31,1090,1820,True,True,False,False
+BTC,Both,M0_Benchmark,M3_Both,Both_Comparison_Sample,731,2024-01-01,2025-12-31,1090,1820,True,True,False,False
+ETH,Activity,M0_Benchmark,M1_Activity,Activity_Comparison_Sample,731,2024-01-01,2025-12-31,1090,1820,True,True,False,False
+ETH,Sentiment,M0_Benchmark,M2_Sentiment,Sentiment_Comparison_Sample,719,2024-01-01,2025-12-31,1080,1798,True,True,False,False
+ETH,Both,M0_Benchmark,M3_Both,Both_Comparison_Sample,719,2024-01-01,2025-12-31,1080,1798,True,True,False,False

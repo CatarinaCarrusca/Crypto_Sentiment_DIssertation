@@ -1,0 +1,154 @@
+SECTION 08 — FINAL MODELLING DATASET VALIDATION
+===============================================
+
+Purpose
+-------
+Section 08 validates the integrated Reddit-market dataset before regression
+estimation and genuine out-of-sample forecasting.
+
+Study period
+------------
+2021-01-01 to 2025-12-31
+
+Assets
+------
+BTC
+ETH
+
+Target calendar
+---------------
+The modelling structure preserves the complete cryptocurrency calendar:
+
+    1,826 dates
+    2 assets
+    3,652 Date × Asset observations
+
+Weekends are retained.
+
+Dependent variable
+------------------
+
+Target_Return is independently reconstructed against the original market-side
+return variables for BTC and ETH.
+
+Primary benchmark predictors
+----------------------------
+    Own_Lagged_Return
+    Lagged_Log_Crypto_Volume
+    Lagged_SP500_Return_Aligned
+    Lagged_VIX_Change_Aligned
+    Lagged_Gold_Return_Aligned
+    Lagged_DXY_Return_Aligned
+    Lagged_US10Y_Change_Aligned
+
+Reddit activity
+---------------
+Lagged_Log_Reddit_Post_Count
+
+Reddit sentiment
+----------------
+Lagged_Reddit_Sentiment
+
+Cross-cryptocurrency robustness
+-------------------------------
+Cross_Crypto_Lagged_Return
+
+Primary models
+--------------
+M0: controls only
+M1: controls + Reddit activity
+M2: controls + Reddit sentiment
+M3: controls + Reddit activity + Reddit sentiment
+
+Cross-cryptocurrency lagged return is reserved for robustness.
+
+Common-sample rule
+------------------
+Benchmark versus activity:
+    Activity_Comparison_Sample
+
+Benchmark versus sentiment:
+    Sentiment_Comparison_Sample
+
+Benchmark versus both:
+    Both_Comparison_Sample
+
+M0/M1/M2/M3 common explanatory sample:
+    Common_Main_Model_Sample
+
+Nested model comparisons must use identical observations.
+
+Missing Reddit sentiment
+------------------------
+Missing Reddit sentiment is NOT imputed as zero.
+
+Training / forecasting design
+-----------------------------
+Initial estimation:
+    2021-01-01 to 2023-12-31
+
+Genuine out-of-sample evaluation:
+    2024-01-01 to 2025-12-31
+
+Section 09 will use expanding-window one-step-ahead forecasts.
+
+No random train/test split is used.
+
+Information timing
+------------------
+Own cryptocurrency return:
+    previous calendar day
+
+Cryptocurrency volume:
+    previous calendar day
+
+Primary Reddit variables:
+    previous calendar day
+
+Traditional controls:
+    latest completed transformed observation strictly before target date.
+
+VIF methodology
+---------------
+Variance Inflation Factors are calculated using conventional auxiliary
+regressions that include an intercept.
+
+The constant is added to the VIF design matrix but is not itself reported.
+
+This produces centred/conventional VIF diagnostics and avoids misleading
+uncentred VIF values caused by variables with large non-zero means.
+
+Correlation and VIF diagnostics are not automatic variable-exclusion rules.
+
+Extreme returns
+---------------
+Observations with absolute Target_Return >=
+25%
+are flagged for manual source verification.
+
+They are not deleted, winsorised or modified.
+
+Inference and forecasting
+-------------------------
+Section 08 does not estimate H1-H5.
+
+Section 09 should distinguish explanatory evidence from genuine predictive
+evidence.
+
+Explanatory regressions should use appropriate HAC/Newey-West inference.
+
+H3/H4 forecasting comparisons should use identical comparison-specific
+samples and genuinely held-out 2024-2025 one-step-ahead forecasts.
+
+Primary forecast metrics should include:
+    RMSE
+    MAE
+    out-of-sample R-squared
+
+Nested forecast comparisons involving sentiment should use an appropriate
+formal forecast comparison such as Clark-West.
+
+BTC-versus-ETH sentiment coefficient differences should be tested formally
+rather than inferred by comparing separate p-values.
+
+SECTION 08 END

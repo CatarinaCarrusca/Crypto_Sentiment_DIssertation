@@ -1,0 +1,11 @@
+Asset,Robustness check,Specification,Finding
+BTC,Alternative sentiment lags,"t-1, t-2, t-3, t-7",No lag significant at 5%
+BTC,Cross-crypto lagged return,R0-R3,Sentiment remains non-significant
+BTC,Year/regime analysis,2021-2025,No year significant at 5%
+BTC,Extreme-return sensitivity,|return| >= 25% excluded,Primary conclusion unchanged
+BTC,Extreme target/lag sensitivity,Extreme target or own-lagged return excluded,Primary conclusion unchanged
+ETH,Alternative sentiment lags,"t-1, t-2, t-3, t-7",No lag significant at 5%
+ETH,Cross-crypto lagged return,R0-R3,Sentiment remains non-significant
+ETH,Year/regime analysis,2021-2025,No year significant at 5%
+ETH,Extreme-return sensitivity,|return| >= 25% excluded,Primary conclusion unchanged
+ETH,Extreme target/lag sensitivity,Extreme target or own-lagged return excluded,Primary conclusion unchanged

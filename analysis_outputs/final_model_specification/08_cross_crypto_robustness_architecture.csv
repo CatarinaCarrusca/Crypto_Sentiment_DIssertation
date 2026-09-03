@@ -1,0 +1,3 @@
+Asset,Dependent_Variable,Cross_Crypto_Control,Baseline_Robustness_Model,Full_Reddit_Robustness_Model,Purpose
+Bitcoin,BTC_Return,ETH_Lagged_Return,R1,R2,Controls for broader cryptocurrency-market return dynamics and omitted cross-market effects.
+Ethereum,ETH_Return,BTC_Lagged_Return,R1,R2,Controls for broader cryptocurrency-market return dynamics and omitted cross-market effects.

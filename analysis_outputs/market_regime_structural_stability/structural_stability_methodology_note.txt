@@ -1,0 +1,103 @@
+MARKET-REGIME / STRUCTURAL-STABILITY ROBUSTNESS
+
+PURPOSE
+-------
+The 2021-2025 cryptocurrency sample spans materially different market
+environments. Structural-stability robustness therefore examines
+whether relationships estimated in the primary explanatory regressions
+remain stable through time.
+
+PREDETERMINED SUBSAMPLES
+------------------------
+The subsample robustness exercise uses calendar-year periods:
+
+2021
+2022
+2023
+2024
+2025
+
+Calendar years were selected as predetermined and transparent sample
+partitions.
+
+The annual boundaries are not statistically estimated structural
+breaks.
+
+The analysis therefore avoids selecting break dates retrospectively
+on the basis of coefficient estimates or statistical significance.
+
+ROLLING COEFFICIENTS
+--------------------
+The baseline model is additionally estimated using a trailing
+365-day rolling window.
+
+Rolling regressions are evaluated every 7 days.
+
+A rolling window must contain at least
+330 usable observations.
+
+Rolling windows overlap substantially. Therefore, individual rolling
+estimates should not be interpreted as independent statistical tests.
+
+INFORMATION ALIGNMENT
+---------------------
+Traditional-market predictors use:
+
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+The old non-aligned traditional-market variables are not used.
+
+TRADING VOLUME
+--------------
+Bitcoin and Ethereum volume enter through:
+
+Lagged_Log_BTC_Volume
+Lagged_Log_ETH_Volume
+
+The underlying volume transformation has been separately verified as:
+
+log(1 + Volume)
+
+INFERENCE
+---------
+Models use OLS coefficient estimates with HAC/Newey-West covariance
+estimates.
+
+HAC maximum lag:
+
+7
+
+INTERPRETATION
+--------------
+Coefficient stability should be assessed using:
+
+1. coefficient signs;
+2. coefficient magnitudes;
+3. HAC standard errors;
+4. confidence intervals;
+5. statistical significance;
+6. annual versus full-sample estimates; and
+7. rolling coefficient behaviour.
+
+A change in statistical significance alone does not establish a
+structural break.
+
+SCOPE
+-----
+This is an in-sample explanatory robustness analysis.
+
+It does not establish out-of-sample predictive performance.
+
+FUTURE SENTIMENT EXTENSION
+--------------------------
+Once Reddit sentiment becomes available, the same predetermined
+subsample and rolling-coefficient framework can be applied to the
+lagged sentiment coefficient.
+
+This will allow the dissertation to examine whether any estimated
+relationship between lagged Reddit sentiment and subsequent Bitcoin
+or Ethereum returns is stable across different market periods.

@@ -1,0 +1,12 @@
+Check,Expected,Observed,Pass
+Stage04_Input_Rows,136019,136019,True
+BTC_Post_Count,117086,117086,True
+ETH_Post_Count,18933,18933,True
+Global_Daily_Post_Reconstruction,136019,136019,True
+Calendar_Days,1826,1826,True
+Duplicate_Date_Asset_Rows,0,0,True
+Daily_Category_Count_Mismatches,0,0,True
+BTC_Observed_Daily_Rows,diagnostic,1825,True
+ETH_Observed_Daily_Rows,diagnostic,1803,True
+BTC_Unobserved_Asset_Days,diagnostic,1,True
+ETH_Unobserved_Asset_Days,diagnostic,23,True

@@ -1,0 +1,15 @@
+check,result
+Input row count correct,True
+Final sentiment row count correct,True
+Unique post IDs,True
+Exact post-ID membership preserved,True
+No missing sentiment probabilities,True
+Probabilities within zero-one range,True
+Probabilities sum approximately to one,True
+Sentiment score within minus-one to plus-one,True
+Valid sentiment labels only,True
+BTC and ETH both present,True
+Years 2021 through 2025 present,True
+Truncation explicitly audited,True
+Manual validation sample created,True
+Stage 02 input remained read-only,True

@@ -1,0 +1,14 @@
+Suggested_Table,File,Purpose,Suggested_Location,Main_or_Appendix
+Table 1,table_descriptive_statistics_publication.csv,Descriptive statistics,Data / descriptive statistics,Main text
+Table 2,table_correlation_matrix_btc.csv and table_correlation_matrix_eth.csv,Correlation diagnostics,Descriptive statistics / diagnostics,Appendix preferred
+Table 3,table_vif_diagnostics.csv,Multicollinearity diagnostics,Diagnostics,Appendix preferred
+Table 4,table_primary_regressions_combined.csv,Primary M0-M3 regression results,Main empirical results,Main text
+Table 5,table_h1_h2_primary_results.csv,Primary H1/H2 sentiment tests,H1/H2 results,Main text
+Table 6,table_h3_h4_primary_oos_results.csv,Primary H3/H4 OOS forecast tests,H3/H4 results,Main text
+Table 7,table_h5_btc_eth_difference_test.csv,Formal BTC-vs-ETH coefficient difference,H5 results,Main text
+Table 8,table_economic_significance.csv,Economic magnitude of sentiment effects,Main empirical results,Main text or appendix
+Appendix A,table_sentiment_lag_robustness.csv,Alternative sentiment lags,Robustness appendix,Appendix
+Appendix B,table_cross_crypto_robustness.csv,Cross-cryptocurrency return robustness,Robustness appendix,Appendix
+Appendix C,table_year_regime_robustness.csv,Year/regime robustness,Robustness appendix,Appendix
+Appendix D,table_extreme_return_sensitivity.csv and table_extreme_return_and_lag_sensitivity.csv,Extreme-return sensitivity,Robustness appendix,Appendix
+Appendix E,table_weekend_weekday_oos.csv,Weekend/weekday forecast robustness,Robustness appendix,Appendix

@@ -1,0 +1,10 @@
+exclusion_reason,post_count,percent_of_excluded
+exact_duplicate,2267,40.9132
+recurring_template,1813,32.7197
+crosspost,1136,20.5017
+unusable_text;link_only,192,3.4651
+promotional,60,1.0828
+recurring_template;exact_duplicate,33,0.5956
+unusable_text;exact_duplicate;link_only,28,0.5053
+crosspost;exact_duplicate,11,0.1985
+promotional;exact_duplicate,1,0.018

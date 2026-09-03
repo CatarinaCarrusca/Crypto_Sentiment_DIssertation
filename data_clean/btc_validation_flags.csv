@@ -1,0 +1,13 @@
+Date,Previous_Price,BTC_Price,Pct_Change_Percent,Repeated_Previous_Price,Move_10pct,Move_15pct,Move_20pct,Suspicious_Reversal,Rolling_7D_Median,Deviation_From_7D_Median,Local_Price_Outlier,Validation_Flag
+2021-02-08,37913.63,44688.47,17.86914099230279,False,True,True,False,False,44688.47,0.0,False,True
+2021-05-24,32575.63,39022.77,19.791297973362276,False,True,True,False,False,38079.77,0.024763805033486287,False,True
+2022-01-01,46323.99,46323.99,0.0,True,False,False,False,False,46323.99,0.0,False,True
+2022-01-02,46323.99,46323.99,0.0,True,False,False,False,False,46323.99,0.0,False,True
+2022-06-13,27904.4,23205.875,-16.83793595275298,False,True,True,False,False,23205.875,0.0,False,True
+2022-06-19,17784.46,20612.925,15.904137657258088,False,True,True,False,False,20612.925,0.0,False,True
+2022-08-06,22965.49,22965.49,0.0,True,False,False,False,False,23146.555,-0.007822546378931927,False,True
+2022-11-09,18705.375,15723.0,-15.943946592891079,False,True,True,False,False,17812.25,-0.11729287428595489,False,True
+2023-07-08,30266.5,30266.5,0.0,True,False,False,False,False,30312.0,-0.0015010556875164952,False,True
+2023-07-09,30266.5,30266.5,0.0,True,False,False,False,False,30312.0,-0.0015010556875164952,False,True
+2023-07-30,29354.5,20269.5,-30.949258205726547,False,True,True,True,True,29208.0,-0.3060291700903862,True,True
+2023-07-31,20269.5,29208.0,44.09827573447791,False,True,True,True,False,29214.455,-0.00022095226489769347,False,True

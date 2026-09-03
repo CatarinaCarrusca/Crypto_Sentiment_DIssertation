@@ -1,0 +1,59 @@
+RESIDUAL DIAGNOSTIC MODEL SPECIFICATIONS
+
+BTC dependent variable
+----------------------
+BTC_Return
+
+BTC predictors
+--------------
+BTC_Lagged_Return
+Lagged_Log_BTC_Volume
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+ETH dependent variable
+----------------------
+ETH_Return
+
+ETH predictors
+--------------
+ETH_Lagged_Return
+Lagged_Log_ETH_Volume
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+Covariance estimator used for dissertation inference
+-----------------------------------------------------
+HAC / Newey-West
+
+Maximum HAC lag
+---------------
+7
+
+Diagnostic significance level
+-----------------------------
+0.05
+
+Breusch-Godfrey lag horizons
+----------------------------
+[1, 3, 7]
+
+Ljung-Box lag horizons
+----------------------
+[1, 3, 7, 14, 30]
+
+Residual ACF maximum lag
+------------------------
+30
+
+Important
+---------
+The regression residuals are generated from the primary t-1
+in-sample explanatory models. These diagnostics do not measure
+out-of-sample forecasting performance.

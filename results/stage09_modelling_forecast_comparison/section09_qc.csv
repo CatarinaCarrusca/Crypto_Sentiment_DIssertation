@@ -1,0 +1,20 @@
+Check,PASS,Detail
+Input row count equals 3652,True,Rows=3652
+BTC row count equals 1826,True,
+ETH row count equals 1826,True,
+No duplicate Date × Asset rows,True,
+BTC common main model sample,True,Expected=1821; Found=1821
+ETH common main model sample,True,Expected=1799; Found=1799
+H1 result exists,True,
+H2 result exists,True,
+H3 uses 731 BTC OOS observations,True,
+H4 uses 719 ETH OOS observations,True,
+All forecast comparisons pass exact historical-date audit,True,
+All forecast comparisons pass no-look-ahead,True,
+First OOS forecasts use initial training only,True,
+H5 formal difference test passes,True,
+Primary HAC maxlags equals 7,True,
+BTC OOS weekend count equals 208,True,
+ETH OOS weekend count equals 204,True,
+All robustness QC checks pass,True,
+Final hypothesis summary contains H1-H5,True,

@@ -1,0 +1,4 @@
+subreddit,raw_posts,retained_posts,raw_share_percent,retained_share_percent,share_change_percentage_points,absolute_share_change_pp
+Bitcoin,118491,114552,83.7037,84.2176,0.5139,0.5139
+BitcoinMarkets,2660,2534,1.8791,1.863,-0.0161,0.0161
+ethereum,20409,18933,14.4172,13.9194,-0.4978,0.4978

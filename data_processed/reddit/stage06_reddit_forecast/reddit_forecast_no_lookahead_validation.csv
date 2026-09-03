@@ -1,0 +1,5 @@
+Lag,Rows_With_Source_Date,Same_Day_Or_Future_Source,Incorrect_Calendar_Gap,Pass
+1,3650,0,0,True
+2,3648,0,0,True
+3,3646,0,0,True
+7,3638,0,0,True

@@ -1,0 +1,16 @@
+Variable,Description,Category,Transformation,Timing
+BTC_Return,Bitcoin daily log return,Dependent variable,Daily log return,t
+ETH_Return,Ethereum daily log return,Dependent variable,Daily log return,t
+BTC_Lagged_Return,Lagged Bitcoin daily log return,Own-return control,Daily log return,t-1
+ETH_Lagged_Return,Lagged Ethereum daily log return,Own-return control,Daily log return,t-1
+Lagged_Log_BTC_Volume,Lagged Bitcoin log trading volume,Crypto-market control,log(1 + Volume),t-1 calendar day
+Lagged_Log_ETH_Volume,Lagged Ethereum log trading volume,Crypto-market control,log(1 + Volume),t-1 calendar day
+Lagged_SP500_Return_Aligned,Information-aligned S&P 500 return,Traditional-market control,Daily return,Most recent information strictly before t
+Lagged_VIX_Change_Aligned,Information-aligned VIX change,Traditional-market control,Daily change,Most recent information strictly before t
+Lagged_Gold_Return_Aligned,Information-aligned gold futures return,Traditional-market control,Daily return,Most recent information strictly before t
+Lagged_DXY_Return_Aligned,Information-aligned DXY return,Traditional-market control,Daily return,Most recent information strictly before t
+Lagged_US10Y_Change_Aligned,Information-aligned US 10-year Treasury yield change,Traditional-market control,Daily change,Most recent information strictly before t
+Lagged_Log_BTC_Reddit_Post_Count,Lagged Bitcoin Reddit activity,Reddit activity / attention,log(1 + daily retained Reddit post count),t-1
+Lagged_Log_ETH_Reddit_Post_Count,Lagged Ethereum Reddit activity,Reddit activity / attention,log(1 + daily retained Reddit post count),t-1
+Lagged_BTC_Reddit_Sentiment,Lagged Bitcoin Reddit sentiment,Reddit sentiment,Daily aggregate sentiment score,t-1
+Lagged_ETH_Reddit_Sentiment,Lagged Ethereum Reddit sentiment,Reddit sentiment,Daily aggregate sentiment score,t-1

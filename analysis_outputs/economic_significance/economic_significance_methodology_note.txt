@@ -1,0 +1,158 @@
+ECONOMIC-SIGNIFICANCE FRAMEWORK
+
+PURPOSE
+-------
+The economic-significance analysis supplements conventional
+statistical inference by translating regression coefficients into
+economically interpretable changes in expected daily cryptocurrency
+returns.
+
+PRIMARY CALCULATION
+-------------------
+For each continuous predictor X, the economic effect of a
+one-standard-deviation increase is calculated as:
+
+One-SD Effect = beta_X * SD(X)
+
+where beta_X is the estimated regression coefficient and SD(X) is the
+sample standard deviation of predictor X.
+
+The predictor standard deviation is calculated using exactly the same
+complete-case estimation sample as the corresponding regression.
+
+DEPENDENT VARIABLE
+------------------
+The dependent variables are daily cryptocurrency log returns:
+
+BTC_Return
+ETH_Return
+
+INTERPRETATION
+--------------
+The primary interpretation is:
+
+"A one-standard-deviation increase in predictor X is associated with
+an estimated Y change in expected daily cryptocurrency log return,
+holding the other regressors constant."
+
+For readability, Y is additionally expressed as:
+
+1. approximate percentage points:
+
+   100 * Y
+
+2. approximate basis points:
+
+   10,000 * Y
+
+3. exact simple-return percentage equivalent:
+
+   100 * [exp(Y) - 1]
+
+For small daily return effects, the approximate percentage-point and
+exact simple-return interpretations will be very similar.
+
+CONFIDENCE INTERVALS
+--------------------
+HAC/Newey-West confidence intervals for the regression coefficient
+are translated into one-standard-deviation economic-effect intervals
+by multiplying both coefficient confidence limits by SD(X).
+
+Because the transformation is linear in the coefficient, the lower
+and upper economic-effect bounds are ordered after transformation.
+
+INFERENCE
+---------
+OLS coefficients are retained, while statistical inference uses
+HAC/Newey-West standard errors with maximum lag:
+
+7
+
+This is consistent with the dissertation's formal residual
+diagnostics, which provided strong evidence of heteroskedasticity and
+some evidence of residual serial dependence.
+
+HAC inference changes standard errors, confidence intervals and
+p-values. It does not change the underlying OLS coefficient estimate.
+
+INFORMATION ALIGNMENT
+---------------------
+The primary models use only the corrected information-aligned
+traditional-market controls:
+
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+The old non-aligned traditional-market variables are not used.
+
+ECONOMIC VERSUS STATISTICAL SIGNIFICANCE
+----------------------------------------
+Statistical and economic significance are conceptually distinct.
+
+A coefficient may have a small p-value but a very small economic
+magnitude.
+
+Conversely, an estimated effect may be economically non-trivial while
+being estimated imprecisely and therefore statistically
+insignificant.
+
+No arbitrary threshold is imposed for what constitutes an
+"economically significant" number of basis points.
+
+Instead, the analysis reports:
+
+1. the one-SD effect in log-return units;
+2. the approximate effect in percentage points;
+3. the approximate effect in basis points;
+4. the exact simple-return equivalent;
+5. the effect relative to the standard deviation of daily crypto
+   returns;
+6. the HAC confidence interval; and
+7. the HAC p-value.
+
+This allows economic magnitude and statistical precision to be
+discussed separately.
+
+CAUSAL INTERPRETATION
+---------------------
+The economic-effect calculation does not establish causality.
+
+The appropriate language is:
+
+"is associated with"
+
+rather than:
+
+"causes".
+
+FORECASTING INTERPRETATION
+--------------------------
+This is an explanatory economic-significance analysis.
+
+It does not establish out-of-sample predictive performance.
+
+Forecasting performance is evaluated separately using the dissertation
+forecast-evaluation framework.
+
+FUTURE REDDIT SENTIMENT
+-----------------------
+Once Reddit variables are available, the same calculation should be
+applied to the lagged sentiment coefficient:
+
+One-SD Sentiment Effect
+    =
+beta_sentiment * SD(lagged sentiment)
+
+The resulting quantity can be interpreted as the estimated change in
+expected next-day cryptocurrency return associated with a
+one-standard-deviation increase in lagged Reddit sentiment, holding
+the other regressors constant.
+
+Reddit activity should be analysed separately from sentiment.
+
+If Reddit post activity is measured as log(1 + post count), its
+economic magnitude can likewise be expressed using a one-standard-
+deviation change in the transformed activity variable.

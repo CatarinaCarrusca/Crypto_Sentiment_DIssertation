@@ -1,0 +1,11 @@
+validation_area,evidence,decision
+Dataset accounting,"141,560 input; 136,019 retained; 5,541 excluded",Accept
+Primary sample integrity,Primary post IDs exactly match retain_primary=True post IDs,Accept
+Exclusion-rule overlap,Pairwise and multi-rule overlap quantified and documented,Accept
+Link-only / unusable overlap,220 posts carry both flags; 0 link-only posts are outside unusable-text,Accept
+ETH 2023 higher exclusion rate,258 exclusions: 125 crossposts and 133 exact duplicates,Accept
+Daily calendar structure,"1,826 complete dates and 3,652 BTC/ETH date-asset rows",Accept
+Daily accounting,"Daily raw, retained and excluded totals reconcile exactly to Stage 02",Accept
+Temporal representation,Raw versus retained year-asset shares quantified,Review output
+Subreddit representation,Raw versus retained subreddit shares quantified,Review output
+Manual exclusion examples,175 examples across 7 categories,Manual review required

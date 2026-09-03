@@ -1,0 +1,11 @@
+,Daily cryptocurrency return,Lagged own return,Lagged log trading volume,S&P 500 return,VIX change,Gold return,DXY return,US 10Y yield change,Lagged log Reddit post count,Lagged Reddit sentiment
+Daily cryptocurrency return,1.0,-0.051,0.005,0.004,-0.011,0.012,0.013,-0.012,0.001,0.012
+Lagged own return,-0.051,1.0,-0.025,0.342,-0.292,0.037,-0.123,-0.014,0.013,0.022
+Lagged log trading volume,0.005,-0.025,1.0,-0.01,0.016,-0.019,-0.011,-0.063,0.259,0.15
+S&P 500 return,0.004,0.342,-0.01,1.0,-0.776,0.072,-0.25,-0.015,-0.023,0.002
+VIX change,-0.011,-0.292,0.016,-0.776,1.0,-0.025,0.134,-0.092,0.008,0.011
+Gold return,0.012,0.037,-0.019,0.072,-0.025,1.0,-0.442,-0.269,-0.066,0.005
+DXY return,0.013,-0.123,-0.011,-0.25,0.134,-0.442,1.0,0.36,0.036,-0.024
+US 10Y yield change,-0.012,-0.014,-0.063,-0.015,-0.092,-0.269,0.36,1.0,0.008,-0.015
+Lagged log Reddit post count,0.001,0.013,0.259,-0.023,0.008,-0.066,0.036,0.008,1.0,-0.168
+Lagged Reddit sentiment,0.012,0.022,0.15,0.002,0.011,0.005,-0.024,-0.015,-0.168,1.0

@@ -1,0 +1,7 @@
+flag,flag_unusable_text,flag_crosspost,flag_promotional,flag_template,flag_exact_duplicate,flag_link_only
+flag_unusable_text,220,0,0,0,28,220
+flag_crosspost,0,1147,0,0,11,0
+flag_promotional,0,0,61,0,1,0
+flag_template,0,0,0,1846,33,0
+flag_exact_duplicate,28,11,1,33,2340,28
+flag_link_only,220,0,0,0,28,220

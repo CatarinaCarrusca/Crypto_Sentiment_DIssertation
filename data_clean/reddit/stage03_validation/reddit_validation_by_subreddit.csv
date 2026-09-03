@@ -1,0 +1,4 @@
+subreddit,input_posts,retained_posts,excluded_posts,unusable_posts,crossposts,promotional_posts,template_posts,exact_duplicate_posts,link_only_posts,retained_percent,excluded_percent
+Bitcoin,118491,114552,3939,218,68,43,1811,1828,218,96.6757,3.3243
+BitcoinMarkets,2660,2534,126,0,100,4,1,24,0,95.2632,4.7368
+ethereum,20409,18933,1476,2,979,14,34,488,2,92.7679,7.2321

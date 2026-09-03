@@ -1,0 +1,13 @@
+Asset,Comparison,Forecast_Role,Model,N,RMSE,MAE,OOS_R2,Directional_Accuracy
+BTC,Activity,Benchmark,M0: Benchmark,731,0.024826,0.018278,0.0,0.51026
+BTC,Activity,Extended,M1: + Activity,731,0.024888,0.018334,-0.005008,0.495212
+BTC,Sentiment,Benchmark,M0: Benchmark,731,0.024826,0.018278,0.0,0.51026
+BTC,Sentiment,Extended,M2: + Sentiment,731,0.024848,0.018296,-0.001769,0.495212
+BTC,Both,Benchmark,M0: Benchmark,731,0.024826,0.018278,0.0,0.51026
+BTC,Both,Extended,M3: + Activity + Sentiment,731,0.024906,0.018348,-0.006509,0.484268
+ETH,Activity,Benchmark,M0: Benchmark,731,0.036736,0.02628,0.0,0.502052
+ETH,Activity,Extended,M1: + Activity,731,0.036772,0.026302,-0.001951,0.497948
+ETH,Sentiment,Benchmark,M0: Benchmark,719,0.036947,0.026433,0.0,0.49235
+ETH,Sentiment,Extended,M2: + Sentiment,719,0.037,0.026514,-0.002895,0.517385
+ETH,Both,Benchmark,M0: Benchmark,719,0.036947,0.026433,0.0,0.49235
+ETH,Both,Extended,M3: + Activity + Sentiment,719,0.037036,0.026528,-0.004833,0.518776

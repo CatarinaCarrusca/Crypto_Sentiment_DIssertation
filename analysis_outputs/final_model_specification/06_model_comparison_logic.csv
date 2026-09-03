@@ -1,0 +1,8 @@
+Comparison,Added_Information,Question,Interpretation
+M1 vs M2,Reddit activity,Does Reddit activity add explanatory information beyond the baseline market controls?,Activity / attention comparison
+M1 vs M3,Reddit sentiment,Does Reddit sentiment add explanatory information beyond the baseline market controls?,Primary sentiment comparison
+M2 vs M4,Reddit sentiment,Does Reddit sentiment add information once Reddit activity is already controlled for?,Activity-adjusted sentiment comparison
+M3 vs M4,Reddit activity,Does Reddit activity add information once Reddit sentiment is already controlled for?,Sentiment-adjusted activity comparison
+M1 vs R1,Cross-crypto lagged return,Does adding the other cryptocurrency's lagged return alter the baseline conclusions?,Baseline cross-crypto robustness
+M4 vs R2,Cross-crypto lagged return,Does the full Reddit result survive control for the other cryptocurrency's lagged return?,Full cross-crypto robustness
+t-1 vs t-2/t-3/t-7,Alternative lag horizons,Are the conclusions sensitive to the primary one-day lag assumption?,Alternative-lag robustness

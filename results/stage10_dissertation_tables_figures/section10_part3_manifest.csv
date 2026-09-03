@@ -1,0 +1,17 @@
+File,Exists
+table_h1_h2_primary_results.csv,True
+table_h1_h2_m2_m3_robustness.csv,True
+table_economic_significance.csv,True
+table_h3_h4_primary_oos_results.csv,True
+table_all_oos_model_comparisons.csv,True
+table_h5_btc_eth_difference_test.csv,True
+table_final_hypothesis_summary.csv,True
+table_cross_crypto_robustness.csv,True
+table_sentiment_lag_robustness.csv,True
+table_year_regime_robustness.csv,True
+table_extreme_return_sensitivity.csv,True
+table_extreme_return_and_lag_sensitivity.csv,True
+table_primary_sentiment_oos_by_year.csv,True
+table_weekend_weekday_oos.csv,True
+table_compact_robustness_summary.csv,True
+table_notes_part3.csv,True

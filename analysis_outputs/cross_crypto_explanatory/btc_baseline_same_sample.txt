@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             BTC_Return   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                    0.6585
+Date:                Fri, 28 Aug 2026   Prob (F-statistic):              0.707
+Time:                        12:49:13   Log-Likelihood:                 3630.1
+No. Observations:                1821   AIC:                            -7244.
+Df Residuals:                    1813   BIC:                            -7200.
+Df Model:                           7                                         
+Covariance Type:                  HAC                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           0.0129      0.032      0.408      0.683      -0.049       0.075
+BTC_Lagged_Return              -0.1192      0.069     -1.731      0.084      -0.254       0.016
+Lagged_Log_BTC_Volume          -0.0005      0.001     -0.390      0.697      -0.003       0.002
+Lagged_SP500_Return_Aligned     0.0715      0.146      0.488      0.625      -0.216       0.358
+Lagged_VIX_Change_Aligned    8.191e-05      0.001      0.113      0.910      -0.001       0.002
+Lagged_Gold_Return_Aligned      0.0791      0.086      0.918      0.359      -0.090       0.248
+Lagged_DXY_Return_Aligned      -0.0218      0.210     -0.104      0.917      -0.434       0.391
+Lagged_US10Y_Change_Aligned     0.0013      0.015      0.086      0.932      -0.028       0.030
+==============================================================================
+Omnibus:                      510.498   Durbin-Watson:                   2.000
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            20909.016
+Skew:                          -0.569   Prob(JB):                         0.00
+Kurtosis:                      19.561   Cond. No.                     6.76e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 7 lags and with small sample correction
+[2] The condition number is large, 6.76e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

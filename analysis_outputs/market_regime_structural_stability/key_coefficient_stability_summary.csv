@@ -1,0 +1,5 @@
+Asset,Variable,Full_Sample_Coefficient,Annual_Sign_Changes,Annual_5pct_Significant_Periods,Annual_10pct_Significant_Periods,Share_Annual_Same_Sign_As_Full,Rolling_Sign_Changes,Rolling_5pct_Significant_Share,Rolling_10pct_Significant_Share
+BTC,BTC_Lagged_Return,-0.11924172554615935,False,0,2,1.0,True,0.13875598086124402,0.2583732057416268
+BTC,Lagged_Log_BTC_Volume,-0.0005123507691376557,True,0,2,0.4,True,0.09569377990430622,0.215311004784689
+ETH,ETH_Lagged_Return,-0.06031860963293443,True,0,1,0.8,True,0.004784688995215311,0.028708133971291867
+ETH,Lagged_Log_ETH_Volume,0.0003127099430185981,True,0,0,0.8,True,0.023923444976076555,0.09569377990430622

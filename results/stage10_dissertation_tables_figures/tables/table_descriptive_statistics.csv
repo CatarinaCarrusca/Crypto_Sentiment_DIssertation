@@ -1,0 +1,21 @@
+Asset,Variable_Label,N,Mean,SD,Minimum,Maximum,Variable
+BTC,Daily cryptocurrency return,1821,0.000523,0.033199,-0.370329,0.365325,Target_Return
+BTC,Lagged own return,1821,0.000574,0.033258,-0.370329,0.365325,Own_Lagged_Return
+BTC,Lagged log trading volume,1821,24.171122,0.582612,22.396837,26.583961,Lagged_Log_Crypto_Volume
+BTC,S&P 500 return,1821,0.0006,0.010808,-0.061609,0.090895,Lagged_SP500_Return_Aligned
+BTC,VIX change,1821,-0.067194,1.844272,-18.71,15.29,Lagged_VIX_Change_Aligned
+BTC,Gold return,1821,0.0007,0.010138,-0.059062,0.034368,Lagged_Gold_Return_Aligned
+BTC,DXY return,1821,8.6e-05,0.004389,-0.021422,0.01638,Lagged_DXY_Return_Aligned
+BTC,US 10Y yield change,1821,0.002718,0.063307,-0.3,0.28,Lagged_US10Y_Change_Aligned
+BTC,Lagged log Reddit post count,1821,4.017675,0.516768,1.94591,6.182085,Lagged_Log_Reddit_Post_Count
+BTC,Lagged Reddit sentiment,1821,0.02158,0.074735,-0.261879,0.404382,Lagged_Reddit_Sentiment
+ETH,Daily cryptocurrency return,1799,0.000539,0.041552,-0.278764,0.323667,Target_Return
+ETH,Lagged own return,1799,0.000715,0.041513,-0.278764,0.323667,Own_Lagged_Return
+ETH,Lagged log trading volume,1799,23.490131,0.667204,21.456415,25.305542,Lagged_Log_Crypto_Volume
+ETH,S&P 500 return,1799,0.000599,0.01083,-0.061609,0.090895,Lagged_SP500_Return_Aligned
+ETH,VIX change,1799,-0.077343,1.817028,-18.71,15.29,Lagged_VIX_Change_Aligned
+ETH,Gold return,1799,0.000738,0.010104,-0.059062,0.034368,Lagged_Gold_Return_Aligned
+ETH,DXY return,1799,8.6e-05,0.004404,-0.021422,0.01638,Lagged_DXY_Return_Aligned
+ETH,US 10Y yield change,1799,0.00269,0.063459,-0.3,0.28,Lagged_US10Y_Change_Aligned
+ETH,Lagged log Reddit post count,1799,2.145014,0.77132,0.693147,4.248495,Lagged_Log_Reddit_Post_Count
+ETH,Lagged Reddit sentiment,1799,0.07826,0.224411,-0.872881,0.977817,Lagged_Reddit_Sentiment

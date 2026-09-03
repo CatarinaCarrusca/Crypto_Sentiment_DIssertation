@@ -1,0 +1,7 @@
+Asset,Sample,OOS_Total,OOS_Weekend,OOS_Weekday,Weekend_Preserved
+BTC,Eligible_Benchmark,731,208,523,True
+BTC,Sentiment_Comparison_Sample,731,208,523,True
+BTC,Common_Main_Model_Sample,731,208,523,True
+ETH,Eligible_Benchmark,731,208,523,True
+ETH,Sentiment_Comparison_Sample,719,204,515,True
+ETH,Common_Main_Model_Sample,719,204,515,True

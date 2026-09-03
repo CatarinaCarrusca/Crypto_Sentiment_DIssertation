@@ -1,0 +1,3 @@
+Asset,Calendar_Rows,Target_Return_Available,Own_Lagged_Return_Available,Lagged_Crypto_Volume_Available,Lagged_Reddit_Activity_Available,Lagged_Reddit_Sentiment_Available,SP500_Aligned_Available,VIX_Aligned_Available,Gold_Aligned_Available,DXY_Aligned_Available,US10Y_Aligned_Available
+BTC,1826,1825,1824,1825,1825,1825,1821,1821,1821,1822,1821
+ETH,1826,1825,1824,1825,1825,1803,1821,1821,1821,1822,1821

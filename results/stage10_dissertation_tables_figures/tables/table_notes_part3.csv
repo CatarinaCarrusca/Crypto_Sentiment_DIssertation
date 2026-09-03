@@ -1,0 +1,9 @@
+Table,Note
+H1/H2,Primary H1/H2 inference uses the M2 benchmark-plus-sentiment specification. M3 is reported as a robustness specification that additionally controls for Reddit activity.
+H1/H2,OLS coefficients are reported with HAC/Newey-West standard errors using maximum lag 7.
+H3/H4,Forecasts are genuine one-step-ahead expanding-window forecasts. Initial estimation uses 2021-2023 and the OOS evaluation period is 2024-2025.
+H3/H4,The primary nested-model forecast comparison uses the one-sided Clark-West test. The DM-style squared-error test is supplementary.
+H5,H5 is tested using the ETH × lagged Reddit sentiment interaction in a fully interacted pooled BTC/ETH M3 model.
+H5,H5 inference uses date-clustered Newey-West score aggregation with maximum lag 7.
+Robustness,"Robustness checks include cross-cryptocurrency lagged returns, t-1/t-2/t-3/t-7 sentiment lags, year-specific specifications, extreme-return sensitivity and weekend/weekday OOS analysis."
+Hypothesis decisions,Formal hypothesis decisions use a 5% significance level.

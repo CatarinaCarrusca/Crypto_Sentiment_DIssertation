@@ -1,0 +1,9 @@
+Asset,Sample_Flag,Full_N,Train_N,OOS_N,Weekend_N,OOS_Weekend_N
+BTC,Common_Main_Model_Sample,1821,1090,731,520,208
+BTC,Activity_Comparison_Sample,1821,1090,731,520,208
+BTC,Sentiment_Comparison_Sample,1821,1090,731,520,208
+BTC,Both_Comparison_Sample,1821,1090,731,520,208
+ETH,Common_Main_Model_Sample,1799,1080,719,512,204
+ETH,Activity_Comparison_Sample,1821,1090,731,520,208
+ETH,Sentiment_Comparison_Sample,1799,1080,719,512,204
+ETH,Both_Comparison_Sample,1799,1080,719,512,204

@@ -1,0 +1,9 @@
+Asset,Model,N,Sentiment_Coefficient,Sentiment_p_value,Cross_Crypto_Coefficient,Cross_Crypto_p_value,R_Squared
+BTC,R0_Benchmark_CrossCrypto,1821,,,0.0384,0.616,0.0146
+BTC,R1_Activity_CrossCrypto,1821,,,0.0374,0.625,0.0156
+BTC,R2_Sentiment_CrossCrypto,1821,0.0039,0.728,0.0378,0.623,0.0147
+BTC,R3_Both_CrossCrypto,1821,0.0052,0.643,0.0365,0.634,0.0158
+ETH,R0_Benchmark_CrossCrypto,1799,,,0.0095,0.838,0.0042
+ETH,R1_Activity_CrossCrypto,1799,,,0.0095,0.837,0.0042
+ETH,R2_Sentiment_CrossCrypto,1799,0.0025,0.529,0.0097,0.835,0.0044
+ETH,R3_Both_CrossCrypto,1799,0.0027,0.496,0.0098,0.834,0.0044

@@ -1,0 +1,179 @@
+SECTION 09 — MODELLING & FORECAST COMPARISON
+=============================================
+
+Study period
+------------
+2021-01-01 to 2025-12-31.
+
+Dependent variable
+------------------
+Daily cryptocurrency log return (Target_Return), estimated
+separately for Bitcoin (BTC) and Ethereum (ETH).
+
+Primary benchmark model
+-----------------------
+M0 contains only information available before the target return:
+
+1. Own previous-calendar-day cryptocurrency return.
+2. Previous-calendar-day log cryptocurrency trading volume.
+3. Latest completed S&P 500 return strictly before the target date.
+4. Latest completed VIX change strictly before the target date.
+5. Latest completed gold return strictly before the target date.
+6. Latest completed DXY return strictly before the target date.
+7. Latest completed US 10-year Treasury yield change strictly
+   before the target date.
+
+Reddit predictors
+-----------------
+Reddit activity:
+Lagged_Log_Reddit_Post_Count, equal to log(1 + retained Reddit
+post count) from the previous calendar day.
+
+Reddit sentiment:
+Lagged_Reddit_Sentiment, equal to the unweighted mean Reddit
+post-level sentiment score from the previous calendar day.
+
+The sentiment measure is Reddit textual sentiment among the
+selected cryptocurrency communities. It is not interpreted as
+general investor sentiment.
+
+Missing Reddit sentiment is not replaced with zero.
+
+Primary explanatory specifications
+----------------------------------
+M0: market-only benchmark.
+M1: M0 + Reddit activity.
+M2: M0 + Reddit sentiment.
+M3: M0 + Reddit activity + Reddit sentiment.
+
+All four primary explanatory models are estimated on the
+asset-specific Common_Main_Model_Sample so differences between
+specifications cannot be caused by changing observations.
+
+Inference
+---------
+OLS coefficient estimates use Newey-West / HAC standard errors
+with maximum lag 7.
+
+H1/H2
+-----
+H1 and H2 concern the coefficient on lagged Reddit sentiment.
+M2 is the exact incremental sentiment specification.
+M3 establishes whether the sentiment association survives after
+controlling for Reddit posting intensity.
+
+Forecast design
+---------------
+The initial estimation period is 2021-01-01 through 2023-12-31.
+
+The genuine out-of-sample period is 2024-01-01 through
+2025-12-31.
+
+Forecasts are one-step ahead and use an expanding estimation
+window. No random train/test split is used.
+
+Every OOS forecast is generated only from observations with
+dates strictly earlier than the target forecast date.
+
+For every nested forecast comparison, the market-only benchmark
+and extended model use exactly the same historical observations
+and exactly the same forecast dates.
+
+Primary H3/H4 forecast comparison
+---------------------------------
+M0 Benchmark versus M2 Sentiment.
+
+BTC uses the BTC Sentiment_Comparison_Sample.
+ETH uses the ETH Sentiment_Comparison_Sample.
+
+The principal forecast performance metrics are:
+- RMSE
+- MAE
+- OOS R-squared relative to the benchmark
+
+Directional accuracy is supplementary.
+
+Formal forecast comparison
+--------------------------
+Because M0 is nested within M2, the Clark-West adjusted forecast
+test is the primary formal forecast test.
+
+A positive Clark-West adjusted loss differential indicates an
+advantage for the sentiment-extended model. A one-sided
+alternative is used because H3/H4 specifically test improvement
+over the benchmark.
+
+A Diebold-Mariano-style squared-error loss comparison is also
+reported as supplementary evidence, with the nested-model
+qualification acknowledged.
+
+H5
+--
+H5 is not evaluated by comparing BTC and ETH p-values.
+
+A pooled BTC/ETH model is estimated on common calendar dates.
+The model includes an ETH indicator and ETH interactions with
+every M3 predictor, allowing all regression slopes to differ
+between the assets.
+
+The ETH × Reddit sentiment coefficient is therefore a direct
+test of:
+
+    beta_ETH_sentiment - beta_BTC_sentiment = 0
+
+The covariance estimator first aggregates score contributions by
+calendar date, allowing arbitrary contemporaneous BTC/ETH
+dependence, then applies a Newey-West HAC adjustment across dates
+with maximum lag 7.
+
+Robustness analysis
+-------------------
+1. Cross-cryptocurrency lagged return:
+   R0-R3 repeat the primary specifications while controlling for
+   the other cryptocurrency's previous-calendar-day return.
+
+2. Reddit sentiment lag timing:
+   t-1, t-2, t-3 and t-7 sentiment specifications are estimated
+   where the corresponding validated Section 06/08 variables are
+   available.
+
+3. Calendar-year/regime robustness:
+   sentiment specifications are re-estimated separately for
+   2021, 2022, 2023, 2024 and 2025.
+
+4. Extreme-return sensitivity:
+   the primary sentiment models are re-estimated excluding
+   observations with |Target_Return| >=
+   0.25.
+   This is supplementary only. Extreme observations are not
+   removed from the primary empirical analysis.
+
+5. Weekend/weekday forecasting:
+   OOS forecast performance is reported separately for crypto
+   weekends and weekdays.
+
+Economic significance
+---------------------
+For each asset, the sentiment coefficient is translated into the
+return effect associated with a one-standard-deviation change in
+lagged Reddit sentiment.
+
+Hypothesis decision rules
+-------------------------
+H1/H2:
+Two-sided HAC p-value < 0.05 for the M2 sentiment coefficient.
+
+H3/H4:
+The sentiment-extended model must have lower OOS RMSE than M0
+and the one-sided Clark-West p-value must be < 0.05.
+
+H5:
+Two-sided p-value < 0.05 for the formal ETH-minus-BTC sentiment
+coefficient interaction.
+
+Interpretation
+--------------
+Statistical significance, economic magnitude and genuine
+out-of-sample forecasting performance are treated as separate
+concepts. In-sample R-squared is not interpreted as evidence of
+forecasting improvement.

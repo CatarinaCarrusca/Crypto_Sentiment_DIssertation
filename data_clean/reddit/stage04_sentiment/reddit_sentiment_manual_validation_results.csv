@@ -1,0 +1,7 @@
+metric,value
+n_manual_posts,300.0
+accuracy,0.61
+macro_precision,0.64
+macro_recall,0.5701436003164481
+macro_f1,0.5759938242263306
+cohen_kappa,0.35

@@ -1,0 +1,72 @@
+FORMAL RESIDUAL DIAGNOSTICS
+
+Purpose
+-------
+Formal residual diagnostics were conducted for the primary one-day
+lag explanatory regressions for Bitcoin and Ethereum.
+
+The diagnostics were performed using the same information-aligned
+control variables employed in the main explanatory specifications.
+This preserves the seven-day cryptocurrency calendar while preventing
+the use of unavailable contemporaneous traditional-market information.
+
+Heteroskedasticity
+------------------
+Residual heteroskedasticity was examined using the Breusch-Pagan and
+White tests.
+
+For both tests, the null hypothesis is homoskedasticity. A p-value
+below 0.05 is therefore interpreted as evidence against constant
+residual variance.
+
+Serial correlation
+------------------
+Residual serial dependence was examined using Breusch-Godfrey LM
+tests at lags 1, 3, and 7 and Ljung-Box Q tests at lags 1, 3, 7, 14,
+and 30.
+
+For these tests, the null hypothesis is the absence of residual serial
+correlation through the specified lag horizon.
+
+The Breusch-Godfrey test is treated as an important formal diagnostic
+because the return equations include a lagged dependent variable.
+
+Durbin-Watson
+-------------
+The Durbin-Watson statistic is reported as a supporting descriptive
+diagnostic. Because the regression specifications include lagged
+dependent variables, it is not treated as the principal formal test
+of residual serial correlation.
+
+Residual normality
+------------------
+The Jarque-Bera test is reported as a supplementary diagnostic.
+Residual normality is not the central justification for HAC inference
+in this large-sample time-series setting.
+
+HAC/Newey-West inference
+------------------------
+The dissertation uses heteroskedasticity and autocorrelation
+consistent (HAC/Newey-West) covariance estimates with a maximum lag
+of 7.
+
+HAC estimation does not alter the OLS point estimates. Instead, it
+adjusts the estimated covariance matrix and therefore the reported
+standard errors, test statistics, confidence intervals, and p-values.
+
+Evidence of heteroskedasticity and/or residual serial dependence
+provides empirical support for using HAC inference rather than
+conventional OLS standard errors.
+
+Even when individual residual tests fail to reject their null
+hypotheses, HAC inference can be retained as a conservative
+time-series robust covariance estimator. However, the empirical
+results should be reported accurately and the dissertation should
+not claim that a diagnostic test detected heteroskedasticity or
+autocorrelation when it did not.
+
+Scope
+-----
+These diagnostics concern the in-sample explanatory regressions.
+They should not be interpreted as evidence of out-of-sample
+predictive performance.

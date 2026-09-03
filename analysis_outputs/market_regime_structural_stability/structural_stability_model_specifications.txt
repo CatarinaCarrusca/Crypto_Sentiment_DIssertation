@@ -1,0 +1,77 @@
+STRUCTURAL-STABILITY MODEL SPECIFICATIONS
+
+BTC DEPENDENT VARIABLE
+----------------------
+BTC_Return
+
+BTC PREDICTORS
+--------------
+BTC_Lagged_Return
+Lagged_Log_BTC_Volume
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+ETH DEPENDENT VARIABLE
+----------------------
+ETH_Return
+
+ETH PREDICTORS
+--------------
+ETH_Lagged_Return
+Lagged_Log_ETH_Volume
+Lagged_SP500_Return_Aligned
+Lagged_VIX_Change_Aligned
+Lagged_Gold_Return_Aligned
+Lagged_DXY_Return_Aligned
+Lagged_US10Y_Change_Aligned
+
+PREDETERMINED SUBSAMPLES
+------------------------
+2021
+2022
+2023
+2024
+2025
+
+ROLLING WINDOW
+--------------
+365 daily observations
+
+ROLLING STEP
+------------
+7 days
+
+MINIMUM ROLLING OBSERVATIONS
+----------------------------
+330
+
+INFERENCE
+---------
+OLS coefficients with HAC/Newey-West covariance.
+
+HAC MAXIMUM LAG
+---------------
+7
+
+CONFIDENCE LEVEL
+----------------
+0.95
+
+PRIMARY SIGNIFICANCE LEVEL
+--------------------------
+0.05
+
+IMPORTANT
+---------
+These are in-sample explanatory robustness models.
+
+They are not out-of-sample forecasts.
+
+Calendar-year boundaries are predetermined robustness partitions,
+not statistically estimated structural breaks.
+
+Rolling windows overlap and should not be interpreted as independent
+hypothesis tests.

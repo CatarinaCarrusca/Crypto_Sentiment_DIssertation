@@ -1,0 +1,19 @@
+Check,PASS
+Section 08 descriptive statistics loaded,True
+Section 08 correlations loaded,True
+Section 08 VIF diagnostics loaded,True
+Section 09 primary regressions loaded,True
+Section 09 H1/H2 results loaded,True
+Section 09 H3/H4 results loaded,True
+Section 09 H5 result loaded,True
+Final H1-H5 summary contains exactly five hypotheses,True
+Section 09 master QC reconfirmed,True
+Section 09 forecast QC reconfirmed,True
+All Part 2 outputs exist,True
+All Part 3 outputs exist,True
+All expected figures exist,True
+All expected figures are non-empty,True
+All generated tables are non-empty,True
+Primary regression results unchanged,True
+H3/H4 results unchanged,True
+Final hypothesis results unchanged,True
